@@ -1,124 +1,178 @@
-# Projeto-Ataques-de-Inferencia-Machine-Learning
+# Projeto B — Machine Learning, Ataques de Inferência e Análise de Trade-off em Privacidade Diferencial
+
+## Visão Geral
+
+Este repositório contém o **ambiente experimental de Machine Learning** do projeto **IC Privacidade**.  
+Seu objetivo é avaliar, de forma **quantitativa, reproduzível e comparável**, como diferentes níveis de **Privacidade Diferencial (ε)** afetam simultaneamente:
+
+- a **segurança dos dados**, medida por ataques de inferência;
+- a **usabilidade dos dados**, medida por métricas estatísticas e performance de modelos;
+- o **trade-off entre proteção e utilidade**.
+
+O projeto consome **datasets previamente gerados** por um pipeline de engenharia de dados e **não aplica privacidade diferencial internamente**.
+
+---
+
+## Papel na Arquitetura do Projeto
+
+O projeto completo é composto por três sistemas independentes:
+
+1. **Projeto A — Sistema de RH (OLTP)**  
+   - Geração de dados limpos e consistentes  
+   - Simulação de ambiente corporativo real  
+
+2. **Projeto Intermediário — DP Data Pipeline**  
+   - Extração de dados do RH  
+   - Aplicação de Privacidade Diferencial  
+   - Versionamento de datasets  
+
+3. **Projeto B — ML e Análise Experimental (este repositório)**  
+   - Consumo dos datasets versionados  
+   - Treinamento de modelos  
+   - Execução de ataques de inferência  
+   - Análise de utilidade e visualização de resultados  
+
+Este repositório **não acessa diretamente o banco do sistema de RH**.
+
+---
+
+## Objetivo
+
+Avaliar empiricamente como a variação do parâmetro de privacidade (ε) influencia:
+
+- a taxa de sucesso de ataques de inferência e reidentificação;
+- a performance e estabilidade de modelos de Machine Learning;
+- a qualidade estatística dos dados para análise;
+- a relação entre **segurança** e **usabilidade** em dados protegidos por Privacidade Diferencial.
+
+---
+
+## Escopo do Projeto
+
+Este repositório é responsável por:
+
+- Carregar datasets versionados gerados pelo pipeline;
+- Treinar modelos de Machine Learning com e sem privacidade;
+- Executar ataques de inferência sobre os modelos treinados;
+- Calcular métricas de segurança e utilidade;
+- Comparar resultados entre diferentes níveis de ε;
+- Gerar visualizações e dashboards explicativos.
+
+Este projeto **não**:
+- gera dados primários;
+- aplica mecanismos de Privacidade Diferencial;
+- altera os datasets de origem.
+
+---
+
+## Modelos de Machine Learning
+
+Os modelos são definidos de acordo com o contexto do sistema de RH, podendo incluir:
+
+- regressão (ex.: previsão salarial);
+- classificação (ex.: cargo ou setor);
+- modelos supervisionados tradicionais.
+
+Cada experimento inclui:
+- um **baseline sem privacidade**;
+- versões treinadas com datasets privatizados.
+
+---
+
+## Ataques de Inferência Avaliados
+
+Os seguintes ataques são implementados e avaliados:
+
+- **Membership Inference Attack**  
+  Determina se um indivíduo específico fez parte do conjunto de treinamento.
+
+- **Attribute Inference Attack**  
+  Tenta inferir atributos sensíveis ocultos, como faixa salarial ou benefícios.
+
+- **Model Inversion Attack**  
+  Reconstrói características aproximadas de indivíduos a partir das saídas do modelo.
+
+As taxas de sucesso são analisadas para diferentes valores de ε.
+
+---
+
+## Avaliação de Usabilidade dos Dados
+
+A utilidade dos dados é avaliada por meio de:
+
+- métricas de performance dos modelos (acurácia, erro, estabilidade);
+- métricas estatísticas (distribuições, variância, correlação);
+- comparação relativa entre datasets privatizados e o baseline.
+
+Essas métricas permitem mensurar a **perda de utilidade causada pelo ruído**.
+
+---
+
+## Visualizações e Dashboards
+
+O projeto inclui visualizações e dashboards com finalidade **exclusivamente explicativa**, utilizados para:
+
+- sintetizar os resultados experimentais;
+- visualizar o trade-off entre segurança e usabilidade;
+- comparar métricas em função de ε;
+- facilitar a interpretação dos resultados.
+
+As visualizações **não influenciam decisões experimentais** e não fazem parte da geração das métricas.
+
+---
+
+## Estrutura Geral do Projeto (exemplo)
+
+      project-b-ml-privacy/
+    ├── datasets/ # referências às versões geradas pelo pipeline
+    ├── models/ # definição e treino dos modelos
+    ├── attacks/ # ataques de inferência
+    ├── metrics/ # métricas de segurança e utilidade
+    ├── analysis/ # análises estatísticas
+    ├── dashboards/ # visualizações e BI explicativo
+    ├── configs/ # parâmetros experimentais
+    └── README.md
 
 
-🧬 Resumo do Projeto Machine Learning — Análise de Vazamento de Dados com Ataques de Inferência em ML e Privacidade Diferencial
+---
 
-O Projeto B é um ambiente de pesquisa experimental voltado a investigar como modelos de aprendizado de máquina podem vazar informações sensíveis quando treinados sobre dados protegidos por Privacidade Diferencial (DP).
-Ele utiliza o mesmo banco de dados do Projeto A (Sistema de RH), porém com foco exclusivo em analisar riscos, simular ataques e medir a eficácia da proteção.
+## Reprodutibilidade
 
-🎯 Objetivo Geral
+Todos os experimentos são executados a partir de:
 
-Avaliar, de forma prática e reproduzível:
+- uma versão explícita do dataset;
+- valores conhecidos de ε;
+- configurações controladas de modelos e métricas.
 
-Quais tipos de ataques de inferência conseguem vazar informações sensíveis.
+Isso garante reprodutibilidade, comparabilidade e isolamento dos resultados, mesmo com a evolução do sistema de origem.
 
-Como níveis diferentes de ruído (ε e δ) impactam a probabilidade de vazamento.
+---
 
-O trade-off entre privacidade e acurácia dos modelos.
+## Motivação Acadêmica
 
-A eficiência de mecanismos como Laplace, Gaussian e DP-SGD.
+Este projeto foi desenhado para:
 
-Quais atributos e padrões são mais suscetíveis a serem inferidos.
+- isolar a Privacidade Diferencial como variável experimental;
+- avaliar simultaneamente segurança e utilidade;
+- refletir cenários realistas de uso corporativo;
+- produzir resultados sólidos para discussão acadêmica.
 
-O projeto culmina em um artigo acadêmico comparando ataques, defesas e resultados.
+---
 
-🏗️ Base de Dados
+## Observações
 
-O Projeto B acessa uma cópia ou segmento controlado do banco do Projeto A, incluindo:
+- Os dados utilizados são simulados e não representam indivíduos reais.
+- Este projeto é desenvolvido para fins acadêmicos e de pesquisa.
+- Dashboards e visualizações têm caráter explicativo, não decisório.
 
-funcionários (setor, faixa salarial, idade, cargo)
+---
 
-avaliações periódicas
+## Licença
 
-benefícios utilizados
+Uso acadêmico e educacional.
 
-estrutura de setores e gerentes
+---
 
-Esses dados são ricos, sensíveis e ideais para simular cenários reais de vazamento.
+### Nota Final
 
-🧠 Tipos de Ataques Implementados
-1. Membership Inference Attack
-
-Determina se um funcionário específico fez parte do conjunto de treinamento do modelo.
-
-2. Attribute Inference Attack
-
-Tenta prever atributos sensíveis ocultos, como:
-
-faixa salarial
-
-uso de determinados benefícios
-
-nota de avaliação
-
-setor de atuação
-
-3. Model Inversion Attack
-
-Reconstrói características aproximadas do indivíduo com base nas saídas do modelo.
-
-Esses ataques são comparados com diferentes níveis de DP.
-
-🔒 Mecanismos de Privacidade Avaliados
-
-O Projeto B testa e compara:
-
-Laplace Mechanism (para consultas agregadas)
-
-Gaussian Mechanism
-
-DP-SGD (treinamento com privacidade diferencial)
-
-Perturbação de labels e features
-
-Query-level vs. model-level DP
-
-Cada mecanismo é analisado quanto a:
-
-proteção efetiva
-
-impacto na acurácia
-
-resistência aos ataques
-
-tempo de treinamento
-
-📊 Métricas e Resultados
-
-O sistema produz:
-
-gráficos de vazamento por ε
-
-curvas de ataque vs. defesa
-
-impacto de DP na acurácia do modelo
-
-estimativas de risco individual por atributo
-
-tabelas comparativas entre mecanismos
-
-Esses resultados formam a base do artigo.
-
-🔬 Metodologia
-
-Importar dados do Projeto A (cópia sanitizada).
-
-Separar features sensíveis e não sensíveis.
-
-Treinar modelos com e sem DP (ex.: regressão, random forests, redes simples).
-
-Aplicar ataques de inferência.
-
-Medir taxa de sucesso.
-
-Analisar o comportamento sob diferentes valores de ε.
-
-Gerar gráficos, relatórios e conclusões.
-
-📌 Relação com o Projeto A
-
-O Projeto A é o sistema “real protegido”.
-
-O Projeto B é o ambiente de experimentação que tenta quebrar ou inferir informações do mesmo banco.
-
-A comparação entre ruído aplicado no A e ataques no B permite gerar um artigo forte e bem fundamentado.
+Este repositório representa o **núcleo experimental do projeto**, onde o trade-off entre **Privacidade, Segurança e Usabilidade** é medido, comparado e explicado de forma controlada e reproduzível.
