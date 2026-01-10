@@ -176,3 +176,55 @@ Uso acadêmico e educacional.
 ### Nota Final
 
 Este repositório representa o **núcleo experimental do projeto**, onde o trade-off entre **Privacidade, Segurança e Usabilidade** é medido, comparado e explicado de forma controlada e reproduzível.
+
+
+
+
+
+--- 
+
+## Rascunho arquitetura pastas
+
+      project-b-ml-privacy/
+      │
+      ├── datasets/
+      │   └── README.md
+      │   # apenas referência às pastas geradas pelo pipeline DP
+      │
+      ├── configs/
+      │   ├── experiment.yaml        # YAML principal (ML + ataque)
+      │   └── features.yaml          # (opcional) lista de features usadas
+      │
+      ├── data/
+      │   ├── loader.py              # leitura dos CSVs + metadata
+      │   └── splitter.py            # split treino/teste (seed fixa)
+      │
+      ├── models/
+      │   ├── linear_regression.py   # treino do modelo
+      │   └── evaluate.py            # métricas de utilidade (RMSE)
+      │
+      ├── attacks/
+      │   └── membership/
+      │       ├── attack.py          # execução do ataque
+      │       └── evaluate.py        # métrica do ataque
+      │
+      ├── results/
+      │   ├── raw/
+      │   │   ├── utility.csv        # métricas de ML
+      │   │   └── security.csv       # métricas de ataque
+      │   │
+      │   └── processed/
+      │       └── tradeoff.csv       # dados prontos para análise
+      │
+      ├── analysis/
+      │   ├── aggregate.py           # junta resultados por ε
+      │   └── statistics.py          # médias, desvios, comparações
+      │
+      ├── dashboards/
+      │   └── notebooks/
+      │       └── tradeoff.ipynb     # visualização e storytelling
+      │
+      ├── run_experiment.py          # ponto de entrada único
+      │
+      └── README.md
+
