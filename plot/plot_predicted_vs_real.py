@@ -5,7 +5,7 @@ def plot_predicted_vs_actual(y_true, y_pred, label):
 
     plt.figure(figsize=(6, 6))
 
-    plt.scatter(y_true, y_pred, alpha=0.5, label=label)
+    plt.scatter(y_true, y_pred, s = 75, alpha=0.5, label=label)
 
     min_val = min(y_true.min(), y_pred.min())
     max_val = max(y_true.max(), y_pred.max())
