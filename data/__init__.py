@@ -1,0 +1,1 @@
+from .loader import run as load_data

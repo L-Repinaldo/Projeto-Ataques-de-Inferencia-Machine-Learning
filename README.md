@@ -2,14 +2,11 @@
 
 ## Visão Geral
 
-Este repositório contém o **ambiente experimental de Machine Learning** do projeto **IC Privacidade**.  
-Seu objetivo é avaliar, de forma **quantitativa, reproduzível e comparável**, como diferentes níveis de **Privacidade Diferencial (ε)** afetam simultaneamente:
+Este repositório contém o núcleo experimental da pesquisa em Privacidade Diferencial, responsável por medir, comparar e explicar o trade-off entre segurança e usabilidade dos dados sob diferentes níveis de privacidade (ε).
 
-- a **segurança dos dados**, medida por ataques de inferência;
-- a **usabilidade dos dados**, medida por métricas estatísticas e performance de modelos;
-- o **trade-off entre proteção e utilidade**.
+O Projeto B utiliza Machine Learning como instrumento de medição de utilidade, ataques de inferência como instrumento de medição de risco, e IA como camada de síntese e explicação dos resultados. O foco não é otimizar modelos, mas tornar explícitos os efeitos da Privacidade Diferencial sobre o uso real dos dados.
 
-O projeto consome **datasets previamente gerados** por um pipeline de engenharia de dados e **não aplica privacidade diferencial internamente**.
+Este repositório consome datasets previamente privatizados por um pipeline de engenharia de dados dedicado e não aplica mecanismos de DP internamente.
 
 ---
 
@@ -18,19 +15,22 @@ O projeto consome **datasets previamente gerados** por um pipeline de engenharia
 O projeto completo é composto por três sistemas independentes:
 
 1. **Projeto A — Sistema de RH (OLTP)**  
-   - Geração de dados limpos e consistentes  
-   - Simulação de ambiente corporativo real  
+   - Simulação de um ambiente corporativo real;
+   - Geração de dados limpos, consistentes e sensíveis;
+   - Aplicação de regras de negócio.
 
 2. **Projeto Intermediário — DP Data Pipeline**  
-   - Extração de dados do RH  
-   - Aplicação de Privacidade Diferencial  
-   - Versionamento de datasets  
+   - Extração de dados do RH;  
+   - Aplicação de Privacidade Diferencial com diferentes valores de ε;  
+   - Versionamento de datasets;
+   - Geração de metadados experimentais.  
 
 3. **Projeto B — ML e Análise Experimental (este repositório)**  
-   - Consumo dos datasets versionados  
-   - Treinamento de modelos  
-   - Execução de ataques de inferência  
-   - Análise de utilidade e visualização de resultados  
+   - Consumo dos datasets versionados;  
+   - Medição de utilidade via Machine Learning controlado;  
+   - Execução de ataques de inferência;  
+   - Comparação entre segurança e usabilidade;
+   - Síntese e explicação dos resultados.
 
 Este repositório **não acessa diretamente o banco do sistema de RH**.
 
@@ -40,10 +40,12 @@ Este repositório **não acessa diretamente o banco do sistema de RH**.
 
 Avaliar empiricamente como a variação do parâmetro de privacidade (ε) influencia:
 
-- a taxa de sucesso de ataques de inferência e reidentificação;
-- a performance e estabilidade de modelos de Machine Learning;
-- a qualidade estatística dos dados para análise;
-- a relação entre **segurança** e **usabilidade** em dados protegidos por Privacidade Diferencial.
+- Segurança dos dados, medida por ataques de inferência;
+- Usabilidade dos dados, medida por métricas simples de Machine Learning;
+- Estabilidade e confiabilidade do aprendizado;
+- O trade-off entre proteção e utilidade em cenários realistas.
+
+O objetivo central é demonstrar o trade-off, não maximizar performance nem propor novos modelos.
 
 ---
 
@@ -52,11 +54,11 @@ Avaliar empiricamente como a variação do parâmetro de privacidade (ε) influe
 Este repositório é responsável por:
 
 - Carregar datasets versionados gerados pelo pipeline;
-- Treinar modelos de Machine Learning com e sem privacidade;
-- Executar ataques de inferência sobre os modelos treinados;
+- Treinar modelos de Machine Learning simples e interpretáveis;
+- Executar ataques de inferência sobre os modelos;
 - Calcular métricas de segurança e utilidade;
 - Comparar resultados entre diferentes níveis de ε;
-- Gerar visualizações e dashboards explicativos.
+- Gerar gráficos e visualizações explicativas do trade-off.
 
 Este projeto **não**:
 - gera dados primários;
@@ -67,16 +69,37 @@ Este projeto **não**:
 
 ## Modelos de Machine Learning
 
-Os modelos são definidos de acordo com o contexto do sistema de RH, podendo incluir:
+O Machine Learning não é o foco do projeto, mas um instrumento prático de medição de usabilidade.
 
-- regressão (ex.: previsão salarial);
-- classificação (ex.: cargo ou setor);
-- modelos supervisionados tradicionais.
+### Modelo Utilizado:
+- Regressão Linear supervisionada
 
-Cada experimento inclui:
-- um **baseline sem privacidade**;
-- versões treinadas com datasets privatizados.
+Justificativa:
+- Modelo simples, interpretável e sensível a ruído;
+- Facilita a observação direta do impacto da DP;
+- Evita mascarar efeitos do ruído com técnicas robustas ou complexas.
+  
+Não há otimização, tuning agressivo ou comparação entre modelos.
 
+---
+
+## Métricas Utilizadas
+
+- MAE (Erro Médio Absoluto)
+  Mede quanto o modelo erra, em média.
+
+- R² (Capacidade Explicativa)
+   Indica quanto da estrutura dos dados ainda pode ser explicada.
+
+- Estabilidade do Resultado
+  Medida pela variação do MAE e do R² entre múltiplas execuções.
+
+Essas métricas respondem perguntas simples:
+
+- O dado ainda é útil?
+- O aprendizado ainda é confiável?
+- A estrutura dos dados foi preservada?
+  
 ---
 
 ## Ataques de Inferência Avaliados
@@ -89,35 +112,41 @@ Os seguintes ataques são implementados e avaliados:
 - **Attribute Inference Attack**  
   Tenta inferir atributos sensíveis ocultos, como faixa salarial ou benefícios.
 
-- **Model Inversion Attack**  
-  Reconstrói características aproximadas de indivíduos a partir das saídas do modelo.
-
 As taxas de sucesso são analisadas para diferentes valores de ε.
 
 ---
 
-## Avaliação de Usabilidade dos Dados
+## Trade-off Segurança × Usabilidade
 
-A utilidade dos dados é avaliada por meio de:
+O trade-off é analisado a partir da simetria entre utilidade e risco:
 
-- métricas de performance dos modelos (acurácia, erro, estabilidade);
-- métricas estatísticas (distribuições, variância, correlação);
-- comparação relativa entre datasets privatizados e o baseline.
+- Dados mais úteis tendem a permitir maior vazamento;
+- Dados mais protegidos tendem a perder capacidade de uso;
+- O objetivo é identificar zonas intermediárias, onde algum nível de utilidade ainda é possível com risco controlado.
 
-Essas métricas permitem mensurar a **perda de utilidade causada pelo ruído**.
+Nenhuma conclusão depende exclusivamente de métricas de ML ou de ataques isoladamente.
 
 ---
 
-## Visualizações e Dashboards
+## Visualizações, Síntese e Uso de IA
 
-O projeto inclui visualizações e dashboards com finalidade **exclusivamente explicativa**, utilizados para:
+As visualizações e a IA têm finalidade exclusivamente explicativa e comunicacional.
 
-- sintetizar os resultados experimentais;
-- visualizar o trade-off entre segurança e usabilidade;
-- comparar métricas em função de ε;
-- facilitar a interpretação dos resultados.
+A IA não participa de nenhuma das etapas experimentais (geração de dados, treinamento de modelos, cálculo de métricas ou execução de ataques). Seu uso ocorre apenas após a obtenção dos resultados, com os seguintes objetivos:
 
-As visualizações **não influenciam decisões experimentais** e não fazem parte da geração das métricas.
+- sintetizar os resultados experimentais obtidos;
+- auxiliar na interpretação do trade-off entre segurança e usabilidade;
+- organizar comparações entre diferentes valores de ε;
+- apoiar a comunicação clara dos achados para o leitor.
+
+Exemplos de gráficos utilizados:
+
+- ε vs MAE (perda de utilidade);
+- ε vs R² (colapso da estrutura);
+- ε vs instabilidade do resultado;
+- Utilidade vs sucesso do ataque (trade-off direto).
+
+As visualizações e a IA não influenciam decisões experimentais e não fazem parte da geração das métricas.
 
 ---
 
@@ -154,7 +183,7 @@ Este projeto foi desenhado para:
 
 - isolar a Privacidade Diferencial como variável experimental;
 - avaliar simultaneamente segurança e utilidade;
-- refletir cenários realistas de uso corporativo;
+- evitar viés de otimização de modelos;
 - produzir resultados sólidos para discussão acadêmica.
 
 ---
@@ -175,56 +204,4 @@ Uso acadêmico e educacional.
 
 ### Nota Final
 
-Este repositório representa o **núcleo experimental do projeto**, onde o trade-off entre **Privacidade, Segurança e Usabilidade** é medido, comparado e explicado de forma controlada e reproduzível.
-
-
-
-
-
---- 
-
-## Rascunho arquitetura pastas
-
-      project-b-ml-privacy/
-      │
-      ├── datasets/
-      │   └── README.md
-      │   # apenas referência às pastas geradas pelo pipeline DP
-      │
-      ├── configs/
-      │   ├── experiment.yaml        # YAML principal (ML + ataque)
-      │   └── features.yaml          # (opcional) lista de features usadas
-      │
-      ├── data/
-      │   ├── loader.py              # leitura dos CSVs + metadata
-      │   └── splitter.py            # split treino/teste (seed fixa)
-      │
-      ├── models/
-      │   ├── linear_regression.py   # treino do modelo
-      │   └── evaluate.py            # métricas de utilidade (RMSE)
-      │
-      ├── attacks/
-      │   └── membership/
-      │       ├── attack.py          # execução do ataque
-      │       └── evaluate.py        # métrica do ataque
-      │
-      ├── results/
-      │   ├── raw/
-      │   │   ├── utility.csv        # métricas de ML
-      │   │   └── security.csv       # métricas de ataque
-      │   │
-      │   └── processed/
-      │       └── tradeoff.csv       # dados prontos para análise
-      │
-      ├── analysis/
-      │   ├── aggregate.py           # junta resultados por ε
-      │   └── statistics.py          # médias, desvios, comparações
-      │
-      ├── dashboards/
-      │   └── notebooks/
-      │       └── tradeoff.ipynb     # visualização e storytelling
-      │
-      ├── run_experiment.py          # ponto de entrada único
-      │
-      └── README.md
-
+Este repositório representa o ambiente experimental controlado onde o trade-off entre Privacidade Diferencial, Segurança e Usabilidade é medido, comparado e explicado, com Machine Learning atuando como instrumento, ataques como evidência de risco e IA como suporte à interpretação, mantendo o foco científico no fenômeno, não na ferramenta.
