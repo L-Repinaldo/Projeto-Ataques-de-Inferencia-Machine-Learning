@@ -1,31 +1,66 @@
 import matplotlib.pyplot as plt
 
 def plot_determination_coefficient_X_eps(results):
-    eps_labels = []
+    eps_values = []
     r2_values = []
 
-    if "baseline" in results:
-        eps_labels.append("baseline")
-        r2_values.append(results["baseline"]["utility"]["r2"])
+    for eps_key in sorted(
+        [k for k in results.keys() if k.startswith("eps_")],
+        key=lambda x: float(x.split("_")[1])
+    ):
+        eps = float(eps_key.split("_")[1])
+        r2 = results[eps_key]["utility"]["r2"]
 
-    eps_keys = sorted([k for k in results.keys() if k.startswith("eps_")],
-                      key=lambda x: float(x.split("_")[1]))
-    for k in eps_keys:
-        eps_labels.append(k.split("_")[1])
-        r2_values.append(results[k]["utility"]["r2"])
+        eps_values.append(eps)
+        r2_values.append(r2)
 
-    colors = ["gray"] + ["darkgreen", "green", "limegreen", "lightgreen"][:len(r2_values)-1]
+    baseline_r2 = results["baseline"]["utility"]["r2"]
 
-    plt.figure(figsize=(8,5))
-    for x, y, c in zip(eps_labels, r2_values, colors):
-        plt.scatter(x, y, color=c, s=80)
-        plt.text(x, y + 0.03, f"{y:.2f}", ha='center', fontsize=9)
+    # =======================
+    # Escala dinâmica
+    # =======================
+    all_r2 = r2_values + [baseline_r2]
+    y_min = min(all_r2) - abs(min(all_r2))*0.1
+    y_max = max(all_r2) + abs(max(all_r2))*0.1
 
-    plt.plot(eps_labels, r2_values, color="green", linestyle="--", alpha=0.5)
+    # =======================
+    # Cores por regime de privacidade
+    # =======================
+    colors = []
+    for eps in eps_values:
+        if eps <= 0.2:
+            colors.append("red")       # muita privacidade → utilidade tende a cair
+        elif eps <= 1.0:
+            colors.append("orange")
+        else:
+            colors.append("green")
 
-    plt.title("Coeficiente de Determinação (R²) vs ε")
-    plt.xlabel("ε")
-    plt.ylabel("R²")
-    plt.ylim(0,1)
-    plt.grid(True)
+    # =======================
+    # Plot
+    # =======================
+    plt.figure(figsize=(8, 5))
+
+    plt.scatter(eps_values, r2_values, c=colors, s=90, zorder=3)
+
+    # Linha baseline
+    plt.axhline(
+        y=baseline_r2,
+        color="black",
+        linestyle="--",
+        linewidth=1.5,
+        label="Baseline (sem DP)"
+    )
+
+    # Rótulos
+    offset = (y_max - y_min) * 0.03
+    for x, y in zip(eps_values, r2_values):
+        plt.text(x, y + offset, f"{y:.2f}", ha="center", fontsize=9)
+
+    plt.ylim(y_min, y_max)
+    plt.title("Impacto da Privacidade Diferencial no Poder Explicativo do Modelo")
+    plt.xlabel("ε (nível de privacidade)")
+    plt.ylabel("R² (Coeficiente de Determinação)")
+    plt.grid(True, linestyle="--", alpha=0.4)
+    plt.legend()
+
     plt.show()

@@ -1,29 +1,39 @@
-
 import matplotlib.pyplot as plt
 
 def plot_mia_auc_vs_epsilon(results):
 
-    eps_keys = ["baseline"] + sorted(
+    eps_values = []
+    auc_values = []
+
+    eps_values.append(0.0)
+    auc_values.append(results["baseline"]["mia"]["attack_auc"])
+
+    for k in sorted(
         [k for k in results.keys() if k.startswith("eps_")],
         key=lambda x: float(x.split("_")[1])
-    )
+    ):
+        eps_values.append(float(k.split("_")[1]))
+        auc_values.append(results[k]["mia"]["attack_auc"])
 
-    eps_values = [0.0 if k == "baseline" else float(k.split("_")[1]) for k in eps_keys]
-    auc_values = [results[k]["mia"]["attack_auc"] for k in eps_keys]
+    y_min = min(auc_values)
+    y_max = max(auc_values)
+    offset = (y_max - y_min) * 0.05
 
     plt.figure(figsize=(8,5))
-    plt.plot(eps_values, auc_values, marker='o', color='red')
+
+    plt.scatter(eps_values, auc_values, color="crimson", s=90, zorder=3)
 
     for x, y in zip(eps_values, auc_values):
-        plt.text(x, y, f"{y:.2f}", fontsize=9, ha='right')
+        plt.text(x, y + offset, f"{y:.2f}", ha='center', fontsize=9)
 
-    plt.axhline(0.5, linestyle='--', color='gray', label="Ataque aleatório")
+    plt.axhline(0.5, linestyle='--', color='gray', label="Ataque aleatório (AUC = 0.5)")
+    plt.scatter([], [], color="crimson", label="AUC > 0.5 indica sinal explorável")
 
-    plt.title("Risco de Membership Inference vs ε")
+    plt.title("Risco de Membership Inference sob Privacidade Diferencial")
     plt.xlabel("ε (nível de privacidade)")
-    plt.ylabel("Area Under Curve do ataque")
-    plt.ylim(0.4, 1.0)
-    plt.grid(True)
+    plt.ylabel("AUC do Ataque de Inferência")
+    plt.grid(True, linestyle="--", alpha=0.4)
+    plt.ylim(y_min - offset, y_max + offset)
     plt.legend()
-    plt.show()
 
+    plt.show()
