@@ -1,1 +1,2 @@
 from .linear_regression import run_linear_regression
+from .random_forest import run_random_forest
