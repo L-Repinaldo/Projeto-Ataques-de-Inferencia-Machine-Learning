@@ -1,21 +1,12 @@
 from data import load_data
-from experiments import run_experiment
+from experiments import run_experiment, run_plots
+from analysis import build_summary_table
 
 from model import (
     run_linear_regression,
     run_random_forest,
     run_elastic_net,
     run_xgboost
-    )
-
-from plots import (
-    plot_mean_absolute_error_X_eps,
-    plot_determination_coefficient_X_eps, 
-    plot_stability_X_eps,
-    plot_stability_model,
-    plot_mia_auc_vs_epsilon,
-    plot_error_gap_vs_epsilon,
-    plot_privacy_utility_tradeoff
     )
 
 if __name__ == "__main__":
@@ -30,6 +21,8 @@ if __name__ == "__main__":
         ("Random Forest", run_random_forest),
     ]
 
+    all_tables = []
+
     for model_name, runner in experiments:
 
         print(f"\n{'='*40}")
@@ -39,10 +32,12 @@ if __name__ == "__main__":
         exp_output = run_experiment(runner, model_name, datasets, names)
         results = exp_output["results"]
 
-        plot_mean_absolute_error_X_eps(results, model_name)
-        plot_determination_coefficient_X_eps(results, model_name)
-        plot_stability_X_eps(results, model_name)
-        plot_stability_model(results, model_name)
-        plot_mia_auc_vs_epsilon(results, model_name)
-        plot_error_gap_vs_epsilon(results, model_name)
-        plot_privacy_utility_tradeoff(results, model_name)
+        run_plots(results= results, model_name= model_name)
+
+        summary = build_summary_table(results, model_name)
+        all_tables.extend(summary)
+
+
+    from plots import plot_summary_table
+
+    plot_summary_table(all_tables= all_tables)

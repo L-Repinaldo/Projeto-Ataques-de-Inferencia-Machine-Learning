@@ -4,3 +4,4 @@ from .plot_stability import plot_stability_X_eps, plot_stability_model
 from .plot_auc import plot_mia_auc_vs_epsilon
 from .plot_error_gap import plot_error_gap_vs_epsilon
 from .plot_trade_off import plot_privacy_utility_tradeoff
+from .plot_summary_table import plot_summary_table
