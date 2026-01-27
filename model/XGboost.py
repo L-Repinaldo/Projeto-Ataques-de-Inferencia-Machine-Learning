@@ -1,18 +1,26 @@
-from sklearn.linear_model import LinearRegression
+from xgboost import XGBRegressor
 from sklearn.model_selection import train_test_split
 
-def run_linear_regression(df, preprocessor, *, target="salario", test_size=0.3, seed=42):
+def run_xgboost(df, preprocessor, *, target="salario", test_size=0.3, seed=42):
     """
-    Executa uma regressão linear simples como instrumento de medição de utilidade.
+    Executa um modelo Gradient Boosted Trees (XGBoost) como instrumento de
+    avaliação experimental de utilidade e risco de inferência.
+
+    Papel deste modelo no protocolo:
+    - Representar modelos de alta capacidade
+    - Capturar relações não lineares complexas
+    - Avaliar tendência a memorizar padrões locais e ruído
 
     Responsabilidades:
     - realizar split controlado
-    - treinar modelo determinístico
-    - gerar predições
+    - aplicar o pré-processamento definido no pipeline
+    - treinar modelo determinístico (semente fixa)
+    - gerar predições de treino e teste
 
     Não calcula métricas.
     Não conhece ε.
     Não participa de decisões experimentais.
+    Atua apenas como gerador de comportamento do modelo.
     """
 
     if target not in df.columns:
@@ -31,11 +39,16 @@ def run_linear_regression(df, preprocessor, *, target="salario", test_size=0.3, 
     X_train = preprocessor.fit_transform(X_train)
     X_test = preprocessor.transform(X_test)
 
-    model = LinearRegression()
+    model = XGBRegressor(
+        n_estimators=200, max_depth=6, learning_rate=0.05, subsample=0.8, 
+        colsample_bytree=0.8, random_state=seed, objective="reg:squarederror", verbosity=0
+    )
+
     model.fit(X_train, y_train)
 
     y_test_pred = model.predict(X_test)
     y_train_pred = model.predict(X_train)
+
     return {
         "y_train_true": y_train,
         "y_train_pred": y_train_pred,
