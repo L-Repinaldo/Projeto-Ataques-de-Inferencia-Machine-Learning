@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def plot_privacy_utility_tradeoff(results):
+def plot_privacy_utility_tradeoff(results, model_name):
 
     eps_keys = ["baseline"] + sorted(
         [k for k in results.keys() if k.startswith("eps_")],
@@ -45,7 +45,7 @@ def plot_privacy_utility_tradeoff(results):
          fontsize=9,
          verticalalignment='top')
 
-    plt.title("Trade-off entre Utilidade e Risco de Membership Inference")
+    plt.title(f"Trade-off entre Utilidade e Risco de Membership Inference -> {model_name}")
     plt.xlabel("MAE (↑ pior utilidade)")
     plt.ylabel("AUC do ataque (↑ maior risco)")
     plt.grid(True)

@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def plot_determination_coefficient_X_eps(results):
+def plot_determination_coefficient_X_eps(results, model_name):
     eps_values = []
     r2_values = []
 
@@ -57,7 +57,7 @@ def plot_determination_coefficient_X_eps(results):
         plt.text(x, y + offset, f"{y:.2f}", ha="center", fontsize=9)
 
     plt.ylim(y_min, y_max)
-    plt.title("Impacto da Privacidade Diferencial no Poder Explicativo do Modelo")
+    plt.title(f"Impacto da Privacidade Diferencial no Poder Explicativo do Modelo -> {model_name}")
     plt.xlabel("ε (nível de privacidade)")
     plt.ylabel("R² (Coeficiente de Determinação)")
     plt.grid(True, linestyle="--", alpha=0.4)

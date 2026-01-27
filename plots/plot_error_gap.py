@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def plot_error_gap_vs_epsilon(results):
+def plot_error_gap_vs_epsilon(results, model_name):
 
     eps_keys = ["baseline"] + sorted(
         [k for k in results.keys() if k.startswith("eps_")],
@@ -26,7 +26,7 @@ def plot_error_gap_vs_epsilon(results):
         offset = margin * 0.15
         plt.text(x, y + offset, f"{y:.3f}", fontsize=9, ha='center')
 
-    plt.title("Gap de erro (teste − treino) vs ε")
+    plt.title(f"Gap de erro (teste - treino) vs ε -> {model_name}")
     plt.xlabel("ε")
     plt.ylabel("Diferença média de erro")
 

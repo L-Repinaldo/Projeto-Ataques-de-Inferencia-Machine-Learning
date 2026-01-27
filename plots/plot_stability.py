@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def plot_stability_X_eps(results):
+def plot_stability_X_eps(results, model_name):
     eps_values = []
     mae_cv = []
     r2_cv = []
@@ -34,7 +34,7 @@ def plot_stability_X_eps(results):
         axes[0].text(x, y + offset_mae, f"{y:.2f}", ha="center", fontsize=9)
 
     axes[0].set_ylabel("MAE CV")
-    axes[0].set_title("Instabilidade do Modelo sob Privacidade Diferencial")
+    axes[0].set_title(f"Instabilidade do Modelo sob Privacidade Diferencial -> {model_name}")
     axes[0].grid(True, linestyle="--", alpha=0.4)
     axes[0].set_ylim(mae_min - offset_mae, mae_max + offset_mae)
 
@@ -53,7 +53,7 @@ def plot_stability_X_eps(results):
 
 
 
-def plot_stability_model(results):
+def plot_stability_model(results, model_name):
     metrics = ["MAE CV", "R² CV"]
     cv_values = [
         results["stability_mae"]["cv"],
@@ -72,7 +72,7 @@ def plot_stability_model(results):
                  f"{v:.2f}", ha='center', fontsize=12)
 
     plt.ylim(y_min - offset, y_max + offset)
-    plt.title("Instabilidade Relativa Global do Modelo")
+    plt.title(f"Instabilidade Relativa Global do Modelo -> {model_name}")
     plt.ylabel("Coeficiente de Variação (CV)")
     plt.grid(axis="y", linestyle="--", alpha=0.5)
     plt.show()

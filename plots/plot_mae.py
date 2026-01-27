@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def plot_mean_absolute_error_X_eps(results):
+def plot_mean_absolute_error_X_eps(results, model_name):
     eps_values = []
     mae_values = []
 
@@ -56,7 +56,7 @@ def plot_mean_absolute_error_X_eps(results):
         plt.text(x, y + offset, f"{y:.0f}", ha="center", fontsize=9)
 
     plt.ylim(y_min, y_max)
-    plt.title("Impacto da Privacidade Diferencial na Utilidade do Modelo")
+    plt.title(f"Impacto da Privacidade Diferencial na Utilidade do Modelo -> {model_name}")
     plt.xlabel("ε (nível de privacidade)")
     plt.ylabel("Erro Médio Absoluto (MAE)")
     plt.grid(True, linestyle="--", alpha=0.4)

@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def plot_mia_auc_vs_epsilon(results):
+def plot_mia_auc_vs_epsilon(results, model_name):
 
     eps_values = []
     auc_values = []
@@ -29,7 +29,7 @@ def plot_mia_auc_vs_epsilon(results):
     plt.axhline(0.5, linestyle='--', color='gray', label="Ataque aleatório (AUC = 0.5)")
     plt.scatter([], [], color="crimson", label="AUC > 0.5 indica sinal explorável")
 
-    plt.title("Risco de Membership Inference sob Privacidade Diferencial")
+    plt.title(f"Risco de Membership Inference sob Privacidade Diferencial -> {model_name}")
     plt.xlabel("ε (nível de privacidade)")
     plt.ylabel("AUC do Ataque de Inferência")
     plt.grid(True, linestyle="--", alpha=0.4)
