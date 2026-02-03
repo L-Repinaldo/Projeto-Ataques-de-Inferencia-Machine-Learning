@@ -37,3 +37,4 @@ def plot_mia_auc_vs_epsilon(results, model_name):
     plt.legend()
 
     plt.show()
+    plt.close()

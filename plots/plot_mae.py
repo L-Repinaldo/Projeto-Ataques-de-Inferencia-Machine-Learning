@@ -63,3 +63,4 @@ def plot_mean_absolute_error_X_eps(results, model_name):
     plt.legend()
 
     plt.show()
+    plt.close()

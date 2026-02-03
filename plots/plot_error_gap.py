@@ -33,3 +33,5 @@ def plot_error_gap_vs_epsilon(results, model_name):
     plt.grid(True)
     plt.legend()
     plt.show()
+    plt.close()
+

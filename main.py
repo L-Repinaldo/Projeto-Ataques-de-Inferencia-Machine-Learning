@@ -11,6 +11,15 @@ from model import (
 
 if __name__ == "__main__":
 
+    import warnings
+
+    warnings.filterwarnings(
+        "ignore",
+        message="Found unknown categories in columns",
+        category=UserWarning,
+        module="sklearn.preprocessing._encoders"
+        )
+
     datasets = load_data()
     names = ["baseline", "eps_0.1", "eps_0.5", "eps_1.0", "eps_2.0"]
 
