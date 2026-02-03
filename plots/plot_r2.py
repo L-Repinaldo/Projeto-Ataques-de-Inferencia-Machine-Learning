@@ -64,3 +64,4 @@ def plot_determination_coefficient_X_eps(results, model_name):
     plt.legend()
 
     plt.show()
+    plt.close()

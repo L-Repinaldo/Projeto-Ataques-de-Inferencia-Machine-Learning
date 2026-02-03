@@ -46,6 +46,8 @@ def run_random_forest(df, preprocessor, *, target="salario", test_size=0.3, seed
     y_test_pred = model.predict(X_test)
     y_train_pred = model.predict(X_train)
     return {
+        "X_train" : X_train,
+        "X_test" : X_test,
         "y_train_true": y_train,
         "y_train_pred": y_train_pred,
         "y_test_true": y_test,

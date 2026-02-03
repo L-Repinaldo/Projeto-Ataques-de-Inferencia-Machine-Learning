@@ -22,6 +22,7 @@ def run_experiment(model_runner, model_name, datasets, dataset_names):
 
     results = {}
 
+
     for name, df in zip(dataset_names, datasets):
 
         preprocessor = build_preprocessor(df=df)
@@ -51,12 +52,18 @@ def run_experiment(model_runner, model_name, datasets, dataset_names):
                 "r2_cv": abs(utility["r2"] - base["r2"]) / base["r2"],
             }
 
+
+
         mia_results = run_membership_inference_attack(
-            y_train_true=run_output["y_train_true"],
-            y_train_pred=run_output["y_train_pred"],
-            y_test_true=run_output["y_test_true"],
-            y_test_pred=run_output["y_test_pred"],
+            df = df,
+            target_model=run_output["model"],
+            X_target_train=run_output["X_train"],
+            y_target_train=run_output["y_train_true"],
+            X_target_test=run_output["X_test"],
+            y_target_test=run_output["y_test_true"],
+            build_preprocessor= build_preprocessor
         )
+
 
         results[name]["mia"] = mia_results
 

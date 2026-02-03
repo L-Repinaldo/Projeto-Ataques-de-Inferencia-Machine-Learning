@@ -76,3 +76,4 @@ def plot_stability_model(results, model_name):
     plt.ylabel("Coeficiente de Variação (CV)")
     plt.grid(axis="y", linestyle="--", alpha=0.5)
     plt.show()
+    plt.close()

@@ -31,7 +31,7 @@ def build_preprocessor(df):
                 "categorical",
                 OneHotEncoder(
                     drop="first",
-                    handle_unknown="ignore"
+                    handle_unknown='infrequent_if_exist'
                 ),
                 categorical_cols
             ),

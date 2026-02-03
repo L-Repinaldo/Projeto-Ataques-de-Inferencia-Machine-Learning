@@ -52,3 +52,4 @@ def plot_privacy_utility_tradeoff(results, model_name):
     plt.legend()
     plt.tight_layout()
     plt.show()
+    plt.close()

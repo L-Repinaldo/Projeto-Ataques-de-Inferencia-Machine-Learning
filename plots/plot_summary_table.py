@@ -33,3 +33,4 @@ def plot_summary_table(all_tables, title="Síntese dos Resultados"):
 
     plt.tight_layout()
     plt.show()
+    plt.close()
