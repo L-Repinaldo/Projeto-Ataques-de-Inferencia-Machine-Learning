@@ -1,4 +1,4 @@
-from metrics import compute_stability, compute_utility_metrics
+from metrics import compute_utility_metrics, compute_attack_metrics
 from attacks import run_membership_inference_attack
 from preprocessing import build_preprocessor
 
@@ -42,18 +42,6 @@ def run_experiment(model_runner, model_name, datasets, dataset_names):
             "n_features": run_output["n_features"],
         }
 
-        # estabilidade relativa ao baseline
-        if name == "baseline":
-            results[name]["stability"] = {"mae_cv": 0.0, "r2_cv": 0.0}
-        else:
-            base = results["baseline"]["utility"]
-            results[name]["stability"] = {
-                "mae_cv": abs(utility["mae"] - base["mae"]) / base["mae"],
-                "r2_cv": abs(utility["r2"] - base["r2"]) / base["r2"],
-            }
-
-
-
         mia_results = run_membership_inference_attack(
             df = df,
             target_model=run_output["model"],
@@ -67,10 +55,14 @@ def run_experiment(model_runner, model_name, datasets, dataset_names):
 
         results[name]["mia"] = mia_results
 
-    # estabilidade global do modelo
-    for metric in ["mae", "r2"]:
-        values = [results[n]["utility"][metric] for n in dataset_names]
-        results[f"stability_{metric}"] = compute_stability(values)
+        attack_metrics = compute_attack_metrics(
+            y_attack_target= mia_results['y_attack_target'],
+            y_pred= mia_results['y_predicted'],
+            y_pred_proba= mia_results['y_prediction_probability']
+        )
+
+        results[name]["mia"]["attack_metrics"] = attack_metrics
+
 
     return {
         "model_name": model_name,

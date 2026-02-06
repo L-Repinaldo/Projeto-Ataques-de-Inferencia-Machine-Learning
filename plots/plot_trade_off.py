@@ -9,15 +9,13 @@ def plot_privacy_utility_tradeoff(results, model_name):
     )
 
     mae_values = np.array([results[k]["utility"]["mae"] for k in eps_keys])
-    auc_values = np.array([results[k]["mia"]["attack_auc"] for k in eps_keys])
+    auc_values = np.array([results[k]["mia"]["attack_metrics"]["attack_roc_auc"] for k in eps_keys])
     labels = ["baseline"] + [k.split("_")[1] for k in eps_keys if k != "baseline"]
 
     plt.figure(figsize=(7,6))
 
-    # Scatter principal
     plt.scatter(mae_values, auc_values, s=110, c="darkred")
 
-    # Linha de ataque aleatório
     plt.axhline(0.5, linestyle='--', color='gray', label="Ataque aleatório (AUC=0.5)")
 
     x_range = mae_values.max() - mae_values.min()
@@ -29,7 +27,6 @@ def plot_privacy_utility_tradeoff(results, model_name):
     plt.xlim(mae_values.min() - x_margin, mae_values.max() + x_margin)
     plt.ylim(max(0.4, auc_values.min() - y_margin), min(1.0, auc_values.max() + y_margin))
 
-    # Rótulos dos pontos
     for x, y, l in zip(mae_values, auc_values, labels):
         plt.text(x, y, l, fontsize=9, ha='left', va='bottom')
 

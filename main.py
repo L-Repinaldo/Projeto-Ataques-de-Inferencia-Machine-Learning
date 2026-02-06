@@ -50,3 +50,4 @@ if __name__ == "__main__":
     from plots import plot_summary_table
 
     plot_summary_table(all_tables= all_tables)
+

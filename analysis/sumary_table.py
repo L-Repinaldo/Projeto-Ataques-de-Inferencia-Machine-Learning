@@ -11,7 +11,7 @@ def build_summary_table(results, model_name):
             continue
 
         mae = v["utility"]["mae"]
-        auc = v["mia"]["attack_auc"]
+        auc = v["mia"]["attack_metrics"]["attack_roc_auc"]
 
         mae_cv = abs(mae - baseline_mae) / baseline_mae
 

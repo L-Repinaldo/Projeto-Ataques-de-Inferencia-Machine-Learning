@@ -16,28 +16,22 @@ def plot_mean_absolute_error_X_eps(results, model_name):
 
     baseline_mae = results["baseline"]["utility"]["mae"]
 
-    # =======================
-    # Escala dinâmica do eixo Y
-    # =======================
     all_mae = mae_values + [baseline_mae]
     y_min = min(all_mae) * 0.9
     y_max = max(all_mae) * 1.1
 
-    # =======================
-    # Mapeamento de cor por nível de privacidade
-    # =======================
+
     colors = []
     for eps in eps_values:
         if eps <= 0.2:
-            colors.append("red")       # muita privacidade, baixa utilidade
+            colors.append("red")
+            continue       
         elif eps <= 1.0:
-            colors.append("orange")    # zona intermediária
+            colors.append("orange")    
+            continue
         else:
-            colors.append("green")     # pouca privacidade, maior utilidade
+            colors.append("green")    
 
-    # =======================
-    # Plot
-    # =======================
     plt.figure(figsize=(8, 5))
 
     plt.scatter(eps_values, mae_values, c=colors, s=90, zorder=3)
@@ -50,7 +44,6 @@ def plot_mean_absolute_error_X_eps(results, model_name):
         label="Baseline (sem DP)"
     )
 
-    # Rótulos dos pontos
     offset = (y_max - y_min) * 0.03
     for x, y in zip(eps_values, mae_values):
         plt.text(x, y + offset, f"{y:.0f}", ha="center", fontsize=9)

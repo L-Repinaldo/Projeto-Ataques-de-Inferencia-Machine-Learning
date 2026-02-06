@@ -6,14 +6,14 @@ def plot_mia_auc_vs_epsilon(results, model_name):
     auc_values = []
 
     eps_values.append(0.0)
-    auc_values.append(results["baseline"]["mia"]["attack_auc"])
+    auc_values.append(results["baseline"]["mia"]["attack_metrics"]["attack_roc_auc"])
 
     for k in sorted(
         [k for k in results.keys() if k.startswith("eps_")],
         key=lambda x: float(x.split("_")[1])
     ):
         eps_values.append(float(k.split("_")[1]))
-        auc_values.append(results[k]["mia"]["attack_auc"])
+        auc_values.append(results[k]["mia"]["attack_metrics"]["attack_roc_auc"])
 
     y_min = min(auc_values)
     y_max = max(auc_values)

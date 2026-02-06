@@ -1,6 +1,5 @@
 import numpy as np
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import roc_auc_score, accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.base import clone
@@ -15,7 +14,6 @@ def run_membership_inference_attack(
     build_preprocessor,
 ):
 
-    # ================= SHADOW DATA =================
     shadow_df, _ = train_test_split(df, test_size=0.5, random_state=42)
 
     X_shadow_raw = shadow_df.drop(columns=["salario"])
@@ -28,11 +26,9 @@ def run_membership_inference_attack(
         X_shadow, y_shadow, test_size=0.5, random_state=42
     )
 
-    # CLONA MODELO ALVO
     shadow_model = clone(target_model)
     shadow_model.fit(X_s_train, y_s_train)
 
-    # LOSS
     shadow_train_loss = np.abs(y_s_train.to_numpy() - shadow_model.predict(X_s_train))
     shadow_test_loss  = np.abs(y_s_test.to_numpy()  - shadow_model.predict(X_s_test))
 
@@ -52,7 +48,6 @@ def run_membership_inference_attack(
     attacker = LogisticRegression()
     attacker.fit(X_attack_shadow, y_attack_shadow)
 
-    # ================= TARGET =================
     target_train_loss = np.abs(y_target_train.to_numpy() - target_model.predict(X_target_train))
     target_test_loss  = np.abs(y_target_test.to_numpy()  - target_model.predict(X_target_test))
 
@@ -67,13 +62,11 @@ def run_membership_inference_attack(
 
     X_attack_target = scaler.transform(X_attack_target)
 
-    y_prob = attacker.predict_proba(X_attack_target)[:,1]
+    y_pred_proba = attacker.predict_proba(X_attack_target)[:,1]
     y_pred = attacker.predict(X_attack_target)
 
     return {
-        "attack_auc": float(roc_auc_score(y_attack_target, y_prob)),
-        "attack_accuracy": float(accuracy_score(y_attack_target, y_pred)),
-        "mean_train_loss": float(np.mean(target_train_loss)),
-        "mean_test_loss": float(np.mean(target_test_loss)),
-        "generalization_gap": float(np.mean(target_test_loss) - np.mean(target_train_loss))
+        "y_attack_target" : y_attack_target,
+        "y_predicted": y_pred,
+        "y_prediction_probability": y_pred_proba,
     }
