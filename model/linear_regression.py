@@ -32,6 +32,7 @@ def run_linear_regression(df, preprocessor, *, target="salario", test_size=0.3, 
     model.fit(X_train, y_train)
 
     y_test_pred = model.predict(X_test)
+
     y_train_pred = model.predict(X_train)
     return {
         "X_train" : X_train,

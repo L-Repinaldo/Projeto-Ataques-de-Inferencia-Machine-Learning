@@ -6,7 +6,6 @@ def build_preprocessor(df):
     Preprocessor fixo do experimento.
 
     - As colunas são derivadas explicitamente do dataset fornecido.
-    - Não há lógica condicional por ε.
     - O objetivo é manter o mesmo protocolo mesmo com degradação estrutural dos dados.
     """
 
