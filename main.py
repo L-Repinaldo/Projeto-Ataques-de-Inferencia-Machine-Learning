@@ -41,7 +41,7 @@ if __name__ == "__main__":
         exp_output = run_experiment(runner, model_name, datasets, names)
         results = exp_output["results"]
 
-        run_plots(results= results, model_name= model_name)
+        #run_plots(results= results, model_name= model_name)
 
         summary = build_summary_table(results, model_name)
         all_tables.extend(summary)
