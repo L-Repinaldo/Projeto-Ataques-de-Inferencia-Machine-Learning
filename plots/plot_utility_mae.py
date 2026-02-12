@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 def plot_mean_absolute_error_X_eps(results, model_name):
 
-    baseline_mae = results["baseline"]["utility"]["mae"]
+    baseline_mae = results["baseline"]["results"]["mae"]
 
     eps_values = []
     utility_loss_values = []
@@ -12,7 +12,7 @@ def plot_mean_absolute_error_X_eps(results, model_name):
         key=lambda x: float(x.split("_")[1])
     ):
         eps = float(eps_key.split("_")[1])
-        dp_mae = results[eps_key]["utility"]["mae"]
+        dp_mae = results[eps_key]["results"]["mae"]
 
         utility_loss = abs(dp_mae - baseline_mae) / baseline_mae
 

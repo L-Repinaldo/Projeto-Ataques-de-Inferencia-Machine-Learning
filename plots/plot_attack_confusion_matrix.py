@@ -18,7 +18,7 @@ def plot_mia_confusion_matrices(results, model_name):
 
     for ax, key in zip(axes, keys):
 
-        cm = np.array(results[key]["mia"]["attack_metrics"]["attack_confusion_matrix"])
+        cm = np.array(results[key]["results"]["attack_confusion_matrix"])
         row_sums = cm.sum(axis=1, keepdims=True)
         cm_percent = cm / row_sums
 

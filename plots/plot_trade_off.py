@@ -1,12 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def plot_privacy_utility_tradeoff(results, model_name):
+def plot_privacy_utility_tradeoff(model_utility_results, attack_results ,model_name):
 
-    baseline_mae = results["baseline"]["utility"]["mae"]
+    baseline_mae = model_utility_results["baseline"]["results"]["mae"]
 
     eps_keys = ["baseline"] + sorted(
-        [k for k in results.keys() if k.startswith("eps_")],
+        [k for k in model_utility_results.keys() if k.startswith("eps_")],
         key=lambda x: float(x.split("_")[1])
     )
 
@@ -15,8 +15,8 @@ def plot_privacy_utility_tradeoff(results, model_name):
     labels = []
 
     for k in eps_keys:
-        mae = results[k]["utility"]["mae"]
-        auc = results[k]["mia"]["attack_metrics"]["attack_roc_auc"]
+        mae = model_utility_results[k]['results']["mae"]
+        auc = attack_results[k]["results"]["attack_roc_auc"]
 
         loss = abs(mae - baseline_mae) / baseline_mae
         utility_loss.append(loss)

@@ -4,8 +4,8 @@ def plot_mia_roc_all_eps(results, model_name):
 
     plt.figure(figsize=(7,7))
 
-    fpr, tpr = results["baseline"]["mia"]["attack_metrics"]["attack_roc_curve"]
-    auc = results["baseline"]["mia"]["attack_metrics"]["attack_roc_auc"]
+    fpr, tpr = results["baseline"]["results"]["attack_roc_curve"]
+    auc = results["baseline"]["results"]["attack_roc_auc"]
     plt.plot(fpr, tpr, linewidth=2, label=f"baseline (AUC={auc:.2f})")
 
     eps_keys = sorted(
@@ -15,8 +15,8 @@ def plot_mia_roc_all_eps(results, model_name):
 
     for k in eps_keys:
         eps = float(k.split("_")[1])
-        fpr, tpr = results[k]["mia"]["attack_metrics"]["attack_roc_curve"]
-        auc = results[k]["mia"]["attack_metrics"]["attack_roc_auc"]
+        fpr, tpr = results[k]["results"]["attack_roc_curve"]
+        auc = results[k]["results"]["attack_roc_auc"]
 
         plt.plot(fpr, tpr, linestyle="--", label=f"ε={eps} (AUC={auc:.2f})")
 

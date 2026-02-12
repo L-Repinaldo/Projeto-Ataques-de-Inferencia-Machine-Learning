@@ -17,21 +17,25 @@ def run_plots(results, model_name):
     # Utility
     ############
 
-    plot_mean_absolute_error_X_eps(results=results, model_name=model_name)
-    plot_rmse_utility_loss_vs_epsilon(results= results, model_name= model_name)
+    model_utility_results = results[model_name]['Metrics Model']
+
+    plot_mean_absolute_error_X_eps(results= model_utility_results, model_name=model_name)
+    plot_rmse_utility_loss_vs_epsilon(results= model_utility_results, model_name= model_name)
 
     ############
     # Attack
     ############
 
-    plot_mia_confusion_matrices(results= results, model_name= model_name)
-    plot_mia_accuracy_advantage_vs_epsilon(results= results, model_name= model_name)
-    plot_mia_precision_advantage_vs_epsilon(results= results, model_name = model_name)
-    plot_mia_f1_advantage_vs_epsilon(results=results, model_name= model_name)
-    plot_mia_roc_all_eps(results= results, model_name= model_name)
-    plot_mia_auc_vs_epsilon(results=results, model_name=model_name)
+    attack_results = results[model_name]['Metrics Attack']
+
+    plot_mia_confusion_matrices(results= attack_results, model_name= model_name)
+    plot_mia_accuracy_advantage_vs_epsilon(results= attack_results, model_name= model_name)
+    plot_mia_precision_advantage_vs_epsilon(results= attack_results, model_name = model_name)
+    plot_mia_f1_advantage_vs_epsilon(results= attack_results, model_name= model_name)
+    plot_mia_roc_all_eps(results= attack_results, model_name= model_name)
+    plot_mia_auc_vs_epsilon(results= attack_results, model_name=model_name)
 
     ############
     # Trade off
     ############
-    plot_privacy_utility_tradeoff(results=results, model_name=model_name)
+    plot_privacy_utility_tradeoff(model_utility_results= model_utility_results, attack_results= attack_results, model_name=model_name)

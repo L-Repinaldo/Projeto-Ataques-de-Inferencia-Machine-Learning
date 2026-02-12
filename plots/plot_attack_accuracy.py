@@ -5,7 +5,7 @@ def plot_mia_accuracy_advantage_vs_epsilon(results, model_name):
     eps_values = []
     advantage_values = []
 
-    baseline_acc = results["baseline"]["mia"]["attack_metrics"]["attack_accuracy"]
+    baseline_acc = results["baseline"]['results']['attack_accuracy']
     eps_values.append(0.0)
     advantage_values.append(baseline_acc - 0.5)
 
@@ -14,7 +14,7 @@ def plot_mia_accuracy_advantage_vs_epsilon(results, model_name):
         key=lambda x: float(x.split("_")[1])
     ):
         eps = float(eps_key.split("_")[1])
-        acc = results[eps_key]["mia"]["attack_metrics"]["attack_accuracy"]
+        acc = results[eps_key]["results"]["attack_accuracy"]
 
         eps_values.append(eps)
         advantage_values.append(acc - 0.5)

@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 def plot_rmse_utility_loss_vs_epsilon(results, model_name):
 
-    baseline_rmse = results["baseline"]["utility"]["rmse"]
+    baseline_rmse = results["baseline"]["results"]["rmse"]
 
     eps_values = []
     utility_loss_values = []
@@ -12,7 +12,7 @@ def plot_rmse_utility_loss_vs_epsilon(results, model_name):
         key=lambda x: float(x.split("_")[1])
     ):
         eps = float(eps_key.split("_")[1])
-        dp_rmse = results[eps_key]["utility"]["rmse"]
+        dp_rmse = results[eps_key]["results"]["rmse"]
 
         utility_loss = abs(dp_rmse - baseline_rmse) / baseline_rmse
 

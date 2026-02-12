@@ -5,7 +5,7 @@ def plot_mia_f1_advantage_vs_epsilon(results, model_name):
     eps_values = []
     f1_adv = []
 
-    base_f1 = results["baseline"]["mia"]["attack_metrics"]["attack_f1_score"]
+    base_f1 = results["baseline"]["results"]["attack_f1_score"]
     eps_values.append(0.0)
     f1_adv.append(base_f1 - 0.5)
 
@@ -14,7 +14,7 @@ def plot_mia_f1_advantage_vs_epsilon(results, model_name):
         key=lambda x: float(x.split("_")[1])
     ):
         eps = float(eps_key.split("_")[1])
-        f1 = results[eps_key]["mia"]["attack_metrics"]["attack_f1_score"]
+        f1 = results[eps_key]["results"]["attack_f1_score"]
 
         eps_values.append(eps)
         f1_adv.append(f1 - 0.5)

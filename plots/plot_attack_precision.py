@@ -5,7 +5,7 @@ def plot_mia_precision_advantage_vs_epsilon(results, model_name):
     eps_values = []
     precision_adv = []
 
-    base_prec = results["baseline"]["mia"]["attack_metrics"]["attack_precision"]
+    base_prec = results["baseline"]["results"]["attack_precision"]
     eps_values.append(0.0)
     precision_adv.append(base_prec - 0.5)
 
@@ -14,7 +14,7 @@ def plot_mia_precision_advantage_vs_epsilon(results, model_name):
         key=lambda x: float(x.split("_")[1])
     ):
         eps = float(eps_key.split("_")[1])
-        prec = results[eps_key]["mia"]["attack_metrics"]["attack_precision"]
+        prec = results[eps_key]["results"]["attack_precision"]
 
         eps_values.append(eps)
         precision_adv.append(prec - 0.5)
