@@ -1,2 +1,3 @@
 from .utility import compute_utility_metrics
 from .attack import compute_attack_metrics
+from .descriptive import compute_descriptive_metrics
