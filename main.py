@@ -1,5 +1,5 @@
 from data import load_data
-from experiments import run_experiment, run_plots
+from experiments import run_machine_learning_experiments, run_plots
 from analysis import build_summary_table
 
 from model import (
@@ -32,21 +32,28 @@ if __name__ == "__main__":
 
     all_tables = []
 
+    experiment_results = {}
+
     for model_name, runner in experiments:
 
         print(f"\n{'='*40}")
         print(f"{model_name} execution")
         print(f"{'='*40}")
 
-        exp_output = run_experiment(runner, model_name, datasets, names)
-        results = exp_output["results"]
+        model_metric_results, attack_metrics_results = run_machine_learning_experiments(model_runner= runner, model_name= model_name, 
+                                                                                                    datasets= datasets,dataset_names= names)
+        experiment_results[model_name] = {}
 
-        run_plots(results= results, model_name= model_name)
+        experiment_results[model_name]['Metrics Model'] = model_metric_results
+        experiment_results[model_name]['Metrics Attack'] = attack_metrics_results
 
-        summary = build_summary_table(results, model_name)
+        run_plots(results= experiment_results, model_name= model_name)
+
+        summary = build_summary_table(results= experiment_results[model_name])
         all_tables.extend(summary)
-
 
     from plots import plot_summary_table
 
     plot_summary_table(all_tables= all_tables)
+
+

@@ -3,8 +3,7 @@ from sklearn.model_selection import train_test_split
 
 def run_xgboost(df, preprocessor, *, target="salario", test_size=0.3, seed=42):
     """
-    Executa um modelo Gradient Boosted Trees (XGBoost) como instrumento de
-    avaliação experimental de utilidade e risco de inferência.
+    Executa o modelo Gradient Boosted Trees (XGBoost).
 
     Papel deste modelo no protocolo:
     - Representar modelos de alta capacidade
@@ -17,10 +16,6 @@ def run_xgboost(df, preprocessor, *, target="salario", test_size=0.3, seed=42):
     - treinar modelo determinístico (semente fixa)
     - gerar predições de treino e teste
 
-    Não calcula métricas.
-    Não conhece ε.
-    Não participa de decisões experimentais.
-    Atua apenas como gerador de comportamento do modelo.
     """
 
     if target not in df.columns:

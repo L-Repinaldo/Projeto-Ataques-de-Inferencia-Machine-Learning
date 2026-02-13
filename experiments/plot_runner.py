@@ -1,19 +1,41 @@
 from plots import (
     plot_mean_absolute_error_X_eps,
-    plot_determination_coefficient_X_eps, 
-    plot_stability_X_eps,
-    plot_stability_model,
+    plot_rmse_utility_loss_vs_epsilon,
+    plot_mia_confusion_matrices,
+    plot_mia_accuracy_advantage_vs_epsilon,
+    plot_mia_precision_advantage_vs_epsilon,
+    plot_mia_f1_advantage_vs_epsilon,
     plot_mia_auc_vs_epsilon,
-    plot_error_gap_vs_epsilon,
-    plot_privacy_utility_tradeoff
+    plot_mia_roc_all_eps,
+    plot_privacy_utility_tradeoff,
     )
 
 
 def run_plots(results, model_name):
-    plot_mean_absolute_error_X_eps(results=results, model_name=model_name)
-    plot_determination_coefficient_X_eps(results=results, model_name=model_name)
-    plot_stability_X_eps(results=results, model_name=model_name)
-    plot_stability_model(results=results, model_name=model_name)
-    plot_mia_auc_vs_epsilon(results=results, model_name=model_name)
-    plot_error_gap_vs_epsilon(results=results, model_name=model_name)
-    plot_privacy_utility_tradeoff(results=results, model_name=model_name)
+
+    ############
+    # Utility
+    ############
+
+    model_utility_results = results[model_name]['Metrics Model']
+
+    plot_mean_absolute_error_X_eps(results= model_utility_results, model_name=model_name)
+    plot_rmse_utility_loss_vs_epsilon(results= model_utility_results, model_name= model_name)
+
+    ############
+    # Attack
+    ############
+
+    attack_results = results[model_name]['Metrics Attack']
+
+    plot_mia_confusion_matrices(results= attack_results, model_name= model_name)
+    plot_mia_accuracy_advantage_vs_epsilon(results= attack_results, model_name= model_name)
+    plot_mia_precision_advantage_vs_epsilon(results= attack_results, model_name = model_name)
+    plot_mia_f1_advantage_vs_epsilon(results= attack_results, model_name= model_name)
+    plot_mia_roc_all_eps(results= attack_results, model_name= model_name)
+    plot_mia_auc_vs_epsilon(results= attack_results, model_name=model_name)
+
+    ############
+    # Trade off
+    ############
+    plot_privacy_utility_tradeoff(model_utility_results= model_utility_results, attack_results= attack_results, model_name=model_name)

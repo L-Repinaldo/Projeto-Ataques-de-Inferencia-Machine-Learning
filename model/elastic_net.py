@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 
 def run_elastic_net(df, preprocessor, *, target="salario", test_size=0.3, seed=42):
     """
-    Executa Elastic Net como modelo de capacidade intermediária entre regressão linear pura e modelos não lineares.
+    Executa modelo Elastic Net.
 
     Responsabilidades:
     - realizar split controlado
@@ -11,9 +11,6 @@ def run_elastic_net(df, preprocessor, *, target="salario", test_size=0.3, seed=4
     - treinar modelo com regularização combinada L1 + L2
     - gerar predições de treino e teste
 
-    Não calcula métricas.
-    Não conhece ε.
-    Não participa de decisões experimentais.
     """
 
     if target not in df.columns:

@@ -1,7 +1,10 @@
-from .plot_mae import plot_mean_absolute_error_X_eps 
-from .plot_r2 import plot_determination_coefficient_X_eps 
-from .plot_stability import plot_stability_X_eps, plot_stability_model
-from .plot_auc import plot_mia_auc_vs_epsilon
-from .plot_error_gap import plot_error_gap_vs_epsilon
+from .plot_utility_mae import plot_mean_absolute_error_X_eps 
+from .plot_utility_rmse import plot_rmse_utility_loss_vs_epsilon
+from .plot_attack_confusion_matrix import plot_mia_confusion_matrices
+from .plot_attack_accuracy import plot_mia_accuracy_advantage_vs_epsilon
+from .plot_attack_precision import plot_mia_precision_advantage_vs_epsilon
+from .plot_attack_f1_score import plot_mia_f1_advantage_vs_epsilon
+from .plot_attack_auc import plot_mia_auc_vs_epsilon
+from .plot_attack_roc import plot_mia_roc_all_eps
 from .plot_trade_off import plot_privacy_utility_tradeoff
 from .plot_summary_table import plot_summary_table

@@ -3,16 +3,13 @@ from sklearn.model_selection import train_test_split
 
 def run_linear_regression(df, preprocessor, *, target="salario", test_size=0.3, seed=42):
     """
-    Executa uma regressão linear simples como instrumento de medição de utilidade.
+    Executa uma regressão linear simples.
 
     Responsabilidades:
     - realizar split controlado
     - treinar modelo determinístico
     - gerar predições
 
-    Não calcula métricas.
-    Não conhece ε.
-    Não participa de decisões experimentais.
     """
 
     if target not in df.columns:

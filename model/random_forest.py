@@ -4,8 +4,7 @@ from sklearn.model_selection import train_test_split
 def run_random_forest(df, preprocessor, *, target="salario", test_size=0.3, seed=42):
 
     """
-    Executa um Random Forest Regressor como instrumento de medição de utilidade 
-    e de potencial memorização para análise de risco de inferência.
+    Executa o modelo Random Forest Regressor.
 
     Responsabilidades:
     - realizar split controlado e reproduzível
@@ -18,9 +17,6 @@ def run_random_forest(df, preprocessor, *, target="salario", test_size=0.3, seed
     - expor efeitos de memorização que podem aumentar risco de MIA
     - avaliar como a DP afeta modelos de maior capacidade
 
-    Não calcula métricas.
-    Não conhece ε.
-    Não participa de decisões experimentais.
     """
 
 
