@@ -10,7 +10,6 @@ def build_summary_table(results):
 
     baseline_mae = model_results["baseline"]['results']["mae"]
 
-    #TODO corrigir esse loop
     for k in keys:
         if not k.startswith("eps_"):
             continue

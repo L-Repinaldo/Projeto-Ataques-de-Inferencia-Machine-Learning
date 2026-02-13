@@ -1,5 +1,4 @@
 from experiments import (
-    run_descriptive_statistics,
     run_model, 
     run_attacks,
     model_metrics,
@@ -37,22 +36,3 @@ def run_machine_learning_experiments(model_runner, model_name, datasets, dataset
 
 
     return model_experiment_output, attack_experiment_output
-
-
-def run_statistic_experiment(datasets, dataset_names):
-
-    descriptive_statistics_output = {}
-
-    for name, df in zip(dataset_names, datasets):
-
-        if name == 'baseline':
-            descriptive_statistics_output[name] = {
-            'mean' : df['salario'].mean(),
-            'median':df['salario'].median()
-                   }
-
-        else:
-            descriptive_statistics_output[name] = run_descriptive_statistics(name= name, df= df,
-                                                                            baseline_values=  descriptive_statistics_output['baseline'])
-    
-    return descriptive_statistics_output

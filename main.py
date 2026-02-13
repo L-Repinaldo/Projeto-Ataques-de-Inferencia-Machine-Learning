@@ -1,5 +1,5 @@
 from data import load_data
-from experiments import run_machine_learning_experiments, run_statistic_experiment, run_plots
+from experiments import run_machine_learning_experiments, run_plots
 from analysis import build_summary_table
 
 from model import (
@@ -51,19 +51,6 @@ if __name__ == "__main__":
 
         summary = build_summary_table(results= experiment_results[model_name])
         all_tables.extend(summary)
-
-    print(f"\n{'='*40}")
-    print(f"Descriptive Statistic Loss execution")
-    print(f"{'='*40}")
-    descriptive_statistic_results = run_statistic_experiment(datasets= datasets, dataset_names= names)
-    experiment_results[model_name]['Descriptive Statistic'] = descriptive_statistic_results
-
-
-        
-
-
-        
-
 
     from plots import plot_summary_table
 
