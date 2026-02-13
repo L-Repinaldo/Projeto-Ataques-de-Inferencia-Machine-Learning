@@ -1,10 +1,10 @@
-# Projeto B — Machine Learning, Ataques de Inferência e Análise de Trade-off em Privacidade Diferencial
+# Machine Learning, Ataques de Inferência e Análise de Trade-off em Privacidade Diferencial
 
 ## Visão Geral
 
 Este repositório contém o núcleo experimental da pesquisa em Privacidade Diferencial, responsável por medir, comparar e explicar o trade-off entre segurança e usabilidade dos dados sob diferentes níveis de privacidade (ε).
 
-O Projeto B utiliza Machine Learning como instrumento de medição de utilidade e ataques de inferência como instrumento de medição de risco. O foco não é otimizar modelos, mas tornar explícitos os efeitos da Privacidade Diferencial sobre o uso real dos dados.
+O projeto utiliza Machine Learning como instrumento de medição de utilidade e ataques de inferência como instrumento de medição de risco. O foco não é otimizar modelos, mas tornar explícitos os efeitos da Privacidade Diferencial sobre o uso real dos dados.
 
 Todos os experimentos consomem datasets previamente privatizados pelo pipeline de engenharia de dados (Projeto Intermediário) e **não aplicam mecanismos de DP internamente**.
 
@@ -14,18 +14,18 @@ Todos os experimentos consomem datasets previamente privatizados pelo pipeline d
 
 O projeto completo é composto por três sistemas independentes:
 
-   1. **Projeto A — Sistema de RH (OLTP)**  
+   1. **Projeto Sistema de RH**  
       - Simulação de um ambiente corporativo real;  
       - Geração de dados limpos, consistentes e sensíveis;  
       - Aplicação de regras de negócio.
    
-   2. **Projeto Intermediário — DP Data Pipeline**  
+   2. **Projeto DP Data Pipeline**  
       - Extração de dados do RH;  
       - Aplicação de Privacidade Diferencial com diferentes valores de ε;  
       - Versionamento de datasets;  
       - Geração de metadados experimentais.
    
-   3. **Projeto B — ML e Análise Experimental (este repositório)**  
+   3. **Projeto ML e Análise Experimental (este repositório)**  
       - Carrega datasets versionados;  
       - Treina modelos de Machine Learning simples e interpretáveis;  
       - Executa ataques de inferência;  
@@ -89,11 +89,19 @@ Não há tuning agressivo, otimização ou comparação competitiva entre modelo
 
 ---
 
-## Métricas Utilizadas
-   
-   - **MAE (Erro Médio Absoluto):** mede quanto o modelo erra, em média.  
-   - **R² (Capacidade Explicativa):** indica quanto da estrutura dos dados ainda pode ser explicada.  
-   - **Estabilidade:** mede a variação do MAE e R² entre múltiplas execuções.  
+## Métricas Utilizadas:
+
+   - **Métricas de Utilidade:**
+      - ***MAE (Erro Médio Absoluto):*** avalia a precisão de modelos de regressão.
+      - ***RMSE (Raiz erro quadrático médio):*** avalia o desempenho de modelos de regressão, calculando a raiz quadrada da média dos erros ao quadrado entre os valores previstos e reais
+  
+   - **Métricas de Segurança:**
+       - ***Confusion Matrix (Matriz de Confusão):*** mede o desempenho de um modelo e extrair mais informações sobre o quão boa foi a sua performance
+       - ***Accuracy (Acurácia):*** é uma métrica que pode ser resumida em “De todas as classificações que o modelo realizou, o quanto ele acertou?”.
+       - ***Precision (Precisão):*** é uma métrica que pode ser resumida em “De todas as previsões que o modelo classificou como Positivo, quantas ele acertou?”.
+       - ***F1_score (Medida-F1):*** 
+       - ***ROC_Curve:*** é uma métrica que relaciona a Taxa de Falso Positivo (FPR, do inglês False Positive Rate) no “eixo X” com a Taxa de Verdadeiro Positivo (TPR, do inglês True Positive Rate) no “eixo Y”.
+       - ***ROC_AUC:*** identifica a área sob a curva ROC, resultando em um valor entre 0 e 1. Sendo assim, quanto mais próximo de 1, melhor é a capacidade do modelo de distinguir as diferentes classes.
 
 Essas métricas respondem perguntas simples:
    
@@ -105,9 +113,8 @@ Essas métricas respondem perguntas simples:
 
 ## Ataques de Inferência Avaliados
    
-   - **Membership Inference Attack (MIA):** determina se um indivíduo fez parte do conjunto de treinamento.  
-   - **Attribute Inference Attack (AIA):** tenta inferir atributos sensíveis ocultos, como faixa salarial ou benefícios.
-
+   - **Membership Inference Attack (MIA):** determina se um indivíduo fez parte do conjunto de treinamento.
+     
 As taxas de sucesso são analisadas para diferentes valores de ε.
 
 ---
@@ -128,14 +135,22 @@ Nenhuma conclusão depende exclusivamente de métricas de ML ou de ataques isola
 
 Este repositório gera visualizações e tabelas que permitem comunicar os resultados de forma clara:
    
-   - **Gráficos:**  
-     - ε vs MAE (perda de utilidade)  
-     - ε vs R² (colapso da estrutura)  
-     - ε vs instabilidade  
-     - Utilidade vs sucesso do ataque (trade-off direto)  
-   
-   - **Tabelas de síntese:**  
-     - Relacionam cada modelo com usabilidade e segurança por nível de ε  
+   - **Gráficos:**
+      - ***Gráficos para medição de Utilidade:***  
+           - ε vs MAE 
+           - ε vs RMSE
+      - ***Gráficos para medição de Segurança:***
+           - ε vs Confusion Matrix
+           - ε vs Accuracy
+           - ε vs Precision
+           - ε vs F1_score
+           - ε vs ROC
+           - ε vs ROC-AUC
+      - ***Trade Off:***
+           - Utilidade vs sucesso do ataque (trade-off direto)  
+      
+      - **Tabelas de síntese:**  
+           - Relacionam cada modelo com usabilidade e segurança por nível de ε  
 
 As visualizações têm caráter explicativo e **não influenciam decisões experimentais**.
 
