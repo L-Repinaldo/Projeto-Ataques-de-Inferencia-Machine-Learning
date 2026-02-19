@@ -168,6 +168,7 @@ As visualizações têm caráter explicativo e **não influenciam decisões expe
       ├── plots/ 
       ├── preprocessing/
       ├──main.py
+      ├──config.py
       └── README.md
 
 
@@ -180,10 +181,31 @@ Todos os experimentos são executados a partir de:
    
    - datasets explicitamente versionados;  
    - valores conhecidos de ε;  
-   - configurações controladas de modelos e métricas.
+   - configurações controladas de modelos e métricas;  
+   - seleção do dataset ativo via `config.py`.
 
-Isso garante comparabilidade e isolamento dos resultados.
+A versão do dataset utilizada nos experimentos é definida por `DATASET_VERSION` em `config.py`, garantindo comparabilidade e reprodutibilidade entre execuções.
 
+Este repositório **não gera dados** e **não aplica DP internamente** — apenas consome versões previamente privatizadas pelo pipeline.
+
+---
+
+## Como rodar
+
+   1. Defina a versão do dataset em `config.py`:
+         ```python
+         DATASET_VERSION = "v-2026-02-07_15-53-36"
+      
+   2. Garanta que os datasets estejam em:
+         ```python
+         data/datasets/<DATASET_VERSION>/
+         
+   3. Execute:
+         ```python
+         python main.py
+         
+   Os datasets devem ter sido previamente gerados e privatizados pelo pipeline de DP.
+   
 ---
 
 ## Motivação Acadêmica
