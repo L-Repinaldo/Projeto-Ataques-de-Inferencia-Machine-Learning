@@ -1,5 +1,5 @@
 import pandas as pd
-from pathlib import Path
+from config import ACTIVE_DATASET_DIR
 
 
 def load_data(path):
@@ -7,7 +7,7 @@ def load_data(path):
 
 
 def run():
-    base = Path(r"data\datasets\v-2026-02-07_15-53-36")
+    base = ACTIVE_DATASET_DIR
 
     df_baseline = load_data(base / "baseline.csv")
     df_dp_01 = load_data(base / "dp_eps_0.1.csv")
