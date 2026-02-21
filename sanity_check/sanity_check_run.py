@@ -61,8 +61,6 @@ if __name__ == "__main__":
     df_baseline, *_ = load_data()
 
     experiments = [
-        ("Linear Regression", run_linear_regression),
-        ("Elastic Net", run_elastic_net),
         ("XGBoost", run_xgboost),
         ("Random Forest", run_random_forest),
     ]

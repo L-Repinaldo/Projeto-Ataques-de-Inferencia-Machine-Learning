@@ -26,8 +26,6 @@ if __name__ == "__main__":
     names = ["baseline", "eps_0.1", "eps_0.5", "eps_1.0", "eps_2.0"]
 
     experiments = [
-        ("Linear Regression", run_linear_regression),
-        ("Elastic Net", run_elastic_net),
         ("XGBoost", run_xgboost),
         ("Random Forest", run_random_forest),
     ]
