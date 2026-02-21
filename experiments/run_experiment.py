@@ -2,7 +2,7 @@ from experiments import (
     run_model, 
     run_attacks,
     model_metrics,
-    attack_metrics
+    attack_metrics,
     )
 
 
@@ -21,7 +21,6 @@ def run_machine_learning_experiments(model_runner, model_name, datasets, dataset
 
     model_experiment_output = {}
     attack_experiment_output = {}
-
 
     for name, df in zip(dataset_names, datasets):
 

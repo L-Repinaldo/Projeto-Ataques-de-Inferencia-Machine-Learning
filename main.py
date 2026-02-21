@@ -9,6 +9,8 @@ from model import (
     run_xgboost
     )
 
+import pandas as pd
+
 if __name__ == "__main__":
 
     import warnings
@@ -32,28 +34,49 @@ if __name__ == "__main__":
 
     all_tables = []
 
-    experiment_results = {}
+    utility_rows = []
+    attack_rows = []
 
     for model_name, runner in experiments:
 
-        print(f"\n{'='*40}")
-        print(f"{model_name} execution")
-        print(f"{'='*40}")
+            print(f"\n{'='*40}")
+            print(f"{model_name} execution")
+            print(f"{'='*40}")
 
-        model_metric_results, attack_metrics_results = run_machine_learning_experiments(model_runner= runner, model_name= model_name, 
-                                                                                                    datasets= datasets,dataset_names= names)
-        experiment_results[model_name] = {}
+            model_metric_results, attack_metrics_results = run_machine_learning_experiments(model_runner= runner, model_name= model_name, 
+                                                                                                        datasets= datasets,dataset_names= names)
+            
 
-        experiment_results[model_name]['Metrics Model'] = model_metric_results
-        experiment_results[model_name]['Metrics Attack'] = attack_metrics_results
+            for dataset_name, payload in model_metric_results.items():
+                
+                utility_rows.append({
+                    "model": model_name,
+                    "dataset": dataset_name,
+                    "mae": payload["results"]["mae"],
+                    "rmse": payload["results"]["rmse"],
+                })
 
-        run_plots(results= experiment_results, model_name= model_name)
+            for dataset_name, payload in attack_metrics_results.items():
 
-        summary = build_summary_table(results= experiment_results[model_name])
-        all_tables.extend(summary)
+                attack_rows.append({
+                    "model": model_name,
+                    "dataset": dataset_name,
+                    "accuracy": payload["results"]["attack_accuracy"],
+                    "f1": payload["results"]["attack_f1_score"],
+                    "precision": payload["results"]["attack_precision"],
+                    "auc": payload["results"]["attack_roc_auc"],
+                })
+
+            #TODO ajustar run_plots, plots e build_summary_table
+
+            #run_plots(results= experiment_results, model_name= model_name)
+
+            #summary = build_summary_table(results= experiment_results[model_name])
+            #all_tables.extend(summary)
+    
+    df_utility = pd.DataFrame(utility_rows)
+    df_attack = pd.DataFrame(attack_rows)
 
     from plots import plot_summary_table
 
     plot_summary_table(all_tables= all_tables)
-
-
