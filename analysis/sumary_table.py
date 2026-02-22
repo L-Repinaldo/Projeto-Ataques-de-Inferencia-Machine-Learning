@@ -1,31 +1,55 @@
 from .impact_classifier import classify_utility_impact, classify_security_risk
 
+def _get_by_dataset(results_df, dataset_name): 
+    row = results_df[results_df["dataset"] == dataset_name]
 
-def build_summary_table(results):
+    if row.empty:
+        raise ValueError(f"Dataset {dataset_name} não encontrado nos resultados.")
+
+    return row.iloc[0]
+
+def _get_by_model(results, model_name): 
+    df = results[results["model"] == model_name]
+
+    if df.empty:
+        raise ValueError(f"Modelo {model_name} não encontrado nos resultados.")
+
+    return df
+
+def build_summary_table(utility_results, attack_results):
+
     table = []
     keys = ["baseline", "eps_0.1", "eps_0.5", "eps_1.0", "eps_2.0"]
 
-    model_results = results['Metrics Model']
-    attack_results = results['Metrics Attack']
+    models = utility_results['model'].unique()
 
-    baseline_mae = model_results["baseline"]['results']["mae"]
+    for model in models:
 
-    for k in keys:
-        if not k.startswith("eps_"):
-            continue
+        df_utility = _get_by_model(results= utility_results, model_name= model) 
+        df_attack = _get_by_model(results= attack_results, model_name= model)
 
-        mae = model_results[k]["results"]["mae"]
-        auc = attack_results[k]["results"]["attack_roc_auc"]
 
-        mae_cv = abs(mae - baseline_mae) / baseline_mae
+        baseline_dict = _get_by_dataset(results_df= df_utility, dataset_name= 'baseline')
+        baseline_mae = baseline_dict['mae']
 
-        row = {
-            "modelo": model_results['baseline']['model_name'],
-            "epsilon": float(k.split("_")[1]),
-            "usabilidade": classify_utility_impact(mae_cv),
-            "seguranca": classify_security_risk(auc),
-        }
+        for k in keys:
+            if not k.startswith("eps_"):
+                continue
 
-        table.append(row)
+            utility_k = _get_by_dataset(results_df= df_utility, dataset_name= k)
+            mae = utility_k["mae"]
+            mae_cv = abs(mae - baseline_mae) / baseline_mae
+
+            attack_k = _get_by_dataset(results_df= df_attack, dataset_name= k)
+            auc = attack_k["auc"]
+
+            row = {
+                "modelo": utility_k["model"],
+                "epsilon": float(k.split("_")[1]),
+                "usabilidade": classify_utility_impact(mae_cv),
+                "seguranca": classify_security_risk(auc),
+            }
+
+            table.append(row)
 
     return table
