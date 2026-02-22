@@ -67,7 +67,7 @@ if __name__ == "__main__":
     df_attack = pd.DataFrame(attack_rows)
 
     summary = build_summary_table(utility_results= df_utility, attack_results= df_attack)
-    #TODO ajustar run_plots, plots e build_summary_table
+    #TODO ajustar run_plots, plots
 
     #run_plots(results= experiment_results, model_name= model_name)
 
