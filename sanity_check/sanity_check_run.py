@@ -11,9 +11,7 @@ import warnings
 from data import load_data
 from experiments import run_model, model_metrics
 from model import (
-    run_linear_regression,
     run_random_forest,
-    run_elastic_net,
     run_xgboost
 )
 from metrics import compute_utility_metrics
