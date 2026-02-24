@@ -7,12 +7,12 @@ def classify_utility_impact(mae_cv):
         return "muito afetada"
 
 
-def classify_security_risk(auc):
-    if auc < 0.52:
+def classify_security_risk(accuracy):
+    if accuracy < 0.55:
         return "quase aleatório"
-    elif auc < 0.60:
+    elif accuracy < 0.62:
         return "vazamento fraco"
-    elif auc < 0.75:
+    elif accuracy < 0.70:
         return "vazamento moderado"
     else:
         return "vazamento forte"
