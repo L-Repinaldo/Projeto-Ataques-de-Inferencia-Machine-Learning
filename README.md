@@ -73,9 +73,7 @@ Este projeto **não**:
 O Machine Learning é usado apenas como instrumento de medição de usabilidade:
 
 Modelos implementados:
-   
-   - Regressão Linear  
-   - Elastic Net  
+
    - XGBoost  
    - Random Forest
 
