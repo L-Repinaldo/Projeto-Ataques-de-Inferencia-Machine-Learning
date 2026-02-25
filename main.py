@@ -57,10 +57,11 @@ if __name__ == "__main__":
             attack_rows.append({
                 "model": model_name,
                 "dataset": dataset_name,
-                "accuracy": payload["results"]["attack_accuracy"],
-                "f1": payload["results"]["attack_f1_score"],
-                "precision": payload["results"]["attack_precision"],
-                "auc": payload["results"]["attack_roc_auc"],
+                "attack_acc": payload["results"]["attack_acc"],
+                "member_acc": payload["results"]["member_acc"],
+                "non_member_acc": payload["results"]["non_member_acc"],
+                "precision": payload["results"]["precision"],
+                "recall": payload["results"]["recall"],
             })
     
     df_utility = pd.DataFrame(utility_rows)

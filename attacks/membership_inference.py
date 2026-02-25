@@ -85,11 +85,9 @@ def run_membership_inference_attack(
 
     X_attack_target = scaler.transform(X_attack_target)
 
-    y_pred_proba = attacker.predict_proba(X_attack_target)[:, 1]
     y_pred = attacker.predict(X_attack_target)
 
     return {
-        "y_attack_target" : y_attack_target,
-        "y_predicted": y_pred,
-        "y_prediction_probability": y_pred_proba,
+        "y_true" : y_attack_target,
+        "y_pred": y_pred,
     }

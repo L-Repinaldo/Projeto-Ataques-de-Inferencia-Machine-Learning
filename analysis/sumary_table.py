@@ -41,7 +41,7 @@ def build_summary_table(utility_results, attack_results):
             mae_cv = abs(mae - baseline_mae) / baseline_mae
 
             attack_k = _get_by_dataset(results_df= df_attack, dataset_name= k)
-            accuracy = attack_k["accuracy"]
+            accuracy = attack_k["attack_acc"]
 
             row = {
                 "modelo": utility_k["model"],
