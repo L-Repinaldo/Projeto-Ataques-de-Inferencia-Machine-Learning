@@ -1,6 +1,7 @@
 # Machine Learning, Ataques de Inferência e Análise de Trade-off em Privacidade Diferencial
 
 ## Visão Geral
+### Este repositório acompanha um estudo experimental sobre Privacidade Diferencial e Membership Inference Attacks, com foco em análise de trade-off e reprodutibilidade.
 
 Este repositório contém o núcleo experimental da pesquisa em Privacidade Diferencial, responsável por medir, comparar e explicar o trade-off entre segurança e usabilidade dos dados sob diferentes níveis de privacidade (ε).
 
@@ -79,9 +80,9 @@ Modelos implementados:
 
 Justificativa:
    
-   - Modelos simples, interpretáveis e sensíveis a ruído;  
-   - Facilitam a observação direta do impacto da DP;  
-   - Evitam mascarar efeitos do ruído com técnicas complexas.  
+   - Modelos relativamente simples e sensíveis a ruído;
+   - Estruturas baseadas em árvores facilitam análise de estabilidade sob ruído;
+   - Evitam mascarar efeitos da DP com arquiteturas altamente regularizadas ou profundas.  
 
 Não há tuning agressivo, otimização ou comparação competitiva entre modelos.
 
@@ -94,13 +95,12 @@ Não há tuning agressivo, otimização ou comparação competitiva entre modelo
       - ***RMSE (Raiz erro quadrático médio):*** avalia o desempenho de modelos de regressão, calculando a raiz quadrada da média dos erros ao quadrado entre os valores previstos e reais
   
    - **Métricas de Segurança:**
-       - ***Confusion Matrix (Matriz de Confusão):*** mede o desempenho de um modelo e extrair mais informações sobre o quão boa foi a sua performance
-       - ***Accuracy (Acurácia):*** é uma métrica que pode ser resumida em “De todas as classificações que o modelo realizou, o quanto ele acertou?”.
-       - ***Precision (Precisão):*** é uma métrica que pode ser resumida em “De todas as previsões que o modelo classificou como Positivo, quantas ele acertou?”.
-       - ***F1_score (Medida-F1):*** 
-       - ***ROC_Curve:*** é uma métrica que relaciona a Taxa de Falso Positivo (FPR, do inglês False Positive Rate) no “eixo X” com a Taxa de Verdadeiro Positivo (TPR, do inglês True Positive Rate) no “eixo Y”.
-       - ***ROC_AUC:*** identifica a área sob a curva ROC, resultando em um valor entre 0 e 1. Sendo assim, quanto mais próximo de 1, melhor é a capacidade do modelo de distinguir as diferentes classes.
-
+      - **attack_acc:** acurácia global do classificador de ataque.
+      - **member_acc:** taxa de acerto do ataque em amostras que realmente pertencem ao treino (TP / (TP + FN)).
+      - **non_member_acc:** taxa de acerto do ataque em amostras que não pertencem ao treino (TN / (TN + FP)).
+      - **precision:** proporção de amostras preditas como member que realmente são members.
+      - **recall:** capacidade do ataque de identificar corretamente members reais.
+   
 Essas métricas respondem perguntas simples:
    
    - O dado ainda é útil?  
@@ -133,18 +133,14 @@ Nenhuma conclusão depende exclusivamente de métricas de ML ou de ataques isola
 
 Este repositório gera visualizações e tabelas que permitem comunicar os resultados de forma clara:
    
-   - **Gráficos:**
-      - ***Gráficos para medição de Utilidade:***  
-           - ε vs MAE 
-           - ε vs RMSE
-      - ***Gráficos para medição de Segurança:***
-           - ε vs Confusion Matrix
-           - ε vs Accuracy
-           - ε vs Precision
-           - ε vs F1_score
-           - ε vs ROC
-           - ε vs ROC-AUC
-      - ***Trade Off:***
+   - **Plots:**
+      - ***Utilidade:***  
+           - Tabelas e gráficos das métricas de utilidade
+
+      - ***Segurança:***
+           - Tabela expositiva das métricas referentes à segurança
+           
+      - ***Trade-Off:***
            - Utilidade vs sucesso do ataque (trade-off direto)  
       
       - **Tabelas de síntese:**  
@@ -165,6 +161,7 @@ As visualizações têm caráter explicativo e **não influenciam decisões expe
       ├── model/ 
       ├── plots/ 
       ├── preprocessing/
+      ├── sanity_check/
       ├──main.py
       ├──config.py
       └── README.md
@@ -234,4 +231,5 @@ Uso acadêmico e educacional.
 ### Nota Final
 
 Este repositório representa o ambiente experimental controlado onde o trade-off entre Privacidade Diferencial, Segurança e Usabilidade é medido, comparado e explicado, com Machine Learning atuando como instrumento, ataques como evidência de risco, e visualizações e tabelas para síntese, mantendo o foco científico no fenômeno, não na ferramenta.
+
 
