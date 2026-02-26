@@ -8,8 +8,8 @@ def compute_attack_metrics(y_true, y_pred):
 
     tn, fp, fn, tp = confusion_matrix(y_true= y_true, y_pred= y_pred).ravel().tolist()
 
-    member_acc = ( (tp + tn ) / (tp + fn) )
-    non_member_acc = 1 - (fp / tn )
+    member_acc =  ( tp  / (tp + fn) )
+    non_member_acc = ( tn / (tn + fp) )
 
     attack_acc = accuracy_score(y_true= y_true, y_pred= y_pred)
 
