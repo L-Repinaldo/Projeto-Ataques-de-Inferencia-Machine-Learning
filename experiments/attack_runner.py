@@ -43,12 +43,7 @@ def attack_metrics(mia_results, model_name):
 
     results = mia_results['results']
 
-    attack_metrics = compute_attack_metrics(
-        y_attack_target= results['y_attack_target'],
-        y_pred= results['y_predicted'],
-        y_pred_proba= results['y_prediction_probability']
-    )
-
+    attack_metrics = compute_attack_metrics(y_true= results['y_true'], y_pred= results['y_pred'])
 
     return {
         "model_name": model_name,
