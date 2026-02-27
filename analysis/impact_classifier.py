@@ -8,11 +8,11 @@ def classify_utility_impact(mae_cv):
 
 
 def classify_security_risk(accuracy):
-    if accuracy < 0.55:
+    if accuracy < 0.52:
         return "quase aleatório"
-    elif accuracy < 0.62:
+    elif accuracy < 0.58:
         return "vazamento fraco"
-    elif accuracy < 0.70:
+    elif accuracy < 0.65:
         return "vazamento moderado"
     else:
         return "vazamento forte"

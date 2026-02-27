@@ -17,6 +17,16 @@ from model import (
 from metrics import compute_utility_metrics
 
 
+from statistics import mean
+from experiments import run_model
+from metrics import compute_utility_metrics
+
+SEEDS = [42, 123, 2026]
+TEST_SIZES = [0.2, 0.3]
+
+def _aggregate(values, ndigits=3):
+    return round(mean(values), ndigits)
+
 def sanity_check(baseline_results: dict) -> dict:
     train_mae = compute_utility_metrics(
         y_true=baseline_results['results']["y_train_true"],
@@ -33,18 +43,30 @@ def sanity_check(baseline_results: dict) -> dict:
         'test_mae': test_mae
     }
 
-
 def run_machine_learning_sanity_check(model_runner, model_name, df_baseline):
-    model_results = run_model(
-        name="baseline",
-        df=df_baseline,
-        model_name=model_name,
-        model_runner=model_runner
-    )
+    train_maes, test_maes = [], []
 
-    sanity = sanity_check(baseline_results=model_results)
+    for seed in SEEDS:
+        for test_size in TEST_SIZES:
+            model_results = run_model(
+                name="baseline",
+                df=df_baseline,
+                model_name=model_name,
+                model_runner=lambda **kwargs: model_runner(
+                    **kwargs,
+                    seed=seed,
+                    test_size=test_size
+                )
+            )
 
-    return sanity
+            sanity = sanity_check(baseline_results=model_results)
+            train_maes.append(sanity["train_mae"])
+            test_maes.append(sanity["test_mae"])
+
+    return {
+        "train_mae": _aggregate(train_maes),
+        "test_mae": _aggregate(test_maes),
+    }
 
 
 if __name__ == "__main__":
