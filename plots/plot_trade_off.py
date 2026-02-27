@@ -76,6 +76,7 @@ def plot_privacy_utility_tradeoff(utility_results, attack_results):
             plt.text(x, y, l, fontsize=8, ha="left", va="bottom")
 
     plt.axhline(0.5, linestyle="--", color="gray", label="Ataque aleatório (~0.5)")
+    plt.axhline(0.6, linestyle=":", color="red", label="Vazamento relevante (empírico)")
     plt.xlabel("Perda relativa de utilidade (MAE)")
     plt.ylabel("Risco de MIA (Attack Accuracy)")
     plt.title("Trade-off Privacidade vs Utilidade")
