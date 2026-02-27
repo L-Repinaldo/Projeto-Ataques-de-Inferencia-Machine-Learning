@@ -23,13 +23,9 @@ def run_attacks(df, target):
 
     
     mia_results = run_membership_inference_attack(
-    df = df,
-    target_model= target['results']['model'],
-    X_target_train= target_values["X_train"],
-    y_target_train= target_values["y_train_true"],
-    X_target_test= target_values["X_test"],
-    y_target_test= target_values["y_test_true"],
-    build_preprocessor= build_preprocessor
+    df = df, target_model= target['results']['model'], X_target_train= target_values["X_train"],
+    y_target_train= target_values["y_train_true"], X_target_test= target_values["X_test"],
+    y_target_test= target_values["y_test_true"],  build_preprocessor= build_preprocessor
     )
 
 
