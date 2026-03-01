@@ -1,7 +1,5 @@
 # Machine Learning, Ataques de Inferência e Análise de Trade-off em Privacidade Diferencial
 
-### Este repositório acompanha um estudo experimental sobre Privacidade Diferencial e Membership Inference Attacks, com foco em análise de trade-off e reprodutibilidade.
-
 ## Visão Geral
 
 Este repositório contém o núcleo experimental da pesquisa em Privacidade Diferencial, responsável por medir, comparar e explicar o trade-off entre segurança e usabilidade dos dados sob diferentes níveis de privacidade (ε).
