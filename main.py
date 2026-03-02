@@ -19,6 +19,11 @@ if __name__ == "__main__":
         category=UserWarning,
         module="sklearn.preprocessing._encoders"
         )
+    warnings.filterwarnings(
+    "ignore",
+    message="`sklearn.utils.parallel.delayed` should be used"
+)
+    
 
     datasets = load_data()
     names = ["baseline", "eps_0.1", "eps_0.5", "eps_1.0", "eps_2.0"]
