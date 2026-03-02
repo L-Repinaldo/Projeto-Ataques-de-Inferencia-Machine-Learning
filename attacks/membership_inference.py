@@ -13,13 +13,11 @@ def extract_attack_features(model, X, y):
     if hasattr(model, "estimators_"):  # Random Forest
         preds = np.stack([tree.predict(X) for tree in model.estimators_])
         pred_std = preds.std(axis=0)
-
-    elif hasattr(model, "get_booster"):  # XGBoost
-        noise = np.random.normal(0, 1e-6, size=X.shape)
-        pred_std = np.abs(model.predict(X + noise) - y_pred)
-    else:
-        pred_std = np.zeros_like(loss)
+        return np.column_stack([loss, squared_loss, pred_std])
     
+    elif hasattr(model, "get_booster"):  # XGBoost
+        return np.column_stack([loss, squared_loss])
+        
     return np.column_stack([loss, squared_loss, pred_std])
 
 def run_membership_inference_attack(
