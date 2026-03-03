@@ -43,11 +43,11 @@ def plot_summary_table(all_tables, title="Síntese dos Resultados" ):
     }
 
     for row in range(len(df)):
-        util_cell = table[row+1, df.columns.get_loc("usabilidade")]
-        risk_cell = table[row+1, df.columns.get_loc("seguranca")]
+        util_cell = table[row+1, df.columns.get_loc("utilidade")]
+        risk_cell = table[row+1, df.columns.get_loc("vazamento")]
 
-        util_cell.set_facecolor(util_colors.get(df.iloc[row]["usabilidade"], "white"))
-        risk_cell.set_facecolor(risk_colors.get(df.iloc[row]["seguranca"], "white"))
+        util_cell.set_facecolor(util_colors.get(df.iloc[row]["utilidade"], "white"))
+        risk_cell.set_facecolor(risk_colors.get(df.iloc[row]["vazamento"], "white"))
 
     plt.title(title, fontsize= 20)
 
