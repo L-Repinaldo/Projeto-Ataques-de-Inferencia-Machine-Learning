@@ -19,7 +19,7 @@ def _get_by_model(results, model_name):
 
 def plot_privacy_utility_tradeoff(utility_results, attack_results):
     """
-    Trade-off direto Utilidade X VAZAMENTO(Ataque):
+    Trade-off direto Utilidade X Vazamento:
     X = perda relativa de utilidade (MAE)
     Y = risco de MIA (attack_acc)
     Todos os modelos no mesmo gráfico.
@@ -78,8 +78,8 @@ def plot_privacy_utility_tradeoff(utility_results, attack_results):
     plt.axhline(0.5, linestyle="--", color="gray", label="Ataque aleatório (~0.5)")
     plt.axhline(0.6, linestyle=":", color="red", label="Vazamento relevante (empírico)")
     plt.xlabel("Perda relativa de utilidade (MAE)")
-    plt.ylabel("Risco de MIA (Attack Accuracy)")
-    plt.title("Trade-off Privacidade vs Utilidade")
+    plt.ylabel("Risco de vazamento (Attack Accuracy)")
+    plt.title("Trade-off Vazamento vs Utilidade")
     plt.grid(True)
     plt.legend()
     plt.tight_layout()

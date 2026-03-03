@@ -7,7 +7,7 @@ def classify_utility_impact(mae_cv):
         return "muito afetada"
 
 
-def classify_security_risk(accuracy):
+def classify_leakage_risk(accuracy):
     if accuracy < 0.52:
         return "quase aleatório"
     elif accuracy < 0.58:

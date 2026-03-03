@@ -1,4 +1,4 @@
-from .impact_classifier import classify_utility_impact, classify_security_risk
+from .impact_classifier import classify_utility_impact, classify_leakage_risk
 
 def _get_by_dataset(results_df, dataset_name): 
     row = results_df[results_df["dataset"] == dataset_name]
@@ -46,8 +46,8 @@ def build_summary_table(utility_results, attack_results):
             row = {
                 "modelo": utility_k["model"],
                 "epsilon": float(k.split("_")[1]),
-                "usabilidade": classify_utility_impact(mae_cv),
-                "seguranca": classify_security_risk(accuracy),
+                "utilidade": classify_utility_impact(mae_cv),
+                "vazamento": classify_leakage_risk(accuracy),
             }
 
             table.append(row)
