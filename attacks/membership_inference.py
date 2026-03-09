@@ -15,8 +15,21 @@ def extract_attack_features(model, X, y):
         pred_std = preds.std(axis=0)
         return np.column_stack([loss, squared_loss, pred_std])
     
-    elif hasattr(model, "get_booster"):  # XGBoost
-        return np.column_stack([loss, squared_loss])
+    elif hasattr(model, "get_booster"): # XGBoost 
+        leaf_matrix = model.apply(X) 
+        leaf_std = leaf_matrix.std(axis=1) 
+        leaf_unique_count = np.array([ len(np.unique(row)) for row in leaf_matrix ]) 
+        leaf_frequency = np.zeros_like(leaf_matrix, dtype=float) 
+
+        for tree_idx in range(leaf_matrix.shape[1]): 
+
+            tree_leaves, counts = np.unique(leaf_matrix[:, tree_idx], return_counts=True) 
+            leaf_count_map = dict(zip(tree_leaves, counts)) 
+            leaf_frequency[:, tree_idx] = [ leaf_count_map[leaf_id] / leaf_matrix.shape[0] for leaf_id in leaf_matrix[:, tree_idx] ] 
+            
+            mean_leaf_frequency = leaf_frequency.mean(axis=1) 
+
+        return np.column_stack([loss, squared_loss, leaf_std, leaf_unique_count, mean_leaf_frequency])
         
     return np.column_stack([loss, squared_loss, pred_std])
 
