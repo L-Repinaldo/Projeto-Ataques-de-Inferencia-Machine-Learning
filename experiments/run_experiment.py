@@ -9,9 +9,6 @@ from experiments import (
 SEEDS = [42, 123, 2026]
 TEST_SIZES = [0.2, 0.3]
 
-def _round_dict(d, ndigits=3):
-    return {k: round(v, ndigits) for k, v in d.items()}
-
 def _aggregate_metrics(metrics_list):
     return {
         k: round(mean(m[k] for m in metrics_list), 3)
