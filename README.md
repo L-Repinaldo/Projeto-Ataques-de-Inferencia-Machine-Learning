@@ -78,6 +78,8 @@ Modelos implementados (regressão supervisionada baseada em árvores):
 
    - XGBoost  
    - Random Forest
+   - Extra Trees
+   - Gradient Boosting
 
 Justificativa:
    
