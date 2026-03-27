@@ -21,7 +21,7 @@ def plot_privacy_utility_tradeoff(utility_results, attack_results):
     """
     Trade-off direto Utilidade X Vazamento:
     X = perda relativa de utilidade (MAE)
-    Y = risco de MIA (attack_acc)
+    Y = risco de MIA (balanced_acc)
     Todos os modelos no mesmo gráfico.
     """
     plt.figure(figsize=(8, 6))
@@ -55,7 +55,7 @@ def plot_privacy_utility_tradeoff(utility_results, attack_results):
             utility_loss.append(loss)
 
             attack_k = _get_by_dataset(results_df= df_attack, dataset_name= k)
-            accuracy = attack_k["attack_acc"]
+            accuracy = attack_k["balanced_acc"]
             attack_acc_values.append(accuracy)
 
             labels.append(f"ε={k.split('_')[1]}")

@@ -2,6 +2,8 @@
 
 ## Visão Geral
 
+Este estudo será voltado a **modelos supervisionados de regressão baseados em árvores**, com o objetivo de avaliar utilidade e risco em cenários controlados.
+
 Este repositório contém o núcleo experimental da pesquisa em Privacidade Diferencial, responsável por medir, comparar e explicar o trade-off entre segurança e usabilidade dos dados sob diferentes níveis de privacidade (ε).
 
 O projeto utiliza Machine Learning como instrumento de medição de utilidade e ataques de inferência como instrumento de medição de risco. O foco não é otimizar modelos, mas tornar explícitos os efeitos da Privacidade Diferencial sobre o uso real dos dados.
@@ -72,7 +74,7 @@ Este projeto **não**:
 
 O Machine Learning é usado apenas como instrumento de medição de usabilidade:
 
-Modelos implementados:
+Modelos implementados (regressão supervisionada baseada em árvores):
 
    - XGBoost  
    - Random Forest

@@ -4,7 +4,9 @@ from analysis import build_summary_table
 
 from model import (
     run_random_forest,
-    run_xgboost
+    run_xgboost,
+    run_gradient_boosting,
+    run_extra_trees
     )
 
 import pandas as pd
@@ -31,6 +33,8 @@ if __name__ == "__main__":
     experiments = [
         ("XGBoost", run_xgboost),
         ("Random Forest", run_random_forest),
+        ("Gradient Boosting", run_gradient_boosting),
+        ("Extra Trees", run_extra_trees),
     ]
 
     all_tables = []
@@ -67,6 +71,8 @@ if __name__ == "__main__":
                 "non_member_acc": payload["results"]["non_member_acc"],
                 "precision": payload["results"]["precision"],
                 "recall": payload["results"]["recall"],
+                "balanced_acc": payload["results"]["balanced_acc"],
+                "advantage": payload["results"]["advantage"]
             })
     
     df_utility = pd.DataFrame(utility_rows)
