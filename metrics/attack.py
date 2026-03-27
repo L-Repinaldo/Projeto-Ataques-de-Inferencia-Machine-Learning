@@ -17,13 +17,17 @@ def compute_attack_metrics(y_true, y_pred):
 
     recall = recall_score(y_true= y_true, y_pred= y_pred)
     
-    
-
+    balanced_acc = 0.5 * (member_acc + non_member_acc)
+    advantage = member_acc - non_member_acc
 
     return {
-        "member_acc" : member_acc,
+        "member_acc": member_acc,
         "non_member_acc": non_member_acc,
         "attack_acc": attack_acc,
+        "balanced_acc": balanced_acc,
+        "advantage": advantage,
         "precision": precision,
-        "recall": recall
+        "recall": recall,
+        "balanced_acc": balanced_acc,
+        "advantage": advantage
     }

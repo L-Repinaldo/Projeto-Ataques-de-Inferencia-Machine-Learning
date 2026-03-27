@@ -1,104 +1,173 @@
 import numpy as np
-from sklearn.linear_model import LogisticRegression
+from sklearn.base import clone
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from sklearn.base import clone
+from sklearn.linear_model import LogisticRegression
 
 
-def extract_attack_features(model, X, y):
+def _to_numpy(y):
+    return y.to_numpy() if hasattr(y, "to_numpy") else np.asarray(y)
+
+
+# =========================
+# FEATURE ENGINEERING (FORTE)
+# =========================
+def _attack_features(model, X, y, ref_abs_error=None):
     y_pred = model.predict(X)
-    loss = np.abs(y.to_numpy() - y_pred)
-    squared_loss = (y.to_numpy() - y_pred) ** 2
+    y_true = _to_numpy(y)
 
-    if hasattr(model, "estimators_"):  # Random Forest
-        preds = np.stack([tree.predict(X) for tree in model.estimators_])
-        pred_std = preds.std(axis=0)
-        return np.column_stack([loss, squared_loss, pred_std])
-    
-    elif hasattr(model, "get_booster"): # XGBoost 
-        leaf_matrix = model.apply(X) 
-        leaf_std = leaf_matrix.std(axis=1) 
-        leaf_unique_count = np.array([ len(np.unique(row)) for row in leaf_matrix ]) 
-        leaf_frequency = np.zeros_like(leaf_matrix, dtype=float) 
+    abs_error = np.abs(y_true - y_pred)
+    squared_error = (y_true - y_pred) ** 2
+    log_abs_error = np.log1p(abs_error)
 
-        for tree_idx in range(leaf_matrix.shape[1]): 
+    # rank (sinal forte)
+    if ref_abs_error is not None:
+        ref_sorted = np.sort(ref_abs_error)
+        rank_error = np.searchsorted(ref_sorted, abs_error) / len(ref_sorted)
+    else:
+        rank_error = np.zeros_like(abs_error)
 
-            tree_leaves, counts = np.unique(leaf_matrix[:, tree_idx], return_counts=True) 
-            leaf_count_map = dict(zip(tree_leaves, counts)) 
-            leaf_frequency[:, tree_idx] = [ leaf_count_map[leaf_id] / leaf_matrix.shape[0] for leaf_id in leaf_matrix[:, tree_idx] ] 
-            
-            mean_leaf_frequency = leaf_frequency.mean(axis=1) 
+    # erro relativo ao comportamento global
+    mean_err = abs_error.mean() + 1e-8
+    rel_error = abs_error / mean_err
 
-        return np.column_stack([loss, squared_loss, leaf_std, leaf_unique_count, mean_leaf_frequency])
-        
-    return np.column_stack([loss, squared_loss, pred_std])
-
-def run_membership_inference_attack(
-    df, target_model, X_target_train,
-    y_target_train, X_target_test, y_target_test,
-    build_preprocessor, n_shadows=3, random_state=42
-):
-
-    X_attack_shadow_all = []
-    y_attack_shadow_all = []
-
-    for i in range(n_shadows):
-        shadow_df, _ = train_test_split(
-            df, test_size=0.5, random_state=random_state + i
-        )
-
-        X_shadow_raw = shadow_df.drop(columns=["salario"])
-        y_shadow = shadow_df["salario"]
-
-        shadow_preprocessor = build_preprocessor(df=shadow_df)
-        X_shadow = shadow_preprocessor.fit_transform(X_shadow_raw)
-
-        X_s_train, X_s_test, y_s_train, y_s_test = train_test_split(
-            X_shadow, y_shadow, test_size=0.5, random_state=random_state + i
-        )
-
-        shadow_model = clone(target_model)
-        if "random_state" in shadow_model.get_params():
-            shadow_model.set_params(random_state=random_state + i)
-
-        shadow_model.fit(X_s_train, y_s_train)
-
-        X_attack_shadow_train = extract_attack_features(shadow_model, X_s_train, y_s_train)
-        X_attack_shadow_test  = extract_attack_features(shadow_model, X_s_test,  y_s_test)
-
-        X_attack_shadow_all.append(
-            np.vstack([X_attack_shadow_train, X_attack_shadow_test])
-        )
-        y_attack_shadow_all.append(
-            np.concatenate([
-                np.ones(len(X_attack_shadow_train)),
-                np.zeros(len(X_attack_shadow_test))
-            ])
-        )
-
-    X_attack_shadow = np.vstack(X_attack_shadow_all)
-    y_attack_shadow = np.concatenate(y_attack_shadow_all)
-
-    scaler = StandardScaler()
-    X_attack_shadow = scaler.fit_transform(X_attack_shadow)
-
-    attacker = LogisticRegression(max_iter=1000)
-    attacker.fit(X_attack_shadow, y_attack_shadow)
-
-    X_attack_target_train = extract_attack_features(target_model, X_target_train, y_target_train)
-    X_attack_target_test  = extract_attack_features(target_model, X_target_test,  y_target_test)
-
-    X_attack_target = np.vstack([X_attack_target_train, X_attack_target_test])
-    y_attack_target = np.concatenate([
-        np.ones(len(X_attack_target_train)),
-        np.zeros(len(X_attack_target_test))
+    return np.column_stack([
+        abs_error,
+        squared_error,
+        log_abs_error,
+        y_pred,
+        rank_error,
+        rel_error
     ])
 
-    X_attack_target = scaler.transform(X_attack_target)
 
-    y_pred = attacker.predict(X_attack_target)
+# =========================
+# THRESHOLD (SIMPLES E EFICIENTE)
+# =========================
+def _best_threshold(y_true, y_score):
+    thresholds = np.quantile(y_score, np.linspace(0.05, 0.95, 20))
+
+    best_thr = 0.5
+    best_score = -1
+
+    for t in thresholds:
+        y_pred = (y_score >= t).astype(int)
+
+        tp = ((y_true == 1) & (y_pred == 1)).sum()
+        tn = ((y_true == 0) & (y_pred == 0)).sum()
+        fp = ((y_true == 0) & (y_pred == 1)).sum()
+        fn = ((y_true == 1) & (y_pred == 0)).sum()
+
+        tpr = tp / (tp + fn + 1e-8)
+        tnr = tn / (tn + fp + 1e-8)
+
+        score = 0.5 * (tpr + tnr)
+
+        if score > best_score:
+            best_score = score
+            best_thr = t
+
+    return best_thr
+
+
+# =========================
+# MIA PRINCIPAL
+# =========================
+def run_membership_inference_attack(
+    df,
+    target_model,
+    X_target_train,
+    y_target_train,
+    X_target_test,
+    y_target_test,
+    build_preprocessor,
+    n_shadows=10,   # ↓ reduz tempo sem perder muito
+    random_state=42,
+    target_col="salario"
+):
+    # ===== preprocessador
+    preprocessor = getattr(target_model, "preprocessor_", None)
+    if preprocessor is None:
+        preprocessor = build_preprocessor(df)
+        preprocessor.fit(df.drop(columns=[target_col]))
+
+    test_ratio = len(X_target_test) / (len(X_target_train) + len(X_target_test))
+
+    shadow_X = []
+    shadow_y = []
+    ref_errors = []
+
+    # ===== SHADOW MODELS
+    for i in range(n_shadows):
+        df_s, _ = train_test_split(df, test_size=0.5, random_state=random_state + i)
+
+        X = df_s.drop(columns=[target_col])
+        y = df_s[target_col]
+
+        X_tr, X_te, y_tr, y_te = train_test_split(
+            X, y, test_size=test_ratio, random_state=random_state + i
+        )
+
+        X_tr = preprocessor.transform(X_tr)
+        X_te = preprocessor.transform(X_te)
+
+        model = clone(target_model)
+        if "random_state" in model.get_params():
+            model.set_params(random_state=random_state + i)
+
+        model.fit(X_tr, y_tr)
+
+        # coleta erros para referência global
+        ref_errors.append(np.abs(y_tr - model.predict(X_tr)))
+
+        shadow_X.append(_attack_features(model, X_tr, y_tr))
+        shadow_y.append(np.ones(len(y_tr)))
+
+        shadow_X.append(_attack_features(model, X_te, y_te))
+        shadow_y.append(np.zeros(len(y_te)))
+
+    X_shadow = np.vstack(shadow_X)
+    y_shadow = np.concatenate(shadow_y)
+
+    ref_errors = np.concatenate(ref_errors)
+
+    # ===== TREINO DO ATACANTE
+    X_train, X_val, y_train, y_val = train_test_split(
+        X_shadow, y_shadow, test_size=0.2,
+        stratify=y_shadow, random_state=random_state
+    )
+
+    scaler = StandardScaler()
+    X_train = scaler.fit_transform(X_train)
+    X_val = scaler.transform(X_val)
+
+    attacker = LogisticRegression(max_iter=500)
+    attacker.fit(X_train, y_train)
+
+    y_val_score = attacker.predict_proba(X_val)[:, 1]
+    threshold = _best_threshold(y_val, y_val_score)
+
+    # ===== TARGET
+    X_tr = X_target_train
+    X_te = X_target_test
+
+    X_attack = np.vstack([
+        _attack_features(target_model, X_tr, y_target_train, ref_errors),
+        _attack_features(target_model, X_te, y_target_test, ref_errors)
+    ])
+
+    y_attack = np.concatenate([
+        np.ones(len(X_tr)),
+        np.zeros(len(X_te))
+    ])
+
+    X_attack = scaler.transform(X_attack)
+
+    y_score = attacker.predict_proba(X_attack)[:, 1]
+    y_pred = (y_score >= threshold).astype(int)
 
     return {
-        "y_true" : y_attack_target,
+        "y_true": y_attack,
         "y_pred": y_pred,
+        "y_score": y_score
     }
