@@ -36,9 +36,17 @@ def run_random_forest(df, preprocessor, *, target="salario", test_size=0.3, seed
     X_train = preprocessor.fit_transform(X_train)
     X_test = preprocessor.transform(X_test)
 
-    model = RandomForestRegressor(n_estimators= 200, max_depth= 8, min_samples_leaf= 30,
-                                   min_samples_split= 60, max_features= "sqrt", random_state= seed, n_jobs=-1)
+    model = RandomForestRegressor(
+        n_estimators=300,
+        max_depth=10,
+        min_samples_leaf=5,
+        min_samples_split=4,
+        max_features=0.4,
+        random_state=seed,
+        n_jobs=1
+    )
     model.fit(X_train, y_train)
+    model.preprocessor_ = preprocessor
 
     y_test_pred = model.predict(X_test)
     y_train_pred = model.predict(X_train)
