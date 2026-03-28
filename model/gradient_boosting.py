@@ -28,10 +28,10 @@ def run_gradient_boosting(df, preprocessor, *, target="salario", test_size=0.3, 
     X_test = preprocessor.transform(X_test)
 
     model = GradientBoostingRegressor(
-        n_estimators=200,
+        n_estimators=500,
         learning_rate=0.05,
-        max_depth=4,
-        subsample=0.8,
+        max_depth=8,
+        subsample=1.0,
         random_state=seed,
     )
 
@@ -42,12 +42,9 @@ def run_gradient_boosting(df, preprocessor, *, target="salario", test_size=0.3, 
     y_train_pred = model.predict(X_train)
 
     return {
-        "X_train": X_train,
-        "X_test": X_test,
         "y_train_true": y_train,
         "y_train_pred": y_train_pred,
         "y_test_true": y_test,
         "y_test_pred": y_test_pred,
-        "n_features": X_train.shape[1],
         "model": model,
     }

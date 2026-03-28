@@ -35,17 +35,15 @@ def run_xgboost(df, preprocessor, *, target="salario", test_size=0.3, seed=42):
     X_test = preprocessor.transform(X_test)
 
     model = XGBRegressor(
-        n_estimators=200,
-        max_depth=4,
+        n_estimators=500,
+        max_depth=8,
         learning_rate=0.05,
-        subsample=0.8,
-        colsample_bytree=0.5,
-        colsample_bylevel=0.5,
-        colsample_bynode=0.5,
-        min_child_weight=5,
-        gamma=0.3,
-        reg_alpha=0.8,
-        reg_lambda=3.0,
+        subsample=1.0,
+        colsample_bytree=1.0,
+        min_child_weight=1,
+        gamma=0.0,
+        reg_alpha=0.0,
+        reg_lambda=0.0,
         random_state=seed,
         objective="reg:squarederror",
         verbosity=0
@@ -58,12 +56,9 @@ def run_xgboost(df, preprocessor, *, target="salario", test_size=0.3, seed=42):
     y_train_pred = model.predict(X_train)
 
     return {
-        "X_train" : X_train,
-        "X_test" : X_test,
         "y_train_true": y_train,
         "y_train_pred": y_train_pred,
         "y_test_true": y_test,
         "y_test_pred": y_test_pred,
-        "n_features": X_train.shape[1],
         "model": model,
     }

@@ -30,11 +30,10 @@ def run_extra_trees(df, preprocessor, *, target="salario", test_size=0.3, seed=4
     model = ExtraTreesRegressor(
         n_estimators=300,
         max_depth=10,
-        min_samples_leaf=5,
-        min_samples_split=4,
-        max_features=0.4,
-        random_state=seed,
-        n_jobs=1
+        min_samples_leaf=3,
+        min_samples_split=3,
+        max_features=0.5,
+        random_state=seed
     )
 
     model.fit(X_train, y_train)
@@ -44,12 +43,9 @@ def run_extra_trees(df, preprocessor, *, target="salario", test_size=0.3, seed=4
     y_train_pred = model.predict(X_train)
 
     return {
-        "X_train": X_train,
-        "X_test": X_test,
         "y_train_true": y_train,
         "y_train_pred": y_train_pred,
         "y_test_true": y_test,
         "y_test_pred": y_test_pred,
-        "n_features": X_train.shape[1],
         "model": model,
     }
