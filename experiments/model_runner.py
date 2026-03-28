@@ -2,7 +2,7 @@ from metrics import compute_utility_metrics
 from preprocessing import build_preprocessor
 
 
-def run_model(name, df, model_runner, model_name):
+def run_model(df, model_runner):
     """
     Protocolo experimental padrão do projeto.
 
@@ -27,23 +27,5 @@ def run_model(name, df, model_runner, model_name):
         preprocessor=preprocessor,
     )
 
-    return {
-        "model_name": model_name,
-        "results": run_output,
-    }
-
-
-
-
-def model_metrics(model_output, dataset_name, model_name):
-
-    utility = compute_utility_metrics(
-        y_true=model_output['results']["y_test_true"],
-        y_pred=model_output['results']["y_test_pred"],
-    )
-
-
-    return {
-        "model_name": model_name,
-        "results": utility,
-    }
+    return compute_utility_metrics( y_train_true= run_output["y_train_true"], y_train_pred= run_output["y_train_pred"],
+                                        y_test_true= run_output["y_test_true"], y_test_pred= run_output["y_test_pred"])
