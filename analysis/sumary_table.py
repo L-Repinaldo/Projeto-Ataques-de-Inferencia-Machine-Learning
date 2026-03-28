@@ -41,13 +41,13 @@ def build_summary_table(utility_results, attack_results):
             mae_cv = abs(mae - baseline_mae) / baseline_mae
 
             attack_k = _get_by_dataset(results_df= df_attack, dataset_name= k)
-            accuracy = attack_k["balanced_acc"]
+            adv = attack_k["advantage"]
 
             row = {
                 "modelo": utility_k["model"],
                 "epsilon": float(k.split("_")[1]),
                 "utilidade": classify_utility_impact(mae_cv),
-                "vazamento": classify_leakage_risk(accuracy),
+                "vazamento": classify_leakage_risk(adv),
             }
 
             table.append(row)

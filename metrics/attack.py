@@ -12,22 +12,11 @@ def compute_attack_metrics(y_true, y_pred):
     non_member_acc = ( tn / (tn + fp) )
 
     attack_acc = accuracy_score(y_true= y_true, y_pred= y_pred)
-
-    precision = precision_score(y_true= y_true, y_pred= y_pred)
-
-    recall = recall_score(y_true= y_true, y_pred= y_pred)
-    
-    balanced_acc = 0.5 * (member_acc + non_member_acc)
-    advantage = member_acc - non_member_acc
+    advantage = member_acc - (1 - non_member_acc)
 
     return {
+        "attack_acc": attack_acc,
         "member_acc": member_acc,
         "non_member_acc": non_member_acc,
-        "attack_acc": attack_acc,
-        "balanced_acc": balanced_acc,
-        "advantage": advantage,
-        "precision": precision,
-        "recall": recall,
-        "balanced_acc": balanced_acc,
         "advantage": advantage
     }

@@ -7,13 +7,19 @@ def classify_utility_impact(mae_cv):
         return "muito afetada"
 
 
-def classify_leakage_risk(accuracy):
-    if accuracy < 0.52:
+def classify_leakage_risk(adv):
+    if adv < 0:
+        return "pior que aleatório"
+    elif adv < 0.01:
         return "quase aleatório"
-    elif accuracy < 0.58:
+    elif adv < 0.05:
+        return "vazamento muito fraco"
+    elif adv < 0.12:
         return "vazamento fraco"
-    elif accuracy < 0.65:
+    elif adv < 0.25:
         return "vazamento moderado"
+    elif adv < 0.45:
+        return "vazamento alto"
     else:
-        return "vazamento forte"
+        return "vazamento muito alto"
 
