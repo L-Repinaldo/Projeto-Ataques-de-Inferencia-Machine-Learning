@@ -8,14 +8,19 @@ def run_membership_inference_attack(target_outputs):
     train_abs_error = target_outputs['train_abs_error']
     test_abs_error  = target_outputs['test_abs_error']
 
-    X = np.concatenate([train_abs_error, test_abs_error]).reshape(-1, 1)
+    n = min(len(train_abs_error), len(test_abs_error))
+
+    train_sample = np.random.choice(train_abs_error, n, replace=False)
+    test_sample  = np.random.choice(test_abs_error, n, replace=False)
+
+    X = np.concatenate([train_sample, test_sample]).reshape(-1, 1)
     y = np.concatenate([
-        np.ones(len(train_abs_error)),
-        np.zeros(len(test_abs_error))
+        np.ones(n),
+        np.zeros(n)
     ])
 
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.3, random_state=42
+        X, y, test_size=0.3, random_state=42, stratify=y
     )
 
     attack_model = train_attack_model(X_train, y_train)
