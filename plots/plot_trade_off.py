@@ -21,7 +21,7 @@ def plot_privacy_utility_tradeoff(utility_results, attack_results):
     """
     Trade-off direto Utilidade X Vazamento:
     X = perda relativa de utilidade (MAE)
-    Y = risco de MIA (balanced_acc)
+    Y = risco de MIA (advantage)
     Todos os modelos no mesmo gráfico.
     """
     plt.figure(figsize=(8, 6))
@@ -55,7 +55,7 @@ def plot_privacy_utility_tradeoff(utility_results, attack_results):
             utility_loss.append(loss)
 
             attack_k = _get_by_dataset(results_df= df_attack, dataset_name= k)
-            accuracy = attack_k["balanced_acc"]
+            accuracy = attack_k["advantage"]
             attack_acc_values.append(accuracy)
 
             labels.append(f"ε={k.split('_')[1]}")
@@ -75,8 +75,10 @@ def plot_privacy_utility_tradeoff(utility_results, attack_results):
         for x, y, l in zip(utility_loss, attack_acc_values, labels):
             plt.text(x, y, l, fontsize=8, ha="left", va="bottom")
 
-    plt.axhline(0.5, linestyle="--", color="gray", label="Ataque aleatório (~0.5)")
-    plt.axhline(0.6, linestyle=":", color="red", label="Vazamento relevante (empírico)")
+    plt.axhline(0.0, linestyle="--", color="gray", label="Aleatório")
+    plt.axhline(0.05, linestyle="--", color="green", label="Ruído empírico")
+    plt.axhline(0.15, linestyle=":", color="orange", label="Vazamento moderado")
+    plt.axhline(0.4, linestyle=":", color="red", label="Vazamento alto")
     plt.xlabel("Perda relativa de utilidade (MAE)")
     plt.ylabel("Risco de vazamento (Attack Accuracy)")
     plt.title("Trade-off Vazamento vs Utilidade")

@@ -36,10 +36,13 @@ def plot_summary_table(all_tables, title="Síntese dos Resultados" ):
     }
 
     risk_colors = {
-        "quase aleatório": "#b6e3b6",
-        "vazamento fraco": "#fff2cc",
-        "vazamento moderado": "#f9cb9c",
-        "vazamento forte": "#ea9999"
+        "pior que aleatório": "#d9d9d9",      
+        "quase aleatório": "#e8f5e9",         
+        "vazamento muito fraco": "#c8e6c9",   
+        "vazamento fraco": "#fff9c4",         
+        "vazamento moderado": "#ffe0b2",      
+        "vazamento alto": "#ffab91",          
+        "vazamento muito alto": "#e57373"     
     }
 
     for row in range(len(df)):

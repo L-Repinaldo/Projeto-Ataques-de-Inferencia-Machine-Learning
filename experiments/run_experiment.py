@@ -2,18 +2,22 @@ from statistics import mean
 from experiments import (
     run_model, 
     run_attacks,
-    model_metrics,
-    attack_metrics,
 )
 
 SEEDS = [42, 123, 2026]
 TEST_SIZES = [0.2, 0.3]
 
 def _aggregate_metrics(metrics_list):
-    return {
-        k: round(mean(m[k] for m in metrics_list), 3)
-        for k in metrics_list[0].keys()
-    }
+    keys = metrics_list[0].keys()
+
+    results = {}
+    for k in keys:
+        values = [m[k] for m in metrics_list]
+
+        if isinstance(values[0], (int, float)):
+            results[k] = round(mean(values), 3)
+
+    return results
 
 def run_machine_learning_experiments(model_runner, model_name, datasets, dataset_names):
 
@@ -40,7 +44,8 @@ def run_machine_learning_experiments(model_runner, model_name, datasets, dataset
         for seed in SEEDS:
             for test_size in TEST_SIZES:
 
-                model_results = run_model(name=name, df=df, model_name=model_name,
+                model_metrics_values = run_model(
+                    df=df, 
                     model_runner=lambda **kwargs: model_runner(
                         **kwargs,
                         seed=seed,
@@ -48,21 +53,11 @@ def run_machine_learning_experiments(model_runner, model_name, datasets, dataset
                     )
                 )
 
-                model_metrics_values = model_metrics(
-                    model_output=model_results,
-                    dataset_name=name,
-                    model_name=model_name
-                )
+                attack_metrics_values = run_attacks(target= model_metrics_values)
 
-                attack_results = run_attacks(df= df, target= model_results)
 
-                attack_metrics_values = attack_metrics(
-                    model_name=model_name,
-                    mia_results=attack_results
-                )
-
-                model_runs.append(model_metrics_values["results"])
-                attack_runs.append(attack_metrics_values["results"])
+                model_runs.append(model_metrics_values)
+                attack_runs.append(attack_metrics_values)
 
         model_experiment_output[name] = {
             "model_name": model_name,

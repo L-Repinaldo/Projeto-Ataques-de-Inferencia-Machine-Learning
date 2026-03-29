@@ -69,9 +69,6 @@ if __name__ == "__main__":
                 "attack_acc": payload["results"]["attack_acc"],
                 "member_acc": payload["results"]["member_acc"],
                 "non_member_acc": payload["results"]["non_member_acc"],
-                "precision": payload["results"]["precision"],
-                "recall": payload["results"]["recall"],
-                "balanced_acc": payload["results"]["balanced_acc"],
                 "advantage": payload["results"]["advantage"]
             })
     

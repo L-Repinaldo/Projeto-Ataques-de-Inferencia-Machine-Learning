@@ -1,28 +1,31 @@
-Este modulo executa testes de sanity check para verificar se os modelos apresentam:
-- overfitting,
-- underfitting,
-- ou comportamento degenerado sob ruido elevado.
+Este modulo executa sanity checks para validar estabilidade dos modelos e do pipeline de MIA.
+Ele nao interfere nos resultados finais dos experimentos de privacidade e existe apenas
+para verificar comportamento basico antes da analise de trade-off.
 
-Ele **nao interfere nos resultados finais dos experimentos de privacidade** e existe apenas para validar a estabilidade basica dos modelos antes da analise de MIA e trade-off.
+Estrutura atual:
 
-Arquivos adicionados:
+- `sanity_check/common.py`
+  - Funcoes compartilhadas para executar modelos, dividir dataset e preparar sinais.
+  - Reutiliza `build_preprocessor` e `compute_utility_metrics`.
 
-- `sanity_check/sanity_mia_validation.py`
-  - Objetivo: executar sanity checks avancados do Membership Inference Attack (MIA).
-  - Valida se o ataque colapsa com rotulos aleatorios, se detecta diferencas extremas
-    (train vs noise), se responde a aumento de overfitting e se mantem consistencia
-    entre shadow e target (balanceamento e features).
-  - Saida: lista de resultados por teste com status `ok/suspeito`.
+- `sanity_check/model_checks.py`
+  - Sanity checks do modelo (overfitting, underfitting, leakage, estabilidade).
+  - Opera diretamente sobre saidas do modelo usando o mesmo preprocessor.
+
+- `sanity_check/mia_checks.py`
+  - Sanity checks do ataque MIA usando somente sinais precomputados
+    (`train_abs_error`, `test_abs_error`).
+  - Reutiliza `attacks.run_membership_inference_attack`.
 
 - `sanity_check/sanity_model_validation.py`
-  - Objetivo: executar sanity checks adicionais dos modelos (XGBoost e Random Forest).
-  - Valida random label, overfitting controlado, underfitting controlado, data leakage,
-    estabilidade entre seeds, sensibilidade ao tamanho do dataset e importancia de features.
-  - Saida: lista de resultados por teste com status `ok/suspeito`.
+  - Script para executar os sanity checks de modelo.
 
-Como rodar cada teste de sanidade:
+- `sanity_check/sanity_mia_validation.py`
+  - Script para executar os sanity checks de MIA.
 
-- Sanity checks do modelo (XGBoost e Random Forest):
+Como rodar:
+
+- Sanity checks do modelo:
 ```bash
 python sanity_check/sanity_model_validation.py
 ```

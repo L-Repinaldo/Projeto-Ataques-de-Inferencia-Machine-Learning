@@ -1,9 +1,7 @@
 from metrics import compute_attack_metrics
 from attacks import run_membership_inference_attack
-from preprocessing import build_preprocessor
 
-
-def run_attacks(df, target):
+def run_attacks(target):
     """
     Protocolo experimental padrão do projeto.
 
@@ -17,31 +15,8 @@ def run_attacks(df, target):
     - aplica DP
     - otimiza modelos
     """
-
-
-    target_values = target['results']
-
     
-    mia_results = run_membership_inference_attack(
-    df = df, target_model= target['results']['model'], X_target_train= target_values["X_train"],
-    y_target_train= target_values["y_train_true"], X_target_test= target_values["X_test"],
-    y_target_test= target_values["y_test_true"],  build_preprocessor= build_preprocessor
-    )
+    mia_output = run_membership_inference_attack( target_outputs= target )
 
 
-    return {
-        "model_name": target['model_name'],
-        "results": mia_results,
-    }
-
-
-def attack_metrics(mia_results, model_name):
-
-    results = mia_results['results']
-
-    attack_metrics = compute_attack_metrics(y_true= results['y_true'], y_pred= results['y_pred'])
-
-    return {
-        "model_name": model_name,
-        "results": attack_metrics
-    }
+    return compute_attack_metrics(y_true= mia_output['y_test'], y_pred= mia_output['y_pred'])
