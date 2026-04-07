@@ -138,7 +138,7 @@ Este repositório gera visualizações e tabelas que permitem comunicar os resul
    
    - **Plots:**
       - ***Utilidade:***  
-           - Tabelas e gráficos das métricas de utilidade
+           - Tabela expositiva das métricas referentes à utilidade
 
       - ***Segurança:***
            - Tabela expositiva das métricas referentes à segurança
