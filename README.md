@@ -1,7 +1,6 @@
 # Machine Learning, Ataques de Inferência e Análise de Trade-off em Privacidade Diferencial
 
 ## Visão Geral
-### Este repositório acompanha um estudo experimental sobre Privacidade Diferencial e Membership Inference Attacks, com foco em análise de trade-off e reprodutibilidade.
 
 Este estudo será voltado a **modelos supervisionados de regressão baseados em árvores**, com o objetivo de avaliar utilidade e risco em cenários controlados.
 
@@ -79,6 +78,8 @@ Modelos implementados (regressão supervisionada baseada em árvores):
 
    - XGBoost  
    - Random Forest
+   - Extra Trees
+   - Gradient Boosting
 
 Justificativa:
    
@@ -137,7 +138,7 @@ Este repositório gera visualizações e tabelas que permitem comunicar os resul
    
    - **Plots:**
       - ***Utilidade:***  
-           - Tabelas e gráficos das métricas de utilidade
+           - Tabela expositiva das métricas referentes à utilidade
 
       - ***Segurança:***
            - Tabela expositiva das métricas referentes à segurança

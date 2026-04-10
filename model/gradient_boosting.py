@@ -7,12 +7,12 @@ def run_gradient_boosting(df, preprocessor, *, target="salario", test_size=0.3, 
     Executa o modelo Gradient Boosting Regressor.
 
     Papel no experimento:
-    - comparativo direto com XGBoost (boosting baseado em Ã¡rvores)
-    - ajuda a separar efeito de boosting vs implementaÃ§Ã£o especÃ­fica
+    - comparativo direto com XGBoost (boosting baseado em árvores)
+    - ajuda a separar efeito de boosting vs implementação específica
     """
 
     if target not in df.columns:
-        raise ValueError(f"Target '{target}' nÃ£o encontrado no dataset.")
+        raise ValueError(f"Target '{target}' não encontrado no dataset.")
 
     X = df.drop(columns=[target])
     y = df[target]
