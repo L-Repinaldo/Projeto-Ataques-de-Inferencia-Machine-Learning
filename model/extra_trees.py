@@ -7,12 +7,12 @@ def run_extra_trees(df, preprocessor, *, target="salario", test_size=0.3, seed=4
     Executa o modelo Extra Trees Regressor.
 
     Papel no experimento:
-    - variaÃ§Ã£o do Random Forest com maior aleatoriedade
-    - ajuda a verificar se estabilidade do RF se mantÃ©m com splits mais randÃ´micos
+    - variação do Random Forest com maior aleatoriedade
+    - ajuda a verificar se estabilidade do RF se mantém com splits mais randômicos
     """
 
     if target not in df.columns:
-        raise ValueError(f"Target '{target}' nÃ£o encontrado no dataset.")
+        raise ValueError(f"Target '{target}' não encontrado no dataset.")
 
     X = df.drop(columns=[target])
     y = df[target]
