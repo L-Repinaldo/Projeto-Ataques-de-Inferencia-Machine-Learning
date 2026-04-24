@@ -140,13 +140,13 @@ Este repositório gera visualizações e tabelas que permitem comunicar os resul
       - ***Utilidade:***  
            - Tabela expositiva das métricas referentes à utilidade
 
-      - ***Segurança:***
+      - ***Vazamento:***
            - Tabela expositiva das métricas referentes à segurança
            
       - ***Trade-Off:***
            - Utilidade vs sucesso do ataque (trade-off direto)  
       
-      - **Tabelas de síntese:**  
+      - ***Tabelas de síntese:***  
            - Relacionam cada modelo com usabilidade e segurança por nível de ε  
 
 As visualizações têm caráter explicativo e **não influenciam decisões experimentais**.
@@ -227,12 +227,16 @@ Este projeto foi desenhado para:
 
 ## Imagens
 
+***Utilidade:***   
 <img width="1366" height="655" alt="Utilidade" src="https://github.com/user-attachments/assets/90da04e1-6b2d-4ff2-9994-94b2f5eca80f" />
 
+***Vazamento:***
 <img width="1366" height="655" alt="Vazamento" src="https://github.com/user-attachments/assets/06b15029-2359-4345-ba1b-9a1d1dbcc958" />
 
+***Trade-Off:***
 <img width="1366" height="655" alt="Trade-off" src="https://github.com/user-attachments/assets/7aa1a476-9164-453b-859e-c17627fa3b00" />
 
+***Tabelas de síntese:*** 
 <img width="1366" height="655" alt="Sintese" src="https://github.com/user-attachments/assets/05bbd990-6008-4b4f-afbc-eb16254bbd2c" />
 
 ---
