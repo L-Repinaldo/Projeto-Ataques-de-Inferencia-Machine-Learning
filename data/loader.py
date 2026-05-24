@@ -7,12 +7,15 @@ def load_data(path):
 
 
 def run():
-    base = ACTIVE_DATASET_DIR
+    def sort_key(path):
+        if path.name == "baseline.csv":
+            return (0, 0.0)
 
-    df_baseline = load_data(base / "baseline.csv")
-    df_dp_01 = load_data(base / "dp_eps_0.1.csv")
-    df_dp_05 = load_data(base / "dp_eps_0.5.csv")
-    df_dp_10 = load_data(base / "dp_eps_1.0.csv")
-    df_dp_20 = load_data(base / "dp_eps_2.0.csv")
+        epsilon = float(path.stem.replace("dp_eps_", ""))
+        return (1, epsilon)
 
-    return df_baseline, df_dp_01, df_dp_05, df_dp_10, df_dp_20
+    dataset_files = [ACTIVE_DATASET_DIR / "baseline.csv"]
+    dataset_files.extend(ACTIVE_DATASET_DIR.glob("dp_eps_*.csv"))
+    dataset_files = [path for path in sorted(dataset_files, key=sort_key) if path.exists()]
+
+    return tuple(load_data(path) for path in dataset_files)
