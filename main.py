@@ -1,85 +1,24 @@
-from data import load_data
-from experiments import run_machine_learning_experiments, run_plots
-from analysis import build_summary_table
-
+from config import DATASET_VERSION
+from core.experiment_config import ExperimentConfig
+from core.experimental_pipeline import ExperimentalPipeline
 from model import (
+    run_extra_trees,
+    run_gradient_boosting,
     run_random_forest,
     run_xgboost,
-    run_gradient_boosting,
-    run_extra_trees
-    )
+)
 
-import pandas as pd
 
 if __name__ == "__main__":
+    experiment_config = ExperimentConfig(
+        dataset_version=DATASET_VERSION,
+        active_models=[
+            ("XGBoost", run_xgboost),
+            ("Random Forest", run_random_forest),
+            ("Gradient Boosting", run_gradient_boosting),
+            ("Extra Trees", run_extra_trees),
+        ],
+    )
 
-    import warnings
-
-    warnings.filterwarnings(
-        "ignore",
-        message="Found unknown categories in columns",
-        category=UserWarning,
-        module="sklearn.preprocessing._encoders"
-        )
-    warnings.filterwarnings(
-    "ignore",
-    message="`sklearn.utils.parallel.delayed` should be used"
-)
-    
-
-    datasets = load_data()
-    names = ["baseline", "eps_0.1", "eps_0.5", "eps_1.0", "eps_2.0"]
-
-    experiments = [
-        ("XGBoost", run_xgboost),
-        ("Random Forest", run_random_forest),
-        ("Gradient Boosting", run_gradient_boosting),
-        ("Extra Trees", run_extra_trees),
-    ]
-
-    all_tables = []
-
-    utility_rows = []
-    attack_rows = []
-
-    for model_name, runner in experiments:
-
-        print(f"\n{'='*40}")
-        print(f"{model_name} execution")
-        print(f"{'='*40}")
-
-        model_metric_results, attack_metrics_results = run_machine_learning_experiments(model_runner= runner, model_name= model_name, 
-                                                                                                    datasets= datasets,dataset_names= names)
-        
-
-        for dataset_name, payload in model_metric_results.items():
-            
-            utility_rows.append({
-                "model": model_name,
-                "dataset": dataset_name,
-                "mae": payload["results"]["mae"],
-                "rmse": payload["results"]["rmse"],
-            })
-
-        for dataset_name, payload in attack_metrics_results.items():
-
-            attack_rows.append({
-                "model": model_name,
-                "dataset": dataset_name,
-                "attack_acc": payload["results"]["attack_acc"],
-                "member_acc": payload["results"]["member_acc"],
-                "non_member_acc": payload["results"]["non_member_acc"],
-                "advantage": payload["results"]["advantage"]
-            })
-    
-    df_utility = pd.DataFrame(utility_rows)
-    df_attack = pd.DataFrame(attack_rows)
-
-    summary = build_summary_table(utility_results= df_utility, attack_results= df_attack)
-       
-    run_plots(df_utility= df_utility, df_attack= df_attack)
-
-
-    from plots import plot_summary_table
-
-    plot_summary_table(all_tables= summary)
+    pipeline = ExperimentalPipeline(experiment_config=experiment_config)
+    pipeline.run()
