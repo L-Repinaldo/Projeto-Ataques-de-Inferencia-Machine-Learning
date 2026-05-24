@@ -1,5 +1,6 @@
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
+from core.prediction_result import PredictionResult
 
 def run_random_forest(df, preprocessor, *, target="salario", test_size=0.3, seed=42):
 
@@ -51,10 +52,10 @@ def run_random_forest(df, preprocessor, *, target="salario", test_size=0.3, seed
 
     y_test_pred = model.predict(X_test)
     y_train_pred = model.predict(X_train)
-    return {
-        "y_train_true": y_train,
-        "y_train_pred": y_train_pred,
-        "y_test_true": y_test,
-        "y_test_pred": y_test_pred,
-        "model": model,
-    }
+    return PredictionResult(
+        y_train_true=y_train,
+        y_train_pred=y_train_pred,
+        y_test_true=y_test,
+        y_test_pred=y_test_pred,
+        model=model,
+    )
