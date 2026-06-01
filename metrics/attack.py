@@ -1,4 +1,4 @@
-from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score
+from sklearn.metrics import confusion_matrix, accuracy_score
 
 
 def compute_attack_metrics(y_true, y_pred):

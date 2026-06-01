@@ -38,8 +38,9 @@ def aggregate_experiment_results(experiment_results):
         utility_rows.append({
             "model": model_name,
             "dataset": dataset_name,
-            "mae": utility_results["mae"],
-            "rmse": utility_results["rmse"],
+            "test_mae": utility_results["test_mae"],
+            "train_mae": utility_results["train_mae"],
+            "generalization_gap_%": utility_results["generalization_gap_%"]
         })
 
         attack_rows.append({
