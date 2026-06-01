@@ -22,38 +22,29 @@ def render_leakage(utility_metrics, attack_metrics, metadata):
         attack_metrics,
         x="dataset",
         y="advantage",
-        color="model",
+        facet_col="model",
+        facet_col_wrap=2,
         markers=True,
-        title="Advantage por dataset",
     )
-    fig_advantage.add_hline(y=0.0, line_dash="dash", line_color="gray")
+
+    fig_advantage.add_hline(
+        y=0.0,
+        line_dash="dash",
+        line_color="gray",
+    )
+
     st.plotly_chart(fig_advantage, use_container_width=True)
 
-    st.subheader("Member vs Non-member Accuracy")
-    melted = attack_metrics.melt(
-        id_vars=["model", "dataset"],
-        value_vars=["member_acc", "non_member_acc"],
-        var_name="metric",
-        value_name="value",
-    )
-    fig_member = px.line(
-        melted,
-        x="dataset",
-        y="value",
-        color="model",
-        line_dash="metric",
-        markers=True,
-        title="Comparação member_acc e non_member_acc",
-    )
-    st.plotly_chart(fig_member, use_container_width=True)
+    st.subheader("Average Advantage by Model")
 
-    st.subheader("Heatmap de Advantage")
-    heatmap_df = attack_metrics.pivot(index="model", columns="dataset", values="advantage")
-    fig_heatmap = px.imshow(
-        heatmap_df,
-        text_auto=True,
-        aspect="auto",
-        title="Advantage por modelo e dataset",
-        labels={"color": "Advantage"},
+    avg_advantage = (
+        attack_metrics.groupby("model", as_index=False)["advantage"]
+        .mean()
+        .sort_values("advantage", ascending=False)
     )
-    st.plotly_chart(fig_heatmap, use_container_width=True)
+
+    st.dataframe(
+        avg_advantage,
+        use_container_width=True,
+        hide_index=True,
+)

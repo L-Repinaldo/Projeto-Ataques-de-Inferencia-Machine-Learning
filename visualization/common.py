@@ -39,7 +39,7 @@ def build_tradeoff_points(utility_results, attack_results):
         df_attack = get_by_model(results=attack_results, model_name=model_name)
 
         baseline = get_by_dataset(results_df=df_utility, dataset_name="baseline")
-        baseline_mae = baseline["mae"]
+        baseline_test_mae = baseline["test_mae"]
 
         for dataset_name in epsilon_datasets:
             utility_row = get_by_dataset(results_df=df_utility, dataset_name=dataset_name)
@@ -50,10 +50,9 @@ def build_tradeoff_points(utility_results, attack_results):
                 "model": model_name,
                 "dataset": dataset_name,
                 "epsilon": epsilon,
-                "utility_loss": abs(utility_row["mae"] - baseline_mae) / baseline_mae,
+                "utility_loss": abs(utility_row["test_mae"] - baseline_test_mae) / baseline_test_mae,
                 "advantage": attack_row["advantage"],
-                "mae": utility_row["mae"],
-                "rmse": utility_row["rmse"],
+                "test_mae": utility_row["test_mae"],
                 "attack_acc": attack_row["attack_acc"],
             })
 

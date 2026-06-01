@@ -7,45 +7,24 @@ ROOT_DIR = Path(__file__).resolve().parents[1]
 if str(ROOT_DIR) not in sys.path:
     sys.path.append(str(ROOT_DIR))
 
-from streamlit_app.artifact_loader import get_latest_artifact, list_artifacts, load_artifact
-from streamlit_app.views.comparison import render_comparison
-from streamlit_app.views.leakage import render_leakage
-from streamlit_app.views.overview import render_overview
-from streamlit_app.views.tradeoff import render_tradeoff
-from streamlit_app.views.utility import render_utility
+from streamlit_app.artifact_loader import (
+    get_latest_artifact, 
+    list_artifacts, 
+    load_artifact)
+
+from streamlit_app.views import (
+    render_overview,
+    render_utility,
+    render_leakage,
+)
 
 
 VIEWS = {
     "Overview": render_overview,
     "Utility Analysis": render_utility,
     "Leakage Analysis": render_leakage,
-    "Trade-off Analysis": render_tradeoff,
-    "Comparison": render_comparison,
 }
 
-
-def _select_artifact():
-    artifacts = list_artifacts()
-    latest_artifact = get_latest_artifact()
-
-    if not artifacts:
-        st.sidebar.warning("Nenhum artifact encontrado.")
-        return None
-
-    artifact_labels = [artifact.name for artifact in artifacts]
-    latest_label = latest_artifact.name if latest_artifact is not None else artifact_labels[-1]
-
-    use_latest = st.sidebar.checkbox("Usar artifact mais recente", value=True)
-    if use_latest:
-        st.sidebar.caption(f"Artifact selecionado: {latest_label}")
-        return latest_artifact
-
-    selected_label = st.sidebar.selectbox(
-        "Selecionar artifact",
-        artifact_labels,
-        index=artifact_labels.index(latest_label),
-    )
-    return artifacts[artifact_labels.index(selected_label)]
 
 
 def main():
@@ -71,6 +50,30 @@ def main():
         attack_metrics=artifact["attack_metrics"],
         metadata=artifact["metadata"],
     )
+
+def _select_artifact():
+    artifacts = list_artifacts()
+    latest_artifact = get_latest_artifact()
+
+    if not artifacts:
+        st.sidebar.warning("Nenhum artifact encontrado.")
+        return None
+
+    artifact_labels = [artifact.name for artifact in artifacts]
+    latest_label = latest_artifact.name if latest_artifact is not None else artifact_labels[-1]
+
+    use_latest = st.sidebar.checkbox("Usar artifact mais recente", value=True)
+    if use_latest:
+        st.sidebar.caption(f"Artifact selecionado: {latest_label}")
+        return latest_artifact
+
+    selected_label = st.sidebar.selectbox(
+        "Selecionar artifact",
+        artifact_labels,
+        index=artifact_labels.index(latest_label),
+    )
+    return artifacts[artifact_labels.index(selected_label)]
+
 
 
 if __name__ == "__main__":
