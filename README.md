@@ -397,16 +397,12 @@ O projeto não gera dados primários, não aplica DP internamente e não altera 
 ## Imagens
 
 ***Utilidade:***   
-<img width="1366" height="655" alt="Utilidade" src="https://github.com/user-attachments/assets/90da04e1-6b2d-4ff2-9994-94b2f5eca80f" />
 
 ***Vazamento:***
-<img width="1366" height="655" alt="Vazamento" src="https://github.com/user-attachments/assets/06b15029-2359-4345-ba1b-9a1d1dbcc958" />
 
 ***Trade-Off:***
-<img width="1366" height="655" alt="Trade-off" src="https://github.com/user-attachments/assets/7aa1a476-9164-453b-859e-c17627fa3b00" />
 
 ***Tabelas de síntese:*** 
-<img width="1366" height="655" alt="Sintese" src="https://github.com/user-attachments/assets/05bbd990-6008-4b4f-afbc-eb16254bbd2c" />
 
 ---
 
