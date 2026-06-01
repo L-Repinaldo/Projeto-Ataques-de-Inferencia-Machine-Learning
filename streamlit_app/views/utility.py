@@ -21,7 +21,7 @@ def _with_relative_degradation(utility_metrics):
     return pd.DataFrame(rows)
 
 
-def render_utility(utility_metrics, attack_metrics, metadata):
+def render_utility(utility_metrics):
     st.header("Utility Analysis")
     st.write("Como a utilidade dos modelos varia entre baseline e datasets privatizados?")
 
@@ -37,17 +37,6 @@ def render_utility(utility_metrics, attack_metrics, metadata):
         title="MAE por dataset",
     )
     st.plotly_chart(fig_mae, use_container_width=True)
-
-    st.subheader("Evolução de RMSE")
-    fig_rmse = px.line(
-        utility_df,
-        x="dataset",
-        y="rmse",
-        color="model",
-        markers=True,
-        title="RMSE por dataset",
-    )
-    st.plotly_chart(fig_rmse, use_container_width=True)
 
     st.subheader("Degradação relativa de MAE")
     fig_degradation = px.bar(

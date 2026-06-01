@@ -1,6 +1,6 @@
 import streamlit as st
 
-from visualization.tradeoff import build_tradeoff_figure
+from visualization.plots.tradeoff import build_tradeoff_figure
 
 
 def render_tradeoff(utility_metrics, attack_metrics, metadata):
