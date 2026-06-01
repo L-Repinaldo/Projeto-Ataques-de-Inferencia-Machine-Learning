@@ -1,14 +1,34 @@
-# Machine Learning, Ataques de Inferência e Análise de Trade-off em Privacidade Diferencial
+# Machine Learning, Ataques de Inferência e Trade-off em Privacidade Diferencial
 
 ## Visão Geral
 
-Este estudo será voltado a **modelos supervisionados de regressão baseados em árvores**, com o objetivo de avaliar utilidade e risco em cenários controlados.
+Este repositório contém o núcleo experimental da pesquisa em Privacidade Diferencial. Ele mede, compara e explica o trade-off entre utilidade dos dados e risco de vazamento sob diferentes níveis de privacidade (`epsilon`).
 
-Este repositório contém o núcleo experimental da pesquisa em Privacidade Diferencial, responsável por medir, comparar e explicar o trade-off entre segurança e usabilidade dos dados sob diferentes níveis de privacidade (ε).
+O projeto usa modelos supervisionados de regressão baseados em árvores como instrumento de medição de utilidade, e Membership Inference Attack como instrumento de medição de risco.
 
-O projeto utiliza Machine Learning como instrumento de medição de utilidade e ataques de inferência como instrumento de medição de risco. O foco não é otimizar modelos, mas tornar explícitos os efeitos da Privacidade Diferencial sobre o uso real dos dados.
+Este projeto **não aplica mecanismos de Privacidade Diferencial internamente**. Ele consome datasets já gerados e privatizados por um pipeline externo.
 
-Todos os experimentos consomem datasets previamente privatizados pelo pipeline de engenharia de dados (Projeto Intermediário) e **não aplicam mecanismos de DP internamente**.
+---
+
+## Arquitetura Final
+
+A arquitetura atual separa completamente execução científica e exploração visual:
+
+```text
+Pipeline Experimental
+  -> Artifact Persistence
+  -> Visualization Layer
+  -> Streamlit Explorer
+```
+
+Responsabilidades:
+
+- **Pipeline Experimental:** carrega datasets, executa modelos, executa ataques, agrega métricas e persiste artifacts.
+- **Artifact Persistence:** grava `utility_metrics.csv`, `attack_metrics.csv` e `metadata.json`.
+- **Visualization Layer:** contém helpers e figuras reutilizáveis, sem executar experimentos.
+- **Streamlit Explorer:** consome apenas artifacts persistidos para análise visual interativa.
+
+O Streamlit não importa treino, preprocessamento, ataques, métricas nem pipeline experimental.
 
 ---
 
@@ -16,212 +36,361 @@ Todos os experimentos consomem datasets previamente privatizados pelo pipeline d
 
 O projeto completo é composto por três sistemas independentes:
 
-   1. **Projeto Sistema de RH**  
-      - Simulação de um ambiente corporativo real;  
-      - Geração de dados limpos, consistentes e sensíveis;  
-      - Aplicação de regras de negócio.
-   
-   2. **Projeto DP Data Pipeline**  
-      - Extração de dados do RH;  
-      - Aplicação de Privacidade Diferencial com diferentes valores de ε;  
-      - Versionamento de datasets;  
-      - Geração de metadados experimentais.
-   
-   3. **Projeto ML e Análise Experimental (este repositório)**  
-      - Carrega datasets versionados;  
-      - Treina modelos de Machine Learning simples e interpretáveis;  
-      - Executa ataques de inferência;  
-      - Calcula métricas de utilidade e risco;  
-      - Gera gráficos e tabelas de síntese para análise do trade-off.
+1. **Sistema de RH**
+   - Simula um ambiente corporativo.
+   - Gera dados limpos, consistentes e sensíveis.
+   - Aplica regras de negócio.
 
-Este repositório **não acessa diretamente o banco do sistema de RH**.
+2. **DP Data Pipeline**
+   - Extrai dados do sistema de RH.
+   - Aplica mecanismos de Privacidade Diferencial.
+   - Versiona datasets com diferentes valores de `epsilon`.
+   - Gera metadados experimentais.
 
----
+3. **ML e Análise Experimental**
+   - Carrega datasets versionados.
+   - Treina modelos de Machine Learning.
+   - Executa Membership Inference Attack.
+   - Calcula métricas de utilidade e risco.
+   - Persiste artifacts experimentais.
+   - Permite exploração visual independente via Streamlit.
 
-## Objetivo
-
-Avaliar empiricamente como a variação do parâmetro de privacidade (ε) influencia:
-   
-   - Segurança dos dados, medida por ataques de inferência;  
-   - Usabilidade dos dados, medida por métricas simples de Machine Learning;  
-   - Estabilidade e confiabilidade do aprendizado;  
-   - O trade-off entre proteção e utilidade em cenários realistas.
-
-O objetivo central é demonstrar o trade-off, não maximizar performance nem propor novos modelos.
+Este repositório corresponde ao terceiro sistema e **não acessa diretamente o banco do sistema de RH**.
 
 ---
 
-## Escopo do Projeto
+## Pipeline Experimental
 
-Responsabilidades deste repositório:
-   
-   - Carregar datasets versionados gerados pelo pipeline;  
-   - Treinar modelos de Machine Learning simples e interpretáveis;  
-   - Executar ataques de inferência sobre os modelos;  
-   - Calcular métricas de segurança e utilidade;  
-   - Comparar resultados entre diferentes níveis de ε;  
-   - Gerar gráficos e tabelas de síntese do trade-off.
+O fluxo experimental é centralizado em `core/experimental_pipeline.py`:
 
-Este projeto **não**:
-   
-   - Gera dados primários;  
-   - Aplica mecanismos de Privacidade Diferencial;  
-   - Altera os datasets de origem.
+```text
+config.py
+  -> ExperimentConfig
+  -> ExperimentalPipeline
+      -> Dataset Registry
+      -> Model Runners
+      -> Utility Metrics
+      -> Attack Feature Extraction
+      -> Membership Inference Attack
+      -> Attack Metrics
+      -> Aggregation
+      -> Artifact Persistence
+```
 
----
-
-## Modelos de Machine Learning
-
-O Machine Learning é usado apenas como instrumento de medição de usabilidade:
-
-Modelos implementados (regressão supervisionada baseada em árvores):
-
-   - XGBoost  
-   - Random Forest
-   - Extra Trees
-   - Gradient Boosting
-
-Justificativa:
-   
-   - Modelos relativamente simples e sensíveis a ruído;
-   - Estruturas baseadas em árvores facilitam análise de estabilidade sob ruído;
-   - Evitam mascarar efeitos da DP com arquiteturas altamente regularizadas ou profundas.  
-
-Não há tuning agressivo, otimização ou comparação competitiva entre modelos.
+O pipeline **não gera visualizações automaticamente**. A execução principal termina após a persistência dos artifacts.
 
 ---
 
-## Métricas Utilizadas:
+## Entidades Centrais
 
-   - **Métricas de Utilidade:**
-      - ***MAE (Erro Médio Absoluto):*** avalia a precisão de modelos de regressão.
-      - ***RMSE (Raiz erro quadrático médio):*** avalia o desempenho de modelos de regressão, calculando a raiz quadrada da média dos erros ao quadrado entre os valores previstos e reais
-  
-   - **Métricas de Segurança:**
-      - **attack_acc:** acurácia global do classificador de ataque.
-      - **member_acc:** taxa de acerto do ataque em amostras que realmente pertencem ao treino (TP / (TP + FN)).
-      - **non_member_acc:** taxa de acerto do ataque em amostras que não pertencem ao treino (TN / (TN + FP)).
-      - **precision:** proporção de amostras preditas como member que realmente são members.
-      - **recall:** capacidade do ataque de identificar corretamente members reais.
-   
-Essas métricas respondem perguntas simples:
-   
-   - O dado ainda é útil?  
-   - O aprendizado ainda é confiável?  
-   - A estrutura dos dados foi preservada?
+A camada `core/` formaliza os contratos principais:
+
+- `PredictionResult`: encapsula predições e modelo treinado.
+- `ExperimentResult`: encapsula métricas de utilidade, métricas de ataque e metadados da execução.
+- `ExperimentConfig`: define versão do dataset, seeds, tamanhos de teste, modelos ativos e datasets ativos.
+- `ExperimentalPipeline`: coordena a execução científica do experimento.
 
 ---
 
-## Ataques de Inferência Avaliados
-   
-   - **Membership Inference Attack (MIA):** determina se um indivíduo fez parte do conjunto de treinamento.
-     
-As taxas de sucesso são analisadas para diferentes valores de ε.
+## Fluxo dos Datasets
+
+Os datasets ficam em:
+
+```text
+data/datasets/<DATASET_VERSION>/
+```
+
+O `DATASET_VERSION` é definido em `config.py`.
+
+O registry em `data/dataset_registry.py` descobre automaticamente:
+
+- `baseline.csv`
+- `dp_eps_*.csv`
+
+A ordem preservada é:
+
+```text
+baseline
+eps_0.1
+eps_0.5
+eps_1.0
+eps_2.0
+...
+```
 
 ---
 
-## Trade-off Segurança × Usabilidade
+## Modelos
 
-O trade-off é analisado a partir da simetria entre utilidade e risco:
-   
-   - Dados mais úteis tendem a permitir maior vazamento;  
-   - Dados mais protegidos tendem a perder capacidade de uso;  
-   - O objetivo é identificar zonas intermediárias onde algum nível de utilidade ainda é possível com risco controlado.
+Modelos implementados:
 
-Nenhuma conclusão depende exclusivamente de métricas de ML ou de ataques isoladamente.
+- XGBoost
+- Random Forest
+- Extra Trees
+- Gradient Boosting
 
----
+Todos seguem o mesmo protocolo:
 
-## Visualizações e Tabelas de Síntese
+1. Validar o target `salario`.
+2. Separar `X` e `y`.
+3. Executar `train_test_split`.
+4. Aplicar o preprocessor.
+5. Treinar o regressor.
+6. Gerar predições de treino e teste.
+7. Retornar `PredictionResult`.
 
-Este repositório gera visualizações e tabelas que permitem comunicar os resultados de forma clara:
-   
-   - **Plots:**
-      - ***Utilidade:***  
-           - Tabela expositiva das métricas referentes à utilidade
-
-      - ***Vazamento:***
-           - Tabela expositiva das métricas referentes à segurança
-           
-      - ***Trade-Off:***
-           - Utilidade vs sucesso do ataque (trade-off direto)  
-      
-      - ***Tabelas de síntese:***  
-           - Relacionam cada modelo com usabilidade e segurança por nível de ε  
-
-As visualizações têm caráter explicativo e **não influenciam decisões experimentais**.
+Não há tuning agressivo, otimização competitiva ou alteração dinâmica de hiperparâmetros.
 
 ---
 
-## Estrutura Geral do Projeto
-      
-      project-b-ml-privacy/
-      ├── analysis/ 
-      ├── attacks/ 
-      ├── data/ 
-      ├── experiments/ 
-      ├── metrics/ 
-      ├── model/ 
-      ├── plots/ 
-      ├── preprocessing/
-      ├── sanity_check/
-      ├──main.py
-      ├──config.py
-      └── README.md
+## Métricas
 
+### Utilidade
 
+Calculadas em `metrics/utility.py`:
+
+- `mae`
+- `rmse`
+- `train_abs_error`
+- `test_abs_error`
+
+### Vazamento
+
+Calculadas em `metrics/attack.py`:
+
+- `attack_acc`
+- `member_acc`
+- `non_member_acc`
+- `advantage`
+
+Os cálculos das métricas permanecem preservados.
+
+---
+
+## Ataque de Inferência
+
+O ataque avaliado é **Membership Inference Attack (MIA)**.
+
+Fluxo:
+
+```text
+PredictionResult
+  -> utility metrics
+  -> extract_attack_features
+  -> run_membership_inference_attack
+  -> attack metrics
+```
+
+O MIA usa os erros absolutos de treino e teste como sinal de membership. A lógica do ataque não foi alterada.
+
+---
+
+## Agregação
+
+A agregação fica em `experiments/aggregation.py`.
+
+Responsabilidades:
+
+- Agrupar resultados por modelo e dataset.
+- Calcular médias.
+- Aplicar arredondamentos.
+- Produzir `df_utility` e `df_attack`.
+
+`experiments/run_experiment.py` executa resultados brutos por execução e não agrega diretamente.
+
+---
+
+## Artifacts
+
+Cada execução de `python main.py` gera:
+
+```text
+artifacts/<experiment_id>/
+  utility_metrics.csv
+  attack_metrics.csv
+  metadata.json
+```
+
+O metadata contém:
+
+- `dataset_version`
+- `timestamp`
+- modelos ativos
+- seeds
+- test sizes
+
+Modelos treinados ainda não são persistidos.
+
+---
+
+## Visualization Layer
+
+A camada `visualization/` contém helpers e figuras reutilizáveis:
+
+```text
+visualization/
+  common.py
+  utility/
+  attacks/
+  tradeoff/
+  summary/
+```
+
+Estado atual:
+
+- Tabelas de utilidade: matplotlib
+- Tabelas de ataque: matplotlib
+- Trade-off: Plotly
+- Tabela de síntese: Plotly
+
+Essa camada recebe DataFrames prontos ou dados vindos dos artifacts. Ela não executa experimentos.
+
+---
+
+## Streamlit Explorer
+
+O app em `streamlit_app/` é um consumidor independente dos artifacts persistidos.
+
+Estrutura:
+
+```text
+streamlit_app/
+  app.py
+  artifact_loader.py
+  views/
+    overview.py
+    utility.py
+    leakage.py
+    tradeoff.py
+    comparison.py
+```
+
+Views disponíveis:
+
+- **Overview:** metadata, datasets, modelos, seeds e test sizes.
+- **Utility Analysis:** evolução de MAE/RMSE, degradação relativa e heatmaps.
+- **Leakage Analysis:** `attack_acc`, `advantage`, `member_acc`, `non_member_acc`.
+- **Trade-off Analysis:** perda relativa de utilidade versus `advantage`.
+- **Comparison:** comparação cruzada entre modelos e epsilons.
+
+O app permite selecionar manualmente um artifact ou usar automaticamente o mais recente.
+
+---
+
+## Estrutura Geral
+
+```text
+.
+├── analysis/
+├── artifacts/
+├── attacks/
+├── core/
+├── data/
+├── experiments/
+├── metrics/
+├── model/
+├── plots/
+├── preprocessing/
+├── sanity_check/
+├── streamlit_app/
+├── visualization/
+├── config.py
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Instalação
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Execução Experimental
+
+1. Configure a versão do dataset em `config.py`:
+
+```python
+DATASET_VERSION = "v-2026-03-02_18-10-54"
+```
+
+2. Garanta que os arquivos estejam em:
+
+```text
+data/datasets/<DATASET_VERSION>/
+```
+
+3. Execute:
+
+```bash
+python main.py
+```
+
+Essa execução gera apenas artifacts:
+
+- `utility_metrics.csv`
+- `attack_metrics.csv`
+- `metadata.json`
+
+---
+
+## Exploração Visual
+
+Após gerar artifacts, execute:
+
+```bash
+streamlit run streamlit_app/app.py
+```
+
+O Streamlit carrega os artifacts persistidos e renderiza as visões analíticas sem executar treinamento, ataques ou agregação experimental.
+
+---
+
+## Sanity Checks
+
+O diretório `sanity_check/` contém validações auxiliares para modelos e MIA.
+
+Executar sanity checks de modelo:
+
+```bash
+python sanity_check/sanity_model_validation.py
+```
+
+Executar sanity checks de MIA:
+
+```bash
+python sanity_check/sanity_mia_validation.py
+```
+
+Esses checks não fazem parte dos resultados finais do experimento.
 
 ---
 
 ## Reprodutibilidade
 
-Todos os experimentos são executados a partir de:
-   
-   - datasets explicitamente versionados;  
-   - valores conhecidos de ε;  
-   - configurações controladas de modelos e métricas;  
-   - seleção do dataset ativo via `config.py`.
+A reprodutibilidade depende de:
 
-A versão do dataset utilizada nos experimentos é definida por `DATASET_VERSION` em `config.py`, garantindo comparabilidade e reprodutibilidade entre execuções.
+- `DATASET_VERSION` em `config.py`.
+- Seeds definidas em `ExperimentConfig`.
+- Test sizes definidos em `ExperimentConfig`.
+- Modelos ativos definidos em `main.py`.
+- Datasets versionados em `data/datasets/`.
+- Artifacts persistidos em `artifacts/`.
 
-Este repositório **não gera dados** e **não aplica DP internamente** — apenas consome versões previamente privatizadas pelo pipeline.
-
----
-
-## Como rodar
-
-   1. Defina a versão do dataset em `config.py`:
-         ```python
-         DATASET_VERSION = "v-2026-02-07_15-53-36"
-      
-   2. Garanta que os datasets estejam em:
-         ```python
-         data/datasets/<DATASET_VERSION>/
-         
-   3. Execute:
-         ```python
-         python main.py
-         
-   Os datasets devem ter sido previamente gerados e privatizados pelo pipeline de DP.
-   
----
-
-## Motivação Acadêmica
-
-Este projeto foi desenhado para:
-
-   - Isolar a Privacidade Diferencial como variável experimental;  
-   - Avaliar simultaneamente segurança e usabilidade;  
-   - Evitar viés de otimização de modelos;  
-   - Produzir resultados sólidos para discussão acadêmica.
+O projeto não gera dados primários, não aplica DP internamente e não altera datasets de origem.
 
 ---
 
 ## Observações
-   
-   - Os dados utilizados são simulados e não representam indivíduos reais.  
-   - Este projeto é desenvolvido para fins acadêmicos e de pesquisa.  
-   - Visualizações e tabelas têm caráter explicativo, não decisório.
+
+- Os dados utilizados são simulados e não representam indivíduos reais.
+- O projeto é acadêmico e experimental.
+- Visualizações têm caráter explicativo, não decisório.
+- O foco científico é o fenômeno do trade-off, não a competição entre modelos.
 
 ---
 
@@ -244,11 +413,3 @@ Este projeto foi desenhado para:
 ## Licença
 
 Uso acadêmico e educacional.
-
----
-
-### Nota Final
-
-Este repositório representa o ambiente experimental controlado onde o trade-off entre Privacidade Diferencial, Segurança e Usabilidade é medido, comparado e explicado, com Machine Learning atuando como instrumento, ataques como evidência de risco, e visualizações e tabelas para síntese, mantendo o foco científico no fenômeno, não na ferramenta.
-
-

@@ -27,5 +27,4 @@ def run_model(df, model_runner):
         preprocessor=preprocessor,
     )
 
-    return compute_utility_metrics( y_train_true= run_output["y_train_true"], y_train_pred= run_output["y_train_pred"],
-                                        y_test_true= run_output["y_test_true"], y_test_pred= run_output["y_test_pred"])
+    return compute_utility_metrics(prediction_result=run_output)

@@ -1,51 +1,40 @@
-from statistics import mean
-from experiments import (
-    run_model, 
-    run_attacks,
-)
+from attacks import extract_attack_features
+from core.experiment_result import ExperimentResult
+from .model_runner import run_model
+from .attack_runner import run_attacks
 
-SEEDS = [42, 123, 2026]
-TEST_SIZES = [0.2, 0.3]
 
-def _aggregate_metrics(metrics_list):
-    keys = metrics_list[0].keys()
-
-    results = {}
-    for k in keys:
-        values = [m[k] for m in metrics_list]
-
-        if isinstance(values[0], (int, float)):
-            results[k] = round(mean(values), 3)
-
-    return results
-
-def run_machine_learning_experiments(model_runner, model_name, datasets, dataset_names):
+def run_machine_learning_experiments(
+    model_runner,
+    model_name,
+    datasets,
+    dataset_names,
+    seeds,
+    test_sizes,
+):
 
     """
     Protocolo experimental padrão do projeto.
 
     Este método:
-    - Chama os métodos responsáveis pelo experimento da aplicação 
-    - organiza os resultados
+    - Chama os métodos responsáveis pelo experimento da aplicação
+    - organiza os resultados brutos por execução
 
     NÃO:
     - altera datasets
-    - Executa experimento
+    - aplica DP
+    - agrega métricas
     """
 
-    model_experiment_output = {}
-    attack_experiment_output = {}
+    experiment_results = []
 
     for name, df in zip(dataset_names, datasets):
 
-        model_runs = []
-        attack_runs = []
-
-        for seed in SEEDS:
-            for test_size in TEST_SIZES:
+        for seed in seeds:
+            for test_size in test_sizes:
 
                 model_metrics_values = run_model(
-                    df=df, 
+                    df=df,
                     model_runner=lambda **kwargs: model_runner(
                         **kwargs,
                         seed=seed,
@@ -53,20 +42,20 @@ def run_machine_learning_experiments(model_runner, model_name, datasets, dataset
                     )
                 )
 
-                attack_metrics_values = run_attacks(target= model_metrics_values)
+                attack_features = extract_attack_features(model_metrics_values)
+                attack_metrics_values = run_attacks(attack_features=attack_features)
 
+                experiment_results.append(
+                    ExperimentResult(
+                        utility_metrics=model_metrics_values,
+                        attack_metrics=attack_metrics_values,
+                        metadata={
+                            "model_name": model_name,
+                            "dataset": name,
+                            "seed": seed,
+                            "test_size": test_size,
+                        },
+                    )
+                )
 
-                model_runs.append(model_metrics_values)
-                attack_runs.append(attack_metrics_values)
-
-        model_experiment_output[name] = {
-            "model_name": model_name,
-            "results": _aggregate_metrics(model_runs),
-        }
-
-        attack_experiment_output[name] = {
-            "model_name": model_name,
-            "results": _aggregate_metrics(attack_runs),
-        }
-
-    return model_experiment_output, attack_experiment_output
+    return experiment_results

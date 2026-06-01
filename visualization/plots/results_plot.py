@@ -27,10 +27,12 @@ def plot_tables_chart(results: pd.DataFrame, title: str):
         table_df = df_model.drop(columns=['model'])
         
         ax.axis('off')
-        tbl = ax.table(cellText=table_df.values,
-                       colLabels=table_df.columns,
-                       cellLoc='center',
-                       loc='center')
+        tbl = ax.table(
+            cellText=table_df.values,
+            colLabels=table_df.columns,
+            cellLoc='center',
+            loc='center'
+        )
         tbl.auto_set_font_size(False)
         tbl.set_fontsize(10)
         tbl.scale(1, 1.5)
