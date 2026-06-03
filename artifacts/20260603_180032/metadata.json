@@ -1,6 +1,6 @@
 {
   "dataset_version": "v-2026-03-02_18-10-54",
-  "timestamp": "2026-05-24T14:30:09.975323",
+  "timestamp": "2026-06-03T18:00:32.206456",
   "modelos": [
     "XGBoost",
     "Random Forest",
