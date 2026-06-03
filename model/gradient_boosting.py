@@ -31,8 +31,8 @@ def run_gradient_boosting(df, preprocessor, *, target="salario", test_size=0.3, 
     model = GradientBoostingRegressor(
         n_estimators=500,
         learning_rate=0.05,
-        max_depth=8,
-        subsample=1.0,
+        max_depth=3,
+        subsample=0.8,
         random_state=seed,
     )
 

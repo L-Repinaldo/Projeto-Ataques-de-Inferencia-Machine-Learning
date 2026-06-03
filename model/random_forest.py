@@ -39,10 +39,10 @@ def run_random_forest(df, preprocessor, *, target="salario", test_size=0.3, seed
 
     model = RandomForestRegressor(
         n_estimators=500,
-        max_depth=20,           
-        min_samples_leaf=2,     
-        min_samples_split=4,    
-        max_features=0.6,       
+        max_depth=12,
+        min_samples_leaf=8,
+        min_samples_split=10,
+        max_features=0.6,
         bootstrap=True,
         random_state=seed,
         n_jobs=1
