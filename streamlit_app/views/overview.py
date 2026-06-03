@@ -52,14 +52,26 @@ def render_overview(utility_metrics, attack_metrics, metadata):
         attack_results=attack_metrics,
     )
 
-    st.subheader("Privacy-Utility Trade-off")
+    st.subheader("Privacy–Utility Trade-off")
 
     fig_tradeoff = plot_privacy_utility_tradeoff(
         utility_results=utility_metrics,
         attack_results=attack_metrics,
     )
 
-    st.plotly_chart(fig_tradeoff, use_container_width=True)
+    st.plotly_chart(fig_tradeoff, use_container_width=True,)
+
+    st.caption(
+        """
+        Interpretação do Advantage:
+
+        • ≈ 0.00 → comportamento aleatório
+
+        • ≈ 0.03 → sinal fraco de vazamento
+
+        • ≥ 0.05 → vazamento relevante
+        """
+    )
 
     st.subheader("Model Ranking")
 

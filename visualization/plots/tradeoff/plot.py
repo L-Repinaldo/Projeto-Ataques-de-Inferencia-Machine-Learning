@@ -7,8 +7,8 @@ def plot_privacy_utility_tradeoff(utility_results, attack_results):
     """
     Trade-off direto Utilidade X Vazamento.
 
-    X = perda relativa de utilidade (test_MAE)
-    Y = risco de vazamento (advantage)
+    X = perda relativa de utilidade
+    Y = advantage
     """
 
     tradeoff_df = build_tradeoff_points(
@@ -21,7 +21,7 @@ def plot_privacy_utility_tradeoff(utility_results, attack_results):
         x="utility_loss",
         y="advantage",
         color="model",
-        markers=True,
+        text="epsilon",
         hover_data={
             "epsilon": True,
             "test_mae": ":.0f",
@@ -34,10 +34,15 @@ def plot_privacy_utility_tradeoff(utility_results, attack_results):
             "advantage": "Advantage",
             "model": "Modelo",
         },
-        title="Privacy–Utility Trade-off AFA",
+        title="Privacy–Utility Trade-off",
     )
 
-    # Faixas de referência para interpretação
+    fig.update_traces(
+        textposition="top center",
+        marker=dict(size=12),
+    )
+
+    # Limiares compatíveis com os resultados observados
     fig.add_hline(
         y=0.00,
         line_dash="dash",
@@ -45,60 +50,26 @@ def plot_privacy_utility_tradeoff(utility_results, attack_results):
     )
 
     fig.add_hline(
-        y=0.05,
-        line_dash="dash",
-        line_color="green",
-    )
-
-    fig.add_hline(
-        y=0.15,
+        y=0.03,
         line_dash="dot",
         line_color="orange",
     )
 
     fig.add_hline(
-        y=0.40,
+        y=0.05,
         line_dash="dot",
         line_color="red",
     )
 
-    fig.add_annotation(
-        xref="paper",
-        x=1.01,
-        y=0.00,
-        text="Aleatório",
-        showarrow=False,
-    )
-
-    fig.add_annotation(
-        xref="paper",
-        x=1.01,
-        y=0.05,
-        text="Ruído empírico",
-        showarrow=False,
-    )
-
-    fig.add_annotation(
-        xref="paper",
-        x=1.01,
-        y=0.15,
-        text="Moderado",
-        showarrow=False,
-    )
-
-    fig.add_annotation(
-        xref="paper",
-        x=1.01,
-        y=0.40,
-        text="Alto",
-        showarrow=False,
+    fig.update_yaxes(
+        range=[-0.02, 0.06],
+        title="Advantage",
     )
 
     fig.update_layout(
         template="plotly_white",
         legend_title="Modelo",
         hovermode="closest",
-        margin=dict(r=120),
     )
 
     return fig
