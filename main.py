@@ -2,10 +2,9 @@ from config import DATASET_VERSION
 from core.experiment_config import ExperimentConfig
 from core.experimental_pipeline import ExperimentalPipeline
 from model import (
-    run_extra_trees,
-    run_gradient_boosting,
     run_random_forest,
     run_xgboost,
+    run_linear_regression,
 )
 
 
@@ -15,8 +14,7 @@ if __name__ == "__main__":
         active_models=[
             ("XGBoost", run_xgboost),
             ("Random Forest", run_random_forest),
-            ("Gradient Boosting", run_gradient_boosting),
-            ("Extra Trees", run_extra_trees),
+            ("Linear Regression", run_linear_regression),
         ],
     )
 
