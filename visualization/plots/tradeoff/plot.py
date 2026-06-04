@@ -62,7 +62,7 @@ def plot_privacy_utility_tradeoff(utility_results, attack_results):
     )
 
     fig.update_yaxes(
-        range=[-0.02, 0.06],
+        range=[-0.02, 0.057],
         title="Advantage",
     )
 
