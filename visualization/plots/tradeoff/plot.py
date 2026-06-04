@@ -42,7 +42,6 @@ def plot_privacy_utility_tradeoff(utility_results, attack_results):
         marker=dict(size=12),
     )
 
-    # Limiares compatíveis com os resultados observados
     fig.add_hline(
         y=0.00,
         line_dash="dash",
