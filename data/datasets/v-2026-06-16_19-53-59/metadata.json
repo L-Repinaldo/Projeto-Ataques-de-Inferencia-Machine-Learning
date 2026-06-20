@@ -1,0 +1,32 @@
+{
+  "mechanism": "laplace",
+  "attributes": {
+    "salario": {
+      "min": 1200,
+      "max": 20000,
+      "sensitivity": 18800
+    },
+    "nota_media": {
+      "min": 0.0,
+      "max": 10.0,
+      "sensitivity": 10.0
+    },
+    "idade": {
+      "min": 19,
+      "max": 87,
+      "sensitivity": 68
+    },
+    "tempo_na_empresa": {
+      "min": 0,
+      "max": 68,
+      "sensitivity": 68
+    }
+  },
+  "seed": 42,
+  "epsilons": [
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ]
+}

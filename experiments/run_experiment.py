@@ -1,4 +1,3 @@
-from attacks import extract_attack_features
 from core.experiment_result import ExperimentResult
 from .model_runner import run_model
 from .attack_runner import run_attacks
@@ -33,17 +32,18 @@ def run_machine_learning_experiments(
         for seed in seeds:
             for test_size in test_sizes:
 
-                model_metrics_values = run_model(
+                model_metrics_values, model_output = run_model(
                     df=df,
-                    model_runner=lambda **kwargs: model_runner(
-                        **kwargs,
-                        seed=seed,
-                        test_size=test_size
-                    )
+                    model_runner=model_runner,
+                    seed=seed,
+                    test_size=test_size,
                 )
 
-                attack_features = extract_attack_features(model_metrics_values)
-                attack_metrics_values = run_attacks(attack_features=attack_features)
+                attack_metrics_values = run_attacks(
+                    df=df,
+                    prediction_result=model_output,
+                    random_state=seed,
+                )
 
                 experiment_results.append(
                     ExperimentResult(

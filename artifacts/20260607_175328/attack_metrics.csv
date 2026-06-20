@@ -1,0 +1,16 @@
+model,dataset,attack_acc,member_acc,non_member_acc,advantage
+XGBoost,baseline,0.774,0.74,0.809,0.549
+XGBoost,eps_0.1,0.961,0.981,0.941,0.922
+XGBoost,eps_0.5,0.923,0.894,0.953,0.846
+XGBoost,eps_1.0,0.875,0.86,0.891,0.751
+XGBoost,eps_2.0,0.883,0.814,0.952,0.766
+Random Forest,baseline,0.635,0.616,0.653,0.269
+Random Forest,eps_0.1,0.812,0.847,0.777,0.624
+Random Forest,eps_0.5,0.838,0.801,0.874,0.675
+Random Forest,eps_1.0,0.805,0.794,0.817,0.611
+Random Forest,eps_2.0,0.798,0.792,0.804,0.596
+Linear Regression,baseline,0.501,0.492,0.509,0.001
+Linear Regression,eps_0.1,0.504,0.553,0.454,0.008
+Linear Regression,eps_0.5,0.482,0.547,0.416,-0.037
+Linear Regression,eps_1.0,0.497,0.51,0.484,-0.006
+Linear Regression,eps_2.0,0.539,0.518,0.559,0.077

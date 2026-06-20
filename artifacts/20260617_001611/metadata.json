@@ -1,0 +1,18 @@
+{
+  "dataset_version": "v-2026-06-16_19-53-59",
+  "timestamp": "2026-06-17T00:16:11.056167",
+  "modelos": [
+    "XGBoost",
+    "Random Forest",
+    "Linear Regression"
+  ],
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "test_sizes": [
+    0.2,
+    0.3
+  ]
+}
