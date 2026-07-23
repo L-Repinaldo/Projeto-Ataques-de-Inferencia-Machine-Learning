@@ -1,0 +1,16 @@
+model,dataset,test_mae,train_mae,generalization_gap_%
+XGBoost,baseline,525.484,431.407,17.746
+XGBoost,eps_0.1,9234.909,8406.502,8.968
+XGBoost,eps_0.5,8409.938,7097.037,15.605
+XGBoost,eps_1.0,7442.245,5890.028,20.856
+XGBoost,eps_2.0,5869.321,4545.505,22.537
+Random Forest,baseline,524.177,459.119,12.249
+Random Forest,eps_0.1,9194.758,8899.592,3.208
+Random Forest,eps_0.5,8346.276,7742.648,7.231
+Random Forest,eps_1.0,7348.812,6460.983,12.073
+Random Forest,eps_2.0,5758.686,4951.848,13.976
+Linear Regression,baseline,523.518,521.355,0.319
+Linear Regression,eps_0.1,9182.913,9156.456,0.288
+Linear Regression,eps_0.5,8306.609,8349.605,-0.524
+Linear Regression,eps_1.0,7255.148,7209.649,0.617
+Linear Regression,eps_2.0,5655.347,5631.867,0.359

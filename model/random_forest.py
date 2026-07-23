@@ -58,4 +58,5 @@ def run_random_forest(df, preprocessor, *, target="salario", test_size=0.3, seed
         y_test_true=y_test,
         y_test_pred=y_test_pred,
         model=model,
+        preprocessor=model.preprocessor_,
     )

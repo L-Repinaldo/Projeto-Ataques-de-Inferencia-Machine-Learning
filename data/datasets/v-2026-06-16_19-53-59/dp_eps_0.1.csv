@@ -1,0 +1,3607 @@
+salario,idade,tempo_na_empresa,nota_media,qtd_beneficios,cargo,setor
+1200.0,87.0,0.0,10.0,5,Administrador do Sistema,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,4.754818110456884,3,Funcionário,Operações
+20000.0,87.0,0.0,1.8375799344994639,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,6.013554022350171,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,5.50037168331867,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,28.455152100644096,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,56.111011696998744,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,2.669528050967728,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,6,Gerente,Administração
+1200.0,87.0,68.0,0.0,6,Gerente,Operações
+1200.0,19.0,68.0,10.0,6,Gerente,Tecnologia
+20000.0,19.0,0.0,2.3451329535610994,6,Gerente,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,27.675108261709592,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,2.747579419072893,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+6745.289531258322,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,8.264037745298117,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,39.61355893310249,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+14231.084845400568,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,3.3801515846925163,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,5.147295862694785,6,Analista de RH,Operações
+1200.0,19.0,68.0,8.999834878637369,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,7.556217888031732,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,54.42160270037189,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,5.83971316367375,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,52.83464706874369,3.9110364499282495,9.76003939611607,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,54.262380772476604,1.8108812252902937,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.45915574235081724,3,Funcionário,Tecnologia
+1200.0,87.0,40.123955675083124,10.0,3,Funcionário,Recursos Humanos
+3304.668708322679,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,9.237096610946645,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+16649.046117929614,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+16069.929504574438,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,2.14087816705086,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,8.770686882652583,3,Funcionário,Tecnologia
+1200.0,19.0,59.355696554339005,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Operações
+19077.262659584605,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,54.055936697565414,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,7.890653399568078,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,27.107662203405624,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,18.370194740353213,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,16.773900277657155,0.0,6,Analista de RH,Tecnologia
+16223.214719795677,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,39.12750855642694,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,52.65742394102678,68.0,6.504415123689225,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,5.748586284812452,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,8.088592844211103,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,20.568859927448308,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,6.364373614152699,6,Analista de RH,Operações
+9467.24313214817,24.649808130353826,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+16283.616714240063,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,33.516811654959966,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,2.430776741718203,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,2.5092665706238044,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,4.285315499308438,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,6.829792775414704,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,6.655272858100607,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,71.63128055020233,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,7.587126154042215,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,20.926646285302752,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,65.67343308547171,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+6276.3171065725055,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+12363.0560133818,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+7675.595116028602,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,39.709428829971785,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,50.90307704939481,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,7.0463686400679215,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+5299.548867829852,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,6.6726155225988775,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+10073.44245126746,87.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,4.8462106295258405,6,Analista de RH,Recursos Humanos
+1200.0,65.63198839993336,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,39.05345654373258,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+16969.302179053026,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+18736.836060437738,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,59.61718917654959,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,48.27019216109513,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,27.94066677735467,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,3.1098668212878504,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,13.970435459396253,0.0,6,Analista de RH,Operações
+14849.231072633105,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+3375.257797743715,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,82.81400699814444,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+15590.96029078966,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+18080.347937099723,19.0,42.18898086145361,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,46.70042490413272,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,8.050588020730391,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,62.34652519629578,4.183362355210617,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,19.92301524339446,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,21.937373379491397,0.0,7.549786525044617,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+10471.77911750302,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,6.825139482545747,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,6.257896789826098,3,Funcionário,Operações
+13114.230876333513,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,6.127267697369713,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Administração
+7780.385904224604,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,48.54059777969846,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,55.80664126747617,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+13767.6581140728,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,14.537433957648066,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,1.024755876733546,6,Analista de RH,Administração
+11661.697257195918,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,80.17127510434315,0.0,10.0,6,Analista de RH,Operações
+6648.161840257192,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,4.88096391783856,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,7.674506014481897,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,54.29416050029526,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,3.785938510352688,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,7.459008182226407,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,37.53827034456643,0.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,7.557619547257688,3,Funcionário,Tecnologia
+1200.0,43.41499825970221,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.969958305995828,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,32.61474581787325,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,22.934931231344088,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+12272.789125079238,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+5830.968533225798,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+18196.90060179571,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+6038.8836789613315,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,24.524545643954575,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+12323.57115143423,87.0,65.0537232997408,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+2807.909138050456,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,66.02663944221237,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,50.46557199821912,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,56.520168641948146,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,31.169357625296698,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+14334.315486691015,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,35.754536480280905,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+4771.516780279373,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+10427.62746092191,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.5260874379717748,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+7623.531963006208,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,15.520762446837878,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,64.51422175744234,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,4.771110334973677,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+5813.209430350505,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,7.863974890763203,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,8.859164752403291,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+8669.197485553002,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,5.756779589521148,6,Analista de RH,Administração
+20000.0,83.56052033529407,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,80.24369682670266,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,82.1780340242788,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,2.2319463279727274,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,9.352758620084785,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,51.13141530820904,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,3.879335247440652,3,Funcionário,Administração
+9231.5139496165,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,59.1496055203121,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,11.117778300760783,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,50.639667284080616,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,39.439287161692,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+3072.125631890893,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+8700.705475000761,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,8.945241351323359,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,48.236180669098,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,45.3953132790362,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+5903.645214944438,19.0,68.0,2.1525780957739418,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,86.36860358045922,0.0,0.0,6,Analista de RH,Administração
+1200.0,53.75707585108551,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,6.23828248400152,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,62.182708438748556,10.0,6,Analista de RH,Administração
+1200.0,19.0,1.150919253936836,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,19.838368580687856,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,77.78365274462351,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,31.49939323614374,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,79.85084106500842,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,6.791597449816251,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,7.010760526681865,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,60.198349904919574,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,62.07194249953599,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+2845.372241621307,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,34.17509704635346,17.745169145876023,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+12172.934394690683,19.0,43.11267109208374,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,16.14557909294702,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+11467.580532286273,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,82.46232791633204,68.0,0.0,3,Funcionário,Tecnologia
+16032.403457958888,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,76.72496989647948,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+14352.408642021026,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,30.88183295443135,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,3.4330243005102954,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,6.369603258224975,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,4.9029929560653684,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+9049.511139733617,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+14674.129290935947,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,50.1267295644643,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,2.4105739664180588,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,56.567561333523166,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,13.616263173153284,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,44.62719823561563,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,7.413873833767752,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,2.8964897793162683,0.0,3,Funcionário,Administração
+1200.0,19.0,57.98814475162371,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,6.6083972087781095,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,52.411662380902726,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,81.34659835695365,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,58.211605284976216,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.1908077269084936,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,31.42315738961794,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+11887.84959233303,19.0,0.0,0.0,3,Funcionário,Operações
+5924.664023067223,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,7.014859795079336,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,8.280728763927266,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,41.09037058015568,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+1200.0,73.00344459637114,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,49.489438024222494,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+19463.016984402017,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,38.76714176329649,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+19550.601912009344,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,7.109478798953511,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,33.91862215333379,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+17873.636584801698,87.0,43.53382887614955,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+6442.0493769161585,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,8.991718908117061,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+10483.794177970813,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,85.00588758956488,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+3730.5581028459633,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,48.16641469307613,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+10065.187044612168,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,8.485967943549717,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1273.0179404990604,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,47.16984856014659,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,32.41769140699586,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,3.356378663233279,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,32.44061466250518,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+5361.849422620196,19.0,12.95610155086191,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,24.39395930684149,0.0,3,Funcionário,Administração
+8174.5577505043975,87.0,68.0,0.0,6,Analista de RH,Administração
+18392.251501776267,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,2.5499707050131146,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,62.36640623363981,20.930240678610467,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,9.308086582982032,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,65.65362417568457,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,42.75337426155932,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,9.93832026560915,3,Funcionário,Operações
+1200.0,30.436102767704156,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,11.74908085707814,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,58.20590782940755,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,55.84129792106263,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,5.2706605222666685,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+14642.901358485302,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,37.38670694621813,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,4.6550265697907705,3,Funcionário,Administração
+20000.0,19.0,0.0,2.3937521366798844,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,28.858391530247502,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,31.084544180395664,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+7756.0661661670165,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,21.273406033934428,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.1329238417347396,6,Analista de RH,Operações
+20000.0,87.0,65.57975160323434,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,60.9722627400038,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,3.9494885936515844,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,32.812877767543256,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+2954.523092218342,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,43.751980147630725,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,49.29846099946343,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,46.495671614542694,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,42.72116341324648,53.639372203436366,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,84.97238984250787,68.0,3.17597434798596,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,41.44848215950961,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,7.997913034347946,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.8524734478485868,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+15972.605825353468,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,14.6752931711986,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,26.106099988579526,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,59.12913321003484,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+15665.824420583074,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,1.047207838297501,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+14777.243017289493,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+4070.9918378539546,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,45.229296669263725,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,48.63599964428975,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,36.34706827220218,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,23.161850346426455,10.0,6,Analista de RH,Administração
+20000.0,32.23445382099317,68.0,10.0,3,Funcionário,Operações
+1200.0,60.22901111295553,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,4.4405585347040955,3,Funcionário,Tecnologia
+1200.0,70.00518584478831,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,62.70560331221296,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+18249.830193698755,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,25.61186814939138,68.0,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.6063598253085551,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,60.70432174525743,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,9.424462929394483,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+13024.479291825002,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,11.77765702981537,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+14096.208417524318,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+5841.428812532333,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+14023.340566688488,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,2.309621601489869,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,5.462786059245314,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,81.24881658404433,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,5.011625709874629,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+12003.205876987702,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,37.0602149027684,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,73.63615678308773,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,52.18028781891691,68.0,10.0,3,Funcionário,Administração
+1200.0,67.71142857998642,0.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,73.27717188940679,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,81.09447682006412,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,28.18243095828788,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+16600.804461877637,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,19.24084108225751,2.1373705294601835,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,4.999171620277501,6,Analista de RH,Operações
+1200.0,19.0,7.796242420876178,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,24.887038197764333,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Administração
+4436.422401712968,19.0,68.0,0.0,3,Funcionário,Tecnologia
+3909.360499885937,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,65.30218923857747,68.0,0.0,6,Analista de RH,Tecnologia
+18798.581186066305,29.056989523643086,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+5053.845700161507,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,2.802799012451382,6,Analista de RH,Administração
+1200.0,73.51991985843722,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,32.05848556673895,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,3.1110553259657183,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,59.808845070060414,0.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,45.08310006406998,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,6.981168818893501,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,50.45929845667217,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,1.3828735322638641,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+2222.334150127449,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,69.23946881233229,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,7.000035182510064,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,37.23781571285303,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,24.00991973441655,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,57.187979020163944,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,6.793551663544246,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+13573.222518856088,19.0,0.0,9.313999293745105,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,76.71588506984776,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.7345059990579932,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,29.088741709302948,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,22.357615517644184,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,18.285880661932023,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,7.057174326214105,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,7.088405380986687,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,32.89516799155979,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+7277.128443176398,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,64.33663493666477,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,27.078332410782885,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+9845.222274448744,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,55.45712432695474,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,61.854072368686445,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,6.525652262289901,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,43.29803764514981,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+11635.842001968733,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+8375.379496620242,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,7.464754401176857,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,12.776056584053551,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,35.210729318797085,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,30.811606914135275,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,38.76769392375589,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,17.55081460211493,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,22.65929860142017,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,77.07365486784327,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,77.2197905895163,0.0,0.0,6,Analista de RH,Tecnologia
+1262.5136858581923,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,86.80329122996338,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,68.0,2.8256887213623427,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+2043.0851443673218,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+1336.181567489526,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,2.599695086876814,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,8.964393034786596,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+6818.420691143014,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,40.182620803930426,20.537960385239387,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,79.92927914725763,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,2.740013128037691,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+16350.641621572187,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+4522.029624176164,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+6402.672011567789,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,42.84085590635461,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,34.045401388390175,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,5.039483105365996,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,41.298062593227634,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+11733.180977396107,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,6.969761418702296,3,Funcionário,Tecnologia
+4866.108692651855,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+15601.623203430696,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+13820.928396232752,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+2271.332654231742,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,33.78150361852647,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,1.7628724733099461,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,72.89437850685783,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+6910.407179943204,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,61.145636217537906,10.0,6,Analista de RH,Operações
+1200.0,34.374878552051925,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,45.605798638474546,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+2107.4262977480694,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,4.997381336118313,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+5249.08148935162,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,30.77127809712253,61.74625773600941,0.0,3,Funcionário,Tecnologia
+1200.0,41.42447937417842,13.531731711575606,10.0,3,Funcionário,Operações
+8964.020333558376,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,59.53562431225764,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,2.0973330493760205,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,23.855849500224764,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+9090.218616577096,54.22903198164724,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+17471.013261460386,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,8.296576267885284,6,Analista de RH,Recursos Humanos
+4822.270453313613,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+15487.541120670472,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,1.5499597268269625,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,2.197787915796078,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,85.06060801347765,68.0,2.062839568701806,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,82.87344874279815,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,1.8666078338849679,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+8981.770941419443,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,72.92424758483652,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,70.09827686712833,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,21.960194190005122,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+18317.750662081828,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,4.5161342132630065,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,47.80014071512326,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,48.406983464312404,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,48.82029129330555,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+13204.063342133484,51.45981754527939,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,6.256963247554529,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,1.6580963455897493,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+2101.963009576037,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,49.08732975181344,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,63.79035946998887,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+2456.0563414408134,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+2065.593781842755,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,4.393481271953681,3,Funcionário,Administração
+8187.8823856857,87.0,20.386284081137255,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,66.42222553524853,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,6.503423250681133,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Administração
+10067.482806973323,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,8.511648398284782,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,39.04257819492316,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Administração
+13859.927267670688,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.5746086815206368,6,Analista de RH,Recursos Humanos
+1200.0,33.322628515373665,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,3.5403167283549557,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+19112.70283447432,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+7972.970767067692,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,3.988370748827019,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,35.7787644459994,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,79.53455248313279,68.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,3.433234678431021,3,Funcionário,Administração
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,8.972985774200563,6,Analista de RH,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,5.128936431168747,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,5.681730702356094,3,Funcionário,Recursos Humanos
+1200.0,19.0,50.496288913707154,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+19452.340512120427,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,28.778178327277782,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,41.887368983832005,3.8454122292963087,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+11204.137472236482,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,2.999863078824301,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,72.99440068345558,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+2473.2992370390825,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,60.26797994425839,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,22.503419293710774,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,56.5751792846978,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+1221.2042592019097,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,87.0,36.155489289738256,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+4597.796164250145,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,19.321064272706174,10.0,3,Funcionário,Administração
+20000.0,19.0,49.060376637552395,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,49.83286184392786,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,20.172790794694805,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,6.002600542844346,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,67.79619039198575,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,47.5748189770977,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,56.496576312375645,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,3.689118540252236,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,48.593192794982414,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,31.034260550757715,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,21.1381654332765,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,41.33922195188311,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,2.125361871836663,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,48.66203930701973,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,5.941373697362503,3,Funcionário,Operações
+20000.0,19.0,0.0,0.9827208979025115,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+10597.788899634608,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,52.54043008948767,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.5948517878457271,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,8.60554527115787,7.824123886122091,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,24.03725660240829,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,5.89940386576453,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+16996.343642384963,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,8.326789282064823,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,5.849129317713092,3,Funcionário,Tecnologia
+1200.0,63.22050862811328,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,70.95210203908847,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,23.66300285719001,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,7.035377680936717,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,61.3601824242581,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,50.31486269765763,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,9.724642264225633,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,6.755664285840422,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.6149009983806741,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,1.9756097599443398,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,7.364803281215479,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,8.354909873050788,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,6.725841784535859,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,3.0158987474621632,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,54.058942911346165,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+8394.27012873002,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+2503.751406343348,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+18938.88004903862,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,14.809236182389022,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,2.2317810032298544,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,9.79675988696511,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,66.27129307087988,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,6,Analista de RH,Operações
+18600.716279690885,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,55.19404309283286,10.0,6,Analista de RH,Operações
+1249.3582510631932,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,29.79765092719351,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,42.24200150486871,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,5.359511145992751,3,Funcionário,Operações
+1200.0,24.474084099200685,68.0,0.0,3,Funcionário,Tecnologia
+12893.923007213845,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,6.746219571561927,6,Analista de RH,Operações
+20000.0,87.0,11.925897152325517,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,57.502171113674244,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,9.138468667402533,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,27.98944368416808,34.77839037290106,0.0,6,Analista de RH,Operações
+8972.71659895598,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+8392.629929954386,87.0,3.191804538513204,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.7146058117282781,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,66.96903467200015,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,7.530690376618302,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+13670.761124642871,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+7251.828225624649,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,6.918273322292813,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,9.69316930282298,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.005173850256631862,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,1.9560265864716018,10.0,6,Analista de RH,Tecnologia
+3308.272420088168,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,63.798841173298136,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+3122.6476906619396,19.0,68.0,8.746490179499133,3,Funcionário,Administração
+13522.169023645925,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,20.931951117013327,29.33955014981924,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,51.356043892055496,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,49.21193774445719,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,5.815841192236484,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,42.93194393886463,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,43.543266439283826,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,5.808200624573372,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,50.16642283784333,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+9362.50447412868,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+9616.623621919945,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,1.6867462041896482,3,Funcionário,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,30.368648273070754,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+14902.755342530587,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+15940.189800897395,87.0,68.0,0.0,3,Funcionário,Tecnologia
+10769.145457222981,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+15676.110985227406,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,45.68043328573941,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,1.8182175940339391,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,43.16866217752298,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,22.09529304432263,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,43.7516927677083,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,65.9785253411282,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,43.61308492153756,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,87.0,37.60979105645348,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,9.966969598519583,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,74.87367669359224,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,41.37980635870042,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+10875.14222394184,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,73.95786507332966,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,31.977117542378203,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,70.80881178285487,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,41.16681632850673,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,39.48632516360264,35.8953466677493,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,38.70110573900751,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,62.20942670903926,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,6.7654372490286026,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,8.497897253192308,6,Analista de RH,Administração
+20000.0,64.54870732580711,43.34686240794102,10.0,6,Analista de RH,Operações
+4623.136752908575,87.0,0.0,4.324202304014276,3,Funcionário,Tecnologia
+20000.0,87.0,20.302983347635774,10.0,6,Analista de RH,Operações
+4289.32925313131,87.0,68.0,5.54582430750196,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,6.07990515008702,3,Funcionário,Recursos Humanos
+5550.271376619816,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.865690811042235,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+7163.042568154603,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,10.389931576303955,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+6164.978337564977,19.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,38.15533664503959,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,47.89336154948706,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,54.744493621996895,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,5.178907816033646,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,79.36371629905916,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,62.2790434089114,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,55.58685533190199,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,65.74176752060752,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,36.51011668751248,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,37.21159410138847,10.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,19.0,68.0,7.205387899604288,3,Funcionário,Recursos Humanos
+20000.0,19.0,45.31535462606218,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,58.7099423732891,68.0,0.0,6,Analista de RH,Recursos Humanos
+11874.7399944016,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.9311431027729218,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,2.2312323705978105,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Administração
+20000.0,61.305428440434,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,2.1475171673239686,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,3.0108516881612943,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,34.81903816232545,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+18090.720392870764,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,34.35025440311003,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+18061.54777128633,19.0,0.0,0.0,3,Funcionário,Administração
+8775.99186621254,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,67.09034998371878,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,46.851446326182334,68.0,8.969523773105628,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,73.83908044411069,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,1.421496049082986,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,20.512470263214208,0.0,6,Analista de RH,Administração
+1200.0,19.0,11.268187019296573,0.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,57.362714961254746,0.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.8798174979322377,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+15825.173097518735,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+17495.567711142445,19.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+3936.7039720652783,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+15114.677889004395,87.0,52.541378544615235,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Operações
+16517.23524531836,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+15655.646706209809,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+20000.0,19.0,65.50974256143057,0.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+1200.0,75.7350952302068,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,6.1460741466547315,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+8560.646973040395,19.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,1.8820417958279791,6,Analista de RH,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,59.72419412698134,0.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,62.804986011139206,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+20000.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,6.872488369344345,3,Funcionário,Operações
+20000.0,19.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,68.0,0.0,3,Funcionário,Administração
+20000.0,20.532707845193492,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,34.22326822272338,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Tecnologia
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,0.0,6,Analista de RH,Administração
+1200.0,87.0,0.0,0.0,6,Analista de RH,Operações
+9152.500450784513,19.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,0.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,10.0,3,Funcionário,Operações
+1200.0,87.0,0.0,7.089171522178567,3,Funcionário,Recursos Humanos
+1200.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,8.710469096528136,3,Funcionário,Administração
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,69.38364424548317,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,0.0,4.244889234625797,3,Funcionário,Tecnologia
+1200.0,19.0,49.994162601429764,10.0,3,Funcionário,Administração
+1200.0,47.024886206220586,0.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,0.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,0.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,39.26776566593203,68.0,10.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Operações
+1200.0,87.0,60.665959529122155,0.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,19.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Administração
+20000.0,19.0,0.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,68.0,2.5307297358615752,6,Analista de RH,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,68.0,10.0,6,Analista de RH,Administração
+1200.0,27.108747187236062,68.0,10.0,3,Funcionário,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Operações
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,68.0,0.0,3,Funcionário,Administração
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+20000.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,3,Funcionário,Tecnologia
+1200.0,19.0,0.0,0.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,68.0,0.0,3,Funcionário,Tecnologia
+20000.0,87.0,0.0,2.1580299534413596,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+1200.0,19.0,68.0,6.50833280221076,3,Funcionário,Operações
+1200.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,0.0,10.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,3,Funcionário,Recursos Humanos
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,87.0,0.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,87.0,68.0,0.0,6,Analista de RH,Tecnologia
+7412.831496066355,87.0,68.0,10.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,3,Funcionário,Administração
+20000.0,87.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,68.0,10.0,6,Analista de RH,Operações
+1200.0,87.0,68.0,10.0,6,Analista de RH,Tecnologia
+20000.0,30.371540400104678,0.0,10.0,3,Funcionário,Administração
+1200.0,19.0,0.0,10.0,3,Funcionário,Operações
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,0.0,10.0,6,Analista de RH,Administração
+20000.0,87.0,0.0,10.0,6,Analista de RH,Tecnologia
+20000.0,19.0,68.0,9.28370331171195,6,Analista de RH,Operações
+20000.0,87.0,0.0,0.0,6,Analista de RH,Operações
+20000.0,19.721328254492747,0.0,0.0,3,Funcionário,Administração
+1200.0,87.0,68.0,0.0,3,Funcionário,Operações
+1200.0,19.0,68.0,0.0,3,Funcionário,Recursos Humanos
+1200.0,19.0,41.68820949660944,10.0,6,Analista de RH,Operações
+1200.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,3,Funcionário,Operações
+1200.0,87.0,0.0,3.0657196985066877,3,Funcionário,Operações
+1200.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,87.0,0.0,0.0,3,Funcionário,Recursos Humanos
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+1200.0,19.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,19.0,68.0,10.0,3,Funcionário,Administração
+1200.0,87.0,68.0,10.0,3,Funcionário,Operações
+20000.0,87.0,0.0,10.0,3,Funcionário,Administração
+20000.0,87.0,0.0,0.0,6,Analista de RH,Recursos Humanos
+20000.0,69.94480184722738,68.0,10.0,3,Funcionário,Operações
